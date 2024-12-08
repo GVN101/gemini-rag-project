@@ -1,7 +1,8 @@
 {
   "Engineering Colleges": {
     "College of Engineering Chengannur": {
-      "Principal": "principal@ceconline.edu",
+      "principal-name": "Hari V S",
+      "Principal-email": "principal@ceconline.edu",
       "Departments": {
         "Computer Science Engineering": {
           "Programs Offered": [
