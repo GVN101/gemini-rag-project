@@ -1,6 +1,6 @@
 # import os
 from flask import Flask, jsonify, request
-from gemini_functions import user_input
+from gemini_functions import process_query
 
 app = Flask(__name__)
 
@@ -12,7 +12,8 @@ def get_response():
         print(data) # for debugging purpose only
         
         user_question = data['question']
-        response = user_input(user_question)
+        response = process_query(user_question)
+        print(response)
         
         return jsonify({
             "output": response.get('output_text', 'No response generated'),

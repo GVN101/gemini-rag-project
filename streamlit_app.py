@@ -18,6 +18,7 @@ def main():
     # User input
     user_question = st.text_input("Have a query on IHRD? ask")
     
+    st.info("Fetching your answers...")
     # Only make API call when user has entered a question
     if user_question:
         try:
@@ -25,9 +26,8 @@ def main():
             response = requests.post(
                 "http://127.0.0.1:5000/get_data", 
                 json={"question": user_question},
-                timeout=10 
+                timeout=30
             )
-            
             # Check response from the api
             if response.status_code == 200:
                 data = response.json()

@@ -1,4 +1,5 @@
 import os
+import json
 from typing import List, Dict, Any
 import streamlit as st
 from dotenv import load_dotenv
@@ -8,7 +9,6 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
-from langchain.docstore.document import Document
 
 # Load environment variables
 load_dotenv()
@@ -20,34 +20,59 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-def load_data_source(file_path: str) -> str:
-    """Load data from a file."""
+def parse_json_data(file_path: str) -> List[str]:
+    """
+    Robustly parse JSON data and extract text content.
+    Handles various JSON structures.
+    """
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
-            return file.read()
-    except FileNotFoundError:
-        st.error(f"File not found: {file_path}")
-        return ""
+            data = json.load(file)
+        
+        # Function to extract text from different possible structures
+        def extract_text(item):
+            # If item is a dictionary, try to get 'content' or convert to string
+            if isinstance(item, dict):
+                return str(item.get('content', item.get('text', str(item))))
+            # If item is already a string, return it
+            elif isinstance(item, str):
+                return item
+            # Convert other types to string
+            return str(item)
+        
+        # Handle different JSON structures
+        if isinstance(data, list):
+            # List of items
+            texts = [extract_text(item) for item in data]
+        elif isinstance(data, dict):
+            # Single dictionary or nested structure
+            texts = [extract_text(data)]
+        else:
+            # Fallback: convert to string
+            texts = [str(data)]
+        
+        # Filter out empty strings
+        texts = [text for text in texts if text.strip()]
+        
+        if not texts:
+            raise ValueError("No valid text content found in the JSON file")
+        
+        return texts
+    
+    except json.JSONDecodeError:
+        raise ValueError(f"Invalid JSON format in {file_path}")
     except Exception as e:
-        st.error(f"Error reading file: {e}")
-        return ""
+        raise ValueError(f"Error parsing JSON: {str(e)}")
 
-def get_text_chunks(text: str, chunk_size: int = 10000, chunk_overlap: int = 1000) -> List[str]:
-    """Split text into manageable chunks."""
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size, 
-        chunk_overlap=chunk_overlap
-    )
-    return text_splitter.split_text(text)
-
-def get_vector_store(text_chunks: List[str]) -> None:
-    """Create and save vector store from text chunks."""
+def create_vector_store(texts: List[str]):
+    """Create and save vector store from texts."""
     try:
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-        vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
+        vector_store = FAISS.from_texts(texts, embedding=embeddings)
         vector_store.save_local("faiss_index")
+        return vector_store
     except Exception as e:
-        st.error(f"Error creating vector store: {e}")
+        raise ValueError(f"Error creating vector store: {e}")
 
 def get_conversational_chain():
     """Create a conversational chain for question answering."""
@@ -68,31 +93,34 @@ def get_conversational_chain():
     prompt = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
-def user_input(user_question: str) -> Dict[str, Any]:
-    """Process user input and generate response."""
-    try:
-        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-        new_db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
-        
-        # Perform similarity search
-        docs = new_db.similarity_search(user_question)
-        
-        # Create conversational chain
-        chain = get_conversational_chain()
-        
-        # Get response
-        response = chain(
-            {"input_documents": docs, "question": user_question},
-            return_only_outputs=True
-        )
-        
-        return {
-            "output_text": response.get('output_text', 'No response generated'),
-            "status": "success"
+def process_query(user_question: str, json_path: str = "data.json") -> Dict[str, Any]:
+    """Process user input using RAG and generate a response."""
+    # Parse JSON data
+    texts = parse_json_data(json_path)
+    
+    # Initialize embeddings model
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+    
+    # Create vector store
+    vector_store = create_vector_store(texts)
+    
+    # Perform similarity search
+    docs = vector_store.similarity_search(user_question)
+    
+    # Create conversational chain
+    chain = get_conversational_chain()
+    
+    # Get response
+    response = chain(
+        {"input_documents": docs, "question": user_question},
+        return_only_outputs=True
+    )
+    
+    return {
+        "output_text": response.get('output_text', 'No response generated'),
+        "status": "success"
         }
     
-    except Exception as e:
-        return {
-            "output_text": f"Error processing question: {str(e)}",
-            "status": "error"
-        }
+if __name__ == "__main__":
+    result = process_query("who is the principal?")
+    print(result)

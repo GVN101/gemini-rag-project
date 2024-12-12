@@ -1,291 +1,1046 @@
-{
-  "Engineering Colleges": {
-    "College of Engineering Chengannur": {
-      "principal-name": "Hari V S",
-      "Principal-email": "principal@ceconline.edu",
-      "Departments": {
-        "Computer Science Engineering": {
-          "Programs Offered": [
-            "B.Tech in Computer Science engineering - 4 year course",
-            "B.Tech in Artificial Intelligence and Machine Learning - 4 year course",
-            "Master of Computer Applications - 2 year course"
-          ],
-          "Number of Seats": {
-            "B.Tech in Computer Science engineering": 180,
-            "B.Tech in Artificial Intelligence and Machine Learning": 60
-          },
-          "Faculty": {
-            "HOD": "Sri Gopakumar G - Associate professor",
-            "Professors": [
-              "Dr. Shyama Das - Professor",
-              "Dr. Manju S Nair - Associate Professor"
-            ],
-            "Assistant Professors": [
-              "Smt. Jyothirmayi Devi C",
-              "Smt. Manjusha Nair S",
-              "Smt. Princy Sugathan",
-              "Sri. Ajoy Thomas",
-              "Smt. Geetha S",
-              "Smt. Shiny B",
-              "Smt. Betty James",
-              "Smt. Naseena N",
-              "Smt. Sreelekshmi K R",
-              "Smt. Arathy U P",
-              "Smt. Angel Thankam Thomas",
-              "Smt. Shereena Thampi",
-              "Smt. Ameena A",
-              "Smt. Rosy K Philip",
-              "Smt. Neethu Treesa Jacob",
-              "Sri. Vishnu S Kumar",
-              "Smt. Jithy John",
-              "Smt. Syeatha Merlin Thampy",
-              "Smt. Anjitha P",
-              "Dr. Sushitha Susan Joseph",
-              "Smt. Alka Vijay",
-              "Smt. Leya G",
-              "Smt. Chinchu M Pillai",
-              "Smt. Shabana Mol S",
-              "Smt. Sulaja Sanal",
-              "Smt. Reshma Raj K S",
-              "Smt. Reshma Ann Mathews",
-              "Smt. Premy P Jacob",
-              "Smt. Linnet Elsa John",
-              "Smt. Josmi Jose",
-              "Smt. Sruthy RS",
-              "Smt. Syama S",
-              "Smt. Neethu Verjisen"
-            ]
-          },
-          "Technical Staff": [
-            "Smt. Jalaja Kumari R - Trade Instructor",
-            "Smt. Manju J - Computer Programmer",
-            "Smt. Dhanya R - Computer Programmer",
-            "Sri. Akshay Das - Demonstrator",
-            "Smt. Santhi Krishna - Tradesman",
-            "Smt. Priya Nair S - Tradesman",
-            "Smt. Renju R - Tradesman"
-          ],
-          "Vision": "Emerge as a meritorious centre in computing to mould competent and socially committed professionals.",
-          "Mission": [
-            "Nurture a stimulating environment by means of quality education and state of the art facilities to groom young minds for their professional career, higher education and innovative research.",
-            "Foster managerial and entrepreneurial skills of students through co-curricular and extra-curricular activities.",
-            "Facilitate the students to address socially relevant problems with professional ethics and values."
-          ],
-          "HOD Email": "hod.cse@ceconline.edu"
-        },
-        "Electrical Engineering": {
-          "Number of Seats": {
-            "B.Tech in Electrical Engineering": 60
-          },
-          "Faculty": {
-            "HOD": "Dr. Rajeevan A K - Assistant Professor",
-            "Assistant Professors": [
-              "Dr. Raju M",
-              "Smt. Savith K P",
-              "Smt. Sherin Joseph",
-              "Sri. Bijukumar K",
-              "Smt. Geethu Zacharia",
-              "Smt. Veena Chandran S",
-              "Sri. Prasobh P",
-              "Smt. Soumya S",
-              "Smt. Hridya S G",
-              "Sri. Arun K Vijayan",
-              "Smt. Anaswara Mohan",
-              "Smt. Shanlu Priya S J",
-              "Sri. Anandu M A",
-              "Smt. Resmimol P R"
-            ]
-          },
-          "Technical Staff": [
-            "Sr. Benny Mathew V - Foreman",
-            "Sri. Suresh T K - Demonstrator",
-            "Sri. Rajeev Rajan - Demonstrator",
-            "Sri. Anil C D - Tradesman"
-          ],
-          "Vision": "Evolve into a department of excellence in Electrical Engineering to serve the emerging society by nurturing the innovative, ethical and creative talents of aspiring young professionals.",
-          "Mission": [
-            "Foster a quality oriented academic environment to provide a comprehensive understanding of Electrical and Electronics Engineering.",
-            "Mould technically accomplished Electrical Engineers and Entrepreneurs through institute-industry interactions.",
-            "Equip the students with technical know-how, professionalism and social values."
-          ]
-        },
-        "Electronics and Communication Engineering": {
-          "Number of Seats": {
-            "B.Tech in Electronics and Communication Engineering": 120
-          },
-          "Faculty": {
-            "HOD": "Dr. Laila D - Professor",
-            "Professors": [
-              "Dr. Deepa J",
-              "Dr. Shanavaz K T",
-              "Dr. Rajesh Mohan R",
-              "Dr. Sarah Jacob"
-            ],
-            "Associate Professors": [
-              "Sr. Shiji T P",
-              "Dr. Hari V S",
-              "Smt. Deepa V S",
-              "Smt. Sheeja P George"
-            ],
-            "Assistant Professors": [
-              "Smt. Raji A",
-              "Smt. Nisha Rajan S",
-              "Sri. Sam K Sumesh",
-              "Sr. Stylish S V",
-              "Sri. Saji Kumar T V",
-              "Dr. Jisha Raj R",
-              "Sri. Yasim Khan M",
-              "Smt. Deepa Susan Jacob",
-              "Smt. Anuja V Nair",
-              "Sri. Vibesh B Panicker",
-              "Smt. Dhivya Raj",
-              "Smt. Darsana S",
-              "Smt. Varsha P S",
-              "Smt. Anupama A",
-              "Smt. Neethu Verjisen",
-              "Smt. Sruthi B R",
-              "Smt. Rijimol Mathew",
-              "Smt. Anju V Sathyan",
-              "Smt. Sreechandanalal J",
-              "Smt. Neethu Anilkumar",
-              "Smt. Renjitha"
-            ]
-          },
-          "Technical Staff": [
-            "Smt. Bindhu V - Demonstrator/ Workshop Instructor",
-            "Smt. Mini S - Trade Instructor (Grade II)",
-            "Sri. Prem P - Trade Instructor (Grade II)",
-            "Sri. Binesh Joseph - Trade Instructor (Grade II)",
-            "Sri. M Suresh - Trade Instructor (Grade II)",
-            "Sri. Muhammed Mubarack P S - Demonstrator/ Workshop Instructor",
-            "Smt. Chandralekha C - Demonstrator/ Workshop Instructor",
-            "Sri. Chinthumon C G - Demonstrator/ Workshop Instructor"
-          ],
-          "Vision": "Evolve into a centre of learning in Electronics Engineering that transforms students into competent professionals with knowledge, skill and ethical values for the development of society.",
-          "Mission": [
-            "Impart excellent knowledge in Electronics Engineering to face challenges and apply new technologies for the betterment of the society.",
-            "Orient students towards research and entrepreneurship.",
-            "Include ethical and social values to students."
-          ],
-          "HOD Email": "hod.ece@ceconline.edu"
-        },
-        "General Engineering": {
-          "Faculty": {
-            "HOD": "Sri. Jayadeep Kumar J - Assistant Professor",
-            "Assistant Professors": [
-              "Sri. Sarath Kumar S",
-              "Smt. Athira Thulasidas",
-              "Sri. Jamshak S H",
-              "Smt. Amritha P Vijay"
-            ]
-          },
-          "Technical Staff": [
-            "Sri. Radhakrishnan N S - Foreman",
-            "Sri. Arun Kumar S - Tradesman (Mechanical)",
-            "Sri. Akhi - Tradesman (Mechanical)",
-            "Smt. Rakhy T R - Tradesman (Civil)"
-          ]
-        },
-        "Basic Science and Language": {
-          "Faculty": {
-            "HOD": "Smt. Pushpa L - Associate Professor in Chemistry",
-            "Email": "pushparajeshg@gmail.com",
-            "Professors": ["Dr. Madhusoodhanan Nair R - Professor in Physics"],
-            "Associate Professors": [
-              "Smt. Renu K K - Associate Professor in Mathematics"
-            ],
-            "Assistant Professors": [
-              "Smt. Jalaja M B - Mathematics",
-              "Sri. Amal Suresh - English",
-              "Smt. Jiji Anna Raju - English",
-              "Smt. Smitha K V - Economics",
-              "Smt. Lincy Thomas - Physics",
-              "Smt. Malavika M Kurup - Chemistry",
-              "Smt. Reji S - Mathematics",
-              "Jephzi Sara George - Mathematics"
-            ]
-          }
-        }
-      },
-      "Number of Seats Available": {
-        "B.Tech in Computer Science and Engineering (AI and ML)": 60,
-        "B.Tech in Electrical Engineering": 60,
-        "B.Tech in Electronics and Communication Engineering": 120
-      },
-      "Fee Structure": {
-        "Merit Regulated Fee": {
-          "EEE": "Rs. 40,000/- per annum",
-          "CSE & ECE": "Rs. 45,000/- per annum"
-        },
-        "Merit Full Fee": {
-          "EEE": "Rs. 70,000/- per annum",
-          "CSE & ECE": "Rs. 75,000/- per annum"
-        }
-      },
-      "NRI Seats": {
-        "Allotment": "Managed by Institute of Human Resources Development (IHRD)",
-        "Seats": {
-          "CSE": 9,
-          "EEE": 3,
-          "ECE": 6
-        },
-        "Fees": {
-          "One-time Refundable Deposit": "Rs. 125,000/-",
-          "Annual Fee": "Rs. 110,000/- per annum"
-        }
-      },
-      "Training Placement Cell": {
-        "Mail ID": "tpc@ceconline.edu",
-        "Contact No": "0479-2451424"
-      },
-      "Organizations": {
-        "Technical Organizations": [
-          "IEEE",
-          "IEEE Computer Society",
-          "IEEE Robotics and Automation Society",
-          "IEEE Industry and Applications Society",
-          "IEEE Women In Engineering",
-          "IEEE Power and Energy Society",
-          "IEEE Sight",
-          "IEEE Signal Processing Society"
-        ],
-        "Non-Technical Organizations": [
-          "Naval NCC Unit",
-          "National Service Scheme"
-        ],
-        "Technical Details": {
-          "No. of IEEE Members": 447,
-          "No. of Events per Year": 120,
-          "Awards Won": 27
-        },
-        "FOCES": {
-          "Description": "Form for Computer Engineering Students",
-          "Website": "http://foces.org/"
-        },
-        "PRODDEC": "Product Design and Development Center",
-        "ExESS": "Electronics Students Society"
-      },
-      "Alumni": {
-        "Website": "http://cecians.in/",
-        "Contact Info": {
-          "Address": "College Of Engineering Chengannur, Chengannur P.O, Alapuzha District, Kerala",
-          "Pin Code": "689121",
-          "Phone Numbers": [
-            "+91-479-2455125 (Reception)",
-            "+91-479-2454125 (Office)",
-            "+91-479-2456046 (Principal)"
-          ],
-          "Email": "principal@ceconline.edu"
-        }
-      },
-      "Distances to Nearest Transit Points": {
-        "Bus Stand": "Chengannur (1/2 km)",
-        "Railway Station": "Chengannur – CNGR (1 km)",
-        "Airports": {
-          "Cochin International Airport": "110 km",
-          "Trivandrum International Airport": "120 km"
-        }
-      }
+[
+  {},
+  {
+    "title": "B.Tech-Admissions",
+    "about": [
+      "Admission to UG programmes except in NRI seats is on the basis of the All Kerala Common Entrance Examination, conducted by the Commissioner for Entrance Examinations (CEE), Govt. of Kerala. The criteria for B.Tech degree admission is prescribed by the CEE, Govt. of Kerala and concerned University, and is issued every year by Govt. of Kerala through common prospectus for admission to professional degree courses. The entrance examinations are conducted usually in the month of April.",
+      "Visit",
+      "for more details.",
+      ":",
+      ": 24-06-2023"
+    ]
+  },
+  {
+    "about": [
+      "Internal Quality Assurance Cell Internal Quality Assurance Cell or Internal Audit Cell (IQAC/IAC) comprises of senior faculty members having representation from each department and is constituted by the Principal to ensure the timely, efficient and progressive performance of academic and administrative tasks. A senior member of IQAC shall be its coordinator The term of IQAC shall be one academic year IQAC shall conduct internal academic audits and produce the required documents and records to the External Auditor appointed by the University, on-demand IQAC is also responsible for uploading monthly report, annual report and any other data required by the University IQAC will aim to develop and apply quality benchmarks/parameters for the various academic and administrative activities of the institution IQAC shall ensure equitable access to resources for various classes of the society, and to organize conduct of remedial coaching and bridge programs as and when it is needed IQAC shall strive to incorporate modern methods into the teaching-learning process.",
+      "IQAC REPORTS"
+    ]
+  },
+  { "title": "Committees" },
+  { "title": "Administrative Staff" },
+  {
+    "title": "About Us",
+    "about": [
+      "The College of Engineering Chengannur, an institution of excellence in the domain of technical education, was established in the year 1993, with a vision to create engineers having the drive, skill, and confidence to become the pioneers of tomorrow. The college functions with the highest order of discipline so that all students are trained to excel in highly professional environments.",
+      "The college was set up under the auspices of the Institute of Human Resources and Development (IHRD) and is recognized by the All India Council for Technical Education (AICTE), New Delhi. It is affiliated to APJ Abdul Kalam Technological University (KTU)."
+    ]
+  },
+  {},
+  {
+    "about": [
+      "Semester Registration for B.Tech and MCA (check notifications)",
+      "",
+      "Programmes",
+      "Students",
+      "Faculties",
+      "Alumni",
+      "Nationalities",
+      "Years Legacy",
+      "Registration to B.Tech S3 (Minor) Exam Dec 2024 (2023 Admn) (check notifications)"
+    ]
+  },
+  {},
+  { "title": "Right to Information", "about": ["", ""] },
+  {
+    "title": "Departments",
+    "about": [
+      "Computer Science & Engineering is an academic program that incorporates the various technical areas of computational hardware and software studies.",
+      "Electrical engineering is a professional engineering discipline that equip engineers to work in the field of the critical infrastructure ie. the Power sector that includes Generation, Distribution and Utilization of electric power, integrate renewable energy systems, manage smart grid systems, and be the key persons in this era of Electric Vehicles.",
+      "Electronics and Communication Engineering is the study of electronics to facilitate communications and solve engineering problems.",
+      "General Engineering is a dynamic discipline poised to tackle multifaceted challenges across industries. Its blend of theoretical knowledge and practical skills prepares students to contribute meaningfully to technological advancement and societal progress."
+    ]
+  },
+  {
+    "about": [
+      "This is to inform all the faculty, staff and students that the feedback facility of students and faculty is available in the AICTE Web-Portal. You may use the below links to use this facility.",
+      "AICTE Feedback Portal:",
+      "For Staff:"
+    ]
+  },
+  { "title": "Parent Teachers Association(PTA)", "about": ["", "", ""] },
+  {
+    "title": "Facilities",
+    "about": [
+      "The college is fully equipped with well furnished smart class rooms. The college also has laptops which are issued to the students to help them in their project work. Other facilities include Diesel Generator System to power the whole college, Power Backups, Water Purifier System, Camera surveillance etc. There is also a Co-operative store adjacent to the college office which provides students with stationery and general provisions.The college owned men s hostel and ladies  hostel can house over 100 inmates and provide a nourishing environment.",
+      "The College Library has a wide collection of latest books, periodicals, and CDs.",
+      "College of Engineering, Chengannur is one of the 18 engineering colleges equipped with Mini Fablab.",
+      "The College operates buses for the convenience of students and staff coming from in and around Salem city."
+    ]
+  },
+  { "title": "Anti-Ragging Cell" },
+  {},
+  {
+    "about": [
+      "CEC is located in Chengannur, a beautiful town in Kerala. Chengannur is situated at the extreme east part of Alappuzha district. Main Central Road (popularly known as the M.C. Road) passes by the college. It is well connected to other cities by rail and road. The exact location of the college is shown on the map.",
+      ":",
+      "Chengannur (1/2 km)",
+      "",
+      "Chengannur   CNGR (1 km)",
+      "",
+      "Cochin International Airport   COK (110 km),",
+      "Trivandrum International Airport   TRV (120 km)"
+    ],
+    "contact_details": {
+      "address": "College of Engineering Chengannur",
+      "phone": "+91-479- 2455125 (Reception)+91-479-2454125 (Office)+91-479-2456046 (Principal)",
+      "email": "principal@ceconline.edu"
     }
-  }
-}
+  },
+  { "title": "Downloads" },
+  {},
+  {},
+  {
+    "title": "Alumni",
+    "about": [
+      "The CEC Alumni Association started functioning in 2014. The objective of the Association is to maintain the contacts of the alumni of the College of Engineering Chengannur with alma mater and provide a forum for bringing together the old students of the college so that they can contribute effectively to the cause of engineering education and research in the country. Association provides opportunities for developing entrepreneurship and practical know-how among the graduating students and also to impart vocational and career guidance to them",
+      "For more information visit"
+    ]
+  },
+  {
+    "title": "Prof. (Dr.) Hari. V S",
+    "about": [
+      "",
+      "",
+      "",
+      "Incorporated a company Rand Walk Research and Solutions Pvt. Ltd. on June 20,2020 under the Faculty startup scheme of the Govt.of Kerala. It is awarded the startup status by the Govt. of India. The company takes up projects in data analysis, machine learning and computer vision."
+    ],
+    "contact_details": {
+      "address": "Principal , College of Engineering, Chengannur,Alappuzha (Dist.)   689121",
+      "phone": "0479-2450435",
+      "email": "principal@ceconline.edu"
+    }
+  },
+  {},
+  {
+    "about": [
+      "New arrival IWC Ingenieur replica watches from V7 factory",
+      "",
+      "",
+      "Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality",
+      "in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, the IWC Ingenieur",
+      ", released at the end of 2023, offer three color options: black, white, and blue.",
+      "I still remember that there is a factory named GH made these Ingenieur",
+      "before, but many people do not recognize their quality, for example, the stainless steel bezel on the GH Ingenieur looks wider than that on the genuine watch. GH factory also produced the green color for the new Ingenieur, but V7 currently does not make the green one, perhaps they will produce it after our new year holiday, the blue version looks strange, some people said it also looks like green.",
+      "IWC may have a great expectation on the new Ingenieur, because they want to make a stainless steel watch that could achieve a success like Royal Oak of AP, Overseas of VC and Nautilus of Patek, these watches have two common features, sporty case design and full stainless steel made. The new Ingenieur looks much more elegant than AP Royal Oak, not that rugged. Genuine watch is sold at a high price because it has a a high anti-magnetic performance, the replica does not have.",
+      "",
+      "",
+      "The high popularity of some specific replica watch can also drive the crazy sale of its genuine watch. Is this really true? I heard somebody said this in the video review. Will the Ingenieur from V7 become a hot model and drive the sales of the genuine watch?",
+      "The entire watch is brushed, except on the blue model, whose middle links on the bracelet are polished. The direction of brushing on the bezel is different from that on the case and bracelet, which gives the wearer a contract look, there are four rivet studs on the bezel that add some retro flavor to the watch, the dial uses unique grids that are not easy for V7 to immitate, there are always differences for such dial if you compare the replica with genuine watch closely, even on the dial of replica AP 15400 made by ZF or APS.",
+      "The finish on the bracelet is impressive, but the stainless steel bracelet feels a bit stiff, not that soft on genuine watch, the super clone Nautilus 5711 from 3K and PPF has the same issue. Behind the solid case back, there is a Sea-gull 2892 movement inside, it is said that V7 will also offer SW300 movement for the Ingenieur in future."
+    ]
+  },
+  {},
+  { "about": [""] },
+  {
+    "title": "Women Cell",
+    "about": [
+      "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+    ]
+  },
+  {
+    "about": [
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a reliable and high-quality replica watch can be a daunting task, but fear not, as we have compiled all the essential information to help you make an informed decision. So, let s dive in!",
+      "Before we get into the nitty-gritty of buying a replica Rolex, let s first understand what exactly a replica Rolex is. A replica Rolex is a counterfeit or imitation watch that is designed to resemble the iconic and luxurious Rolex timepieces. These replicas are crafted with attention to detail to mimic the design, functionality, and overall aesthetics of the",
+      ". While replica Rolexes may not have the same precision and reliability as the original ones, they offer a more affordable alternative for those who desire the Rolex look without the hefty price tag.",
+      "There are several reasons why individuals choose to buy replica Rolexes instead of genuine ones. Let s explore some of the advantages:",
+      "Before diving into the world of replica Rolexes, it is crucial to conduct thorough research to ensure you make an informed decision. Here are some key aspects to consider during your research:",
+      "When purchasing a",
+      ", it is vital to identify and choose reputable sellers. Look for sellers who have a proven track record of providing high-quality replicas and have positive customer reviews. Pay close attention to details such as customer satisfaction, return policies, and warranties offered by the seller.",
+      "Examine the materials used in the replica Rolex and assess the overall quality. A high-quality replica will use premium materials to closely replicate the genuine Rolex. Look for details such as the weight, finish, and accuracy of the timekeeping. The movement of the watch is a critical factor to consider as well.",
+      "A reliable replica Rolex will pay close attention to detail, ensuring that every aspect replicates the original watch as closely as possible. From the logo and branding to the engravings and serial numbers, these details contribute to the overall authenticity of the replica.",
+      "Reading customer feedback and reviews can provide valuable insights into the quality and overall experience of buying from a particular seller. Look for feedback regarding the accuracy of the replica, customer service, and overall satisfaction.",
+      "Replica Rolexes come in various price ranges, depending on factors such as quality, materials, and level of replication. Set a budget and consider what features and aspects are most important to you before making a purchase.",
+      "Choosing a reputable seller is crucial to ensure that you receive a high-quality replica Rolex that meets your expectations. Here are some tips for identifying a reliable seller:",
+      "Start by conducting online research to find sellers that specialize in replica Rolexes. Look for websites or online marketplaces that have a positive reputation and a wide selection of replicas. Take the time to read reviews and feedback from previous customers.",
+      "A reputable seller will likely have a strong presence on social media platforms. Look for sellers who engage with their customers, showcase their products, and have a significant following. This indicates that they are transparent and have built a community of satisfied customers.",
+      "A reliable seller will provide clear and transparent information about their replicas. This includes details about the materials used, the level of replication, and any certifications or guarantees offered. Look for sellers who are willing to answer your questions and provide additional information when needed.",
+      "Ensure that the seller offers secure payment options to protect your personal and financial information. Look for encrypted payment gateways and trusted payment processors to ensure a safe transaction.",
+      "A reputable seller will have responsive customer service that promptly addresses any inquiries or concerns. Test their customer service by reaching out with questions before making a purchase to assess their level of support.",
+      "While there are reliable sellers and quality replica Rolexes available, it is essential to be aware of potential pitfalls and scams. Here are some pitfalls to avoid:",
+      "If a deal appears too good to be true, it probably is. Be cautious of sellers offering replica Rolexes at unbelievably low prices. Such replicas may be of poor quality or even non-existent. Remember that high-quality replicas require meticulous craftsmanship and quality materials, making them unlikely to be overly cheap.",
+      "Avoid purchasing from sellers who have little to no customer reviews or feedback available. Customer reviews provide valuable insights into the reputation and reliability of the seller.",
+      "Reputable sellers of replica Rolexes often provide a warranty or return policy to ensure customer satisfaction. Avoid sellers who do not offer any form of protection or guarantee for their products.",
+      "Be cautious of sellers who provide inconsistent or poor quality replicas. Take the time to examine customer photos and reviews to assess the accuracy and attention to detail offered by the seller.",
+      "Buying a replica Rolex can be an exciting endeavor and a way to enjoy the timeless elegance of a Rolex at a more affordable price. By conducting thorough research, identifying reputable sellers, and being aware of potential pitfalls, you can ensure a positive purchasing experience. Remember that while replicas may not offer the same level of precision and craftsmanship as genuine Rolexes, they can still provide a stylish and sophisticated timepiece to complement your personal style. So, go ahead and explore the world of replica Rolexes   timeless luxury awaits!"
+    ]
+  },
+  {},
+  {
+    "title": "Transportation Facility",
+    "about": [
+      "The college is providing efficient transportation facilities for the staffs and students to the nearby places/towns.",
+      "The college bus routes are as follows:"
+    ]
+  },
+  {
+    "title": "Placement",
+    "about": [
+      "The Training and Placement Cell, (TPC) of the College of Engineering, Chengannur is a body of active students, guided by Staff-in-Charge. Student members are specially selected to carry out the responsible working of the cell. The TPC dedicates itself to help students develop their personalities and establish their careers.",
+      "The activities of TPC are:",
+      "Fee Payment Link :"
+    ],
+    "contact_details": {
+      "address": "The Placement Officer,",
+      "phone": "(0479) 2450435, 2451424, 2456046",
+      "email": "tpc@ceconline.edu"
+    }
+  },
+  {},
+  {
+    "title": "Transportation Facility",
+    "about": [
+      "The college is providing efficient transportation facilities for the staffs and students to the nearby places/towns.",
+      "The college bus routes are as follows:"
+    ]
+  },
+  {
+    "title": "FAB Lab",
+    "about": [
+      "College of Engineering, Chengannur is one of the 18 engineering colleges equipped with Mini Fablab.CEC Mini Fablab is funded by a joint venture of Kerala Technical University and Startup Mission under the government of Kerala. The Fablab concepts originally conceived at MIT by Neil Gershenfeld and partially financed by the NSF.",
+      "Mini Fablab is a platform offering digital fabrication technology solutions as a bridge between idea and industry, creativity and production. Mini Fablab provides an opportunity for making rapid prototypes of digitally controlled hardware.",
+      "Students of any discipline who wish to move more quickly from an idea or concept to a physical object or prototype can avail Fablab. Mini Fablab is a part of a worldwide network of 100, stretching from Costa Rica to the Netherlands.CEC Mini Fablab is equipped with numerically controlled modern operating by CAD/CAM tools.",
+      "For more visit:"
+    ]
+  },
+  {},
+  { "title": "Tenders", "about": ["30.12.2020, 11.00am", "", ""] },
+  { "title": "Statutory Documents" },
+  {
+    "about": [
+      "New arrival IWC Ingenieur replica watches from V7 factory Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality IWC replica watches in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, [ ]"
+    ]
+  },
+  {
+    "about": [
+      "replica Breitling uk",
+      "Breitling Navitimer replica",
+      "I searched in Google for the replica watches uk dealers and I finally found high quality replica watches at nursewatches.co.uk. Greatest Rolex replica watches. replica collection that features the best watch available on the market available online at low prices.",
+      "replica omega planet ocean Browse luxurious and fascinating quality replica watches uk collection at our website. Find the replica watches to discover the best value replica watches at our website",
+      "Super Clone Rolex watches We offer high-end replica watches in a wide range of styles. You can replica rolex uk of high quality at a discount. Mens Fashion Business Quartz Replica Watch Fashion Fake Three Eye Six Pin Calendar Men Watch Stainless Steel Belt Men Watches.",
+      "bestfastwatches.com At uk best Replica Watches which were sold online. Replica Watches Australia You are worth the best quality cheape replica watches uk online with low price!",
+      "Best place to buy cheap replica watches. And the best aaa+ swiss made grade 1 replica watches on our website with fast shipping.",
+      "Perfect fake rolex. All our Rolex Swiss Replica Watches in UK are having 1:1 Swiss Movements.",
+      "F r diejenigen, die auf der Suche nach erschwinglichen und hochwertigen replizierten Uhren sind, wird bestuhren.de als bevorzugtes Ziel pr sentiert und bietet eine vielf ltige Auswahl von Rolex bis Omega.",
+      "It appears that VS factory has concentrated on producing Rolex Replicas at superrolex.io. In the past two years, they have released replicas of the Submariner and Datejust. Now, VS has expanded to create replicas of other Rolex models, including a new Yacht-Master replica in rose gold. Although their Omega Seamaster and Panerai replicas were previously star [ ]"
+    ]
+  },
+  {
+    "about": [
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets [ ]",
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a [ ]",
+      "New arrival IWC Ingenieur replica watches from V7 factory Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality IWC replica watches in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, [ ]",
+      "replica Breitling uk",
+      "Breitling Navitimer replica",
+      "I searched in Google for the replica watches uk dealers and I finally found high quality replica watches at nursewatches.co.uk. Greatest Rolex replica watches. replica collection that features the best watch available on the market available online at low prices.",
+      "replica omega planet ocean Browse luxurious and fascinating quality replica watches uk collection at our website. Find the replica watches to discover the best value replica watches at our website",
+      "Super Clone Rolex watches We offer high-end replica watches in a wide range of styles. You can replica rolex uk of high quality at a discount. Mens Fashion Business Quartz Replica Watch Fashion Fake Three Eye Six Pin Calendar Men Watch Stainless Steel Belt Men Watches.",
+      "bestfastwatches.com At uk best Replica Watches which were sold online. Replica Watches Australia You are worth the best quality cheape replica watches uk online with low price!",
+      "Best place to buy cheap replica watches. And the best aaa+ swiss made grade 1 replica watches on our website with fast shipping."
+    ]
+  },
+  {
+    "about": [
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets [ ]",
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a [ ]",
+      "New arrival IWC Ingenieur replica watches from V7 factory Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality IWC replica watches in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, [ ]",
+      "replica Breitling uk",
+      "Breitling Navitimer replica",
+      "I searched in Google for the replica watches uk dealers and I finally found high quality replica watches at nursewatches.co.uk. Greatest Rolex replica watches. replica collection that features the best watch available on the market available online at low prices.",
+      "replica omega planet ocean Browse luxurious and fascinating quality replica watches uk collection at our website. Find the replica watches to discover the best value replica watches at our website",
+      "Super Clone Rolex watches We offer high-end replica watches in a wide range of styles. You can replica rolex uk of high quality at a discount. Mens Fashion Business Quartz Replica Watch Fashion Fake Three Eye Six Pin Calendar Men Watch Stainless Steel Belt Men Watches.",
+      "bestfastwatches.com At uk best Replica Watches which were sold online. Replica Watches Australia You are worth the best quality cheape replica watches uk online with low price!",
+      "Best place to buy cheap replica watches. And the best aaa+ swiss made grade 1 replica watches on our website with fast shipping."
+    ]
+  },
+  {
+    "title": "Women Cell",
+    "about": [
+      "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+    ]
+  },
+  {
+    "about": [
+      "New arrival IWC Ingenieur replica watches from V7 factory Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality IWC replica watches in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, [ ]",
+      "replica Breitling uk",
+      "Breitling Navitimer replica",
+      "I searched in Google for the replica watches uk dealers and I finally found high quality replica watches at nursewatches.co.uk. Greatest Rolex replica watches. replica collection that features the best watch available on the market available online at low prices.",
+      "replica omega planet ocean Browse luxurious and fascinating quality replica watches uk collection at our website. Find the replica watches to discover the best value replica watches at our website",
+      "Super Clone Rolex watches We offer high-end replica watches in a wide range of styles. You can replica rolex uk of high quality at a discount. Mens Fashion Business Quartz Replica Watch Fashion Fake Three Eye Six Pin Calendar Men Watch Stainless Steel Belt Men Watches.",
+      "bestfastwatches.com At uk best Replica Watches which were sold online. Replica Watches Australia You are worth the best quality cheape replica watches uk online with low price!",
+      "Best place to buy cheap replica watches. And the best aaa+ swiss made grade 1 replica watches on our website with fast shipping.",
+      "Perfect fake rolex. All our Rolex Swiss Replica Watches in UK are having 1:1 Swiss Movements.",
+      "F r diejenigen, die auf der Suche nach erschwinglichen und hochwertigen replizierten Uhren sind, wird bestuhren.de als bevorzugtes Ziel pr sentiert und bietet eine vielf ltige Auswahl von Rolex bis Omega."
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "title": "Department of Electrical Engineering",
+    "hod": {
+      "name": "Dr. Raju M",
+      "title": "Head of the Department",
+      "address": "Department of Electrical Engineering College of Engineering, Chengannur Alappuzha (Dist.)   689121"
+    },
+    "about": [
+      "Facilitates experiments on various analog electronic circuits containing transistors, opamps etc. using CRO, DSO, power supplies, Function generator and other components.",
+      "Equipped with DSO, Various Power supplies, Function generators, PWM trainer kit, Rectifier trainer kits, Triac and Diac trainer kits for the conduct of experiments on power electronics circuits.",
+      "Equipped with 8085 and 8051 kits with keyboard interface and built-in assembler.",
+      "Electrical machines lab is equipped with different types of DC motors, DC generators, Three phase Induction motors, Single phase induction motor, Induction generator, Synchronous motors, Alternators, Double cage induction motor, three phase and single phase transformers, Scott connected transformers, various types of loads and meters for conducting all types of performance tests.",
+      "The electrical fundamental laws like KVL, KCL, Thevenin s, Norton s theorems, series & parallel RLC circuits etc. are verified & demonstrated on experimental platform. This lab is equipped with measuring instruments, rheostats, AC & DC bridges, capacitive, inductive & resistive loadings, earth resistance tester, energy meters, BH loop tracer etc.",
+      "Facilitates the conduct of experiments using Relay trainer kits, Synchro transmitter  receiver, PID trainer kit, AC & DC Servomotors, Strain Gauge Training Module, Stepper motor trainer kit, inductive & capacitive pickups etc. Also there are computer systems with Soft ware- ETAP installed.",
+      "The department has a well adequate project lab facility with all equipment needed to meet the curriculum requirements and to enhance overall learning experience. It is also equipped with computers and internet facility which makes it a self learning centre. Students can use the lab any time for their research and simulation purpose and Mini & Major project works. The lab also has the seating capacity of 50 with enough requirements to conduct seminars, smart classes and workshops. It has LAN connected 30 nodes of computers. Also there is LCD projector facility to engage simulation classes in this lab.",
+      "",
+      "Department of Electrical Engineering",
+      "College of Engineering, Chengannur",
+      "Alappuzha (Dist.)   689121",
+      "Foreman",
+      "Demonstrator",
+      "Demonstrator",
+      "Tradesman",
+      "Tradesman",
+      "Tradesman",
+      "Tradesman",
+      "",
+      "At the end of their course, Electrical Engineering Graduates will have achieved the following values and capabilities :",
+      "Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.",
+      "Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+      "Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.",
+      "Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.",
+      "Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.",
+      "The Engineer and Society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+      "Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+      "Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+      "Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.",
+      "Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+      "Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.",
+      "Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.",
+      "PEO1: Technical Knowhow: Meet the requirements of industry and academia through their acquired technical knowledge and research skills.",
+      "PEO2: Innovation: Apply engineering skills to bring out innovative electrical/electronics products to enhance the quality of life. PEO3: Professional excellence: Exhibit professional excellence in diversified career paths to perform well in the competitive world. PEO4: Leadership Skills: Exhibit leadership qualities and ethical values to contribute for society and environment.",
+      "1.Design and Analysis of electrical systems: Design and implement indigenous electrical and electronic systems through modeling and simulation.",
+      "2. Implementation of Power systems: Implement reliable and smart power and energy systems with appropriate optimization techniques.",
+      "3. Adherence to Standards: Students will design, estimate, implement and test electrical installations conforming to prevailing standards.",
+      "4.Adaptability: Adapt to technological changes and different working environments and cultures",
+      " ",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "contact_details": {
+      "phone": "0479- 2456046",
+      "email": "rajumanuel@ceconline.edu"
+    }
+  },
+  {
+    "about": [
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a [ ]"
+    ]
+  },
+  {
+    "about": [
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets [ ]"
+    ]
+  },
+  {
+    "about": [
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement",
+      "Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets it apart from other pilot s watches within the Swiss brands. While the appearance of the Chronomat B01 bears some resemblance to the Avenger series, a closer examination reveals its even more formidable presence. In the replica watch industry, the",
+      "produces the best Breitling replica watch,particularly the Avenger BlackBird. Now, this same factory has crafted the",
+      ", marking a shift from H factory as the producer of the best",
+      "to GF factory.",
+      "Continuing the trend of the brightly polished finish seen on previous Chronomat B01 models, this iteration also features a polished case and bracelet. The 44mm case replicates the original construction in a 1:1 replica watch.Noteworthy is the uni-directional rotating bezel with markers in depth, showcasing a satin-brushed finish that creates a striking contrast with the polished bezel. Positioned at 12 o clock is a luminescent-filled bezel pearl. The case back, meticulously finished by skilled watchmakers, boasts a center ring with a micro-sandblasted texture and polished engravings, including the Breitling logo, all executed in a refined manner.",
+      "The dial of the",
+      "is available in black, with an alternative option of a blue dial. Each hour marker is adorned with a luminescent square at its tip, emitting a strong green glow in dark conditions, consistent with the bezel pearl s luminescent color. In the center of the",
+      "dial, a large square feature stands out, though its purpose remains unclear to me. Personally, I find that this design element affects the overall beauty of the dial. The three subdials operate similarly to those on the genuine watch, with the small seconds sub-dial positioned at 9 o clock, while the other two small dials serve as the 30-minute and 12-hour chronograph displays.",
+      "Crafted from solid 316L stainless steel, the bracelet features a perfect polish with beveled links. The engravings on the buckle display remarkable craftsmanship, enabling a direct comparison between the",
+      "bracelet and the genuine version. The exceptional finish of the",
+      "highlights superior workmanship, representing the pinnacle of quality.",
+      "Equipped with an Asia Valjoux 7750 automatic movement, the replica features a complete chronograph function. Feel free to utilize the chronograph function without any concerns about potential issues, as the movement is derived from a renowned Chinese chronograph movement originating from the Shanghai Watch Factory. Notably, this Asia Valjoux 7750 has not undergone any modifications, ensuring its inherent stability and reliable performance.",
+      "For those seeking a robust and masculine pilot",
+      ", the",
+      "is an excellent option. Its reinforced case construction ensures durability, while the stainless steel bracelet provides both style and comfortable wearability."
+    ]
+  },
+  { "title": "Anti-Ragging Cell" },
+  {
+    "title": "Hostel",
+    "about": [
+      "There are five hostels",
+      "The Men s Hostel is located right next to the campus and has a capacity of 70 students.",
+      "One of the Ladies  Hostels is situated half a kilometer away, near the Railway Station and two near the college. The college bus provides for the transit to and from college every day.",
+      "All the hostels have a warden who is usually a faculty member, to supervise and to address any grievances."
+    ]
+  },
+  {
+    "title": "Library",
+    "about": [
+      "The College Library has a wide collection of latest books, periodicals, and CDs.",
+      "This collection is expanded and updated each year. The open access catalog system (OPAC) provides reading and reference facilities for both faculty and students. Online and offline information is offered and new resources are added to provide a holistic and comprehensive service. The institution maintains a general library, an IEEE library (restricted for IEEE members) and three department libraries",
+      "The lending section is functioning between 8.30 am and 5.00 pm and the reference section from 8.30 am to 6.00 pm. It may be extended till 8.00 pm on genuine request.",
+      "",
+      "For the staff members, books will be issued for a period of 30 days at a time. Student members can avail 5 books for a period of 14 days and can be renewed twice.",
+      "",
+      "The objective of the scheme is to provide textbooks to students. Books will be issued on loan to deserving students each semester.",
+      "There is a collection of over 600 books purchased under the Book Bank scheme of the SC/ST department of Govt. of Kerala. Under the scheme, students belonging to SC/ST category are entitled to avail maximum of five books which can be retained for a full semester.",
+      "The Alumni Book Bank contains over 150 books which are made available to the financially backward students.",
+      "The following E-journal packages are available in the digital library.",
+      "The library has IP enabled access to the above online journals.",
+      "Developing Library Network (",
+      ") can be used for referring to bibliographic information and availing online documents.",
+      "National Programme on Technology Enhanced Learning (",
+      ") e-learning materials is available in the library.",
+      "The 129 Web courses and 110 Video courses which are subscribed by the institution are available in the intranet ("
+    ]
+  },
+  {
+    "about": [
+      "IEEE Student Branch of College of Engineering Chengannur formed on 16th of September, 1996 with the goal of keeping the students in touch with technological advances. What started as a small initiative for technical advancement of the students, is now one of the most vibrant Student Branches of the Asia Pacific Region (Region 10) and Kerala Section. The Student Branch has always taken pride in raising the caliber, nurturing technical interests, exploring managerial skills, enculturating fidelity, accelerating career goals, strengthening ambition and brightening future of its members thereby contributing productive and socially committed engineers to the society. Through Seminars, Workshops, Technical Festivals and Competitions, the Student Branch is fervent in helping its members to update their knowledge and skills with technology which is advancing by leaps and bounds.",
+      "IEEE SB CEC has an IEEE library which was inaugurated in December 1999. The library houses journals and magazines of IEEE. The Student Branch is known for its consistent achievements since its inception in 1996. Currently, the Student Branch has 6 active Societies, 1 Affinity Group and a Special Interest Group.",
+      "For more information visit"
+    ]
+  },
+  {
+    "title": "NSS",
+    "about": [
+      "The vision of the NSS Technical Cell, Kerala is to mould its volunteers as  Social Engineers , who know the pulse of the community and would be able to act accordingly. The mission of the NSS Technical Cell is to make the campuses community-related and to reduce the distance between the social and technical communities. NSS volunteers always cater to the marginalized population, and it is by catering to these needs that the volunteers initiate the entry to the community, and this results in a drastic change in the attitude of the members of the community towards students as well as an open acknowledgement in their activities with gratitude.",
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate.",
+      "Anil",
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms.",
+      "Anil",
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award.",
+      "Anil"
+    ]
+  },
+  {
+    "about": [
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets [ ]",
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a [ ]"
+    ]
+  },
+  { "title": "Scholarships" },
+  {
+    "about": [
+      "Perfect fake rolex. All our Rolex Swiss Replica Watches in UK are having 1:1 Swiss Movements.",
+      "F r diejenigen, die auf der Suche nach erschwinglichen und hochwertigen replizierten Uhren sind, wird bestuhren.de als bevorzugtes Ziel pr sentiert und bietet eine vielf ltige Auswahl von Rolex bis Omega.",
+      "It appears that VS factory has concentrated on producing Rolex Replicas at superrolex.io. In the past two years, they have released replicas of the Submariner and Datejust. Now, VS has expanded to create replicas of other Rolex models, including a new Yacht-Master replica in rose gold. Although their Omega Seamaster and Panerai replicas were previously star [ ]",
+      "In today s comparison, I find myself in a bit of a dilemma. I don t dislike the Seamaster, and there s not much bad to say about it. In fact, I quite like the fake watch. However, my preference leans towards the titanium replica Rolex Yacht-Master 42. To keep things concise, I ll touch on a few critical weaknesses [ ]"
+    ]
+  },
+  {
+    "about": [
+      "In today s comparison, I find myself in a bit of a dilemma. I don t dislike the Seamaster, and there s not much bad to say about it. In fact, I quite like the fake watch. However, my preference leans towards the titanium replica Rolex Yacht-Master 42. To keep things concise, I ll touch on a few critical weaknesses [ ]"
+    ]
+  },
+  {
+    "about": [
+      "It appears that VS factory has concentrated on producing Rolex Replicas at",
+      ". In the past two years, they have released replicas of the Submariner and Datejust. Now, VS has expanded to create replicas of other Rolex models, including a new Yacht-Master replica in rose gold. Although their Omega Seamaster and Panerai replicas were previously star products, VS has not stopped producing them. However, they are not keeping large stocks, so ordering these models may require a longer wait than usual.",
+      "The rose gold",
+      "from VS factory is based on the older Rolex model with reference 116655. Clean factory also released a rose gold Yacht-Master, but it is the newer model 126655, each featuring a different movement. I expect VS factory to release the 126655 replica soon, as their clone 3235 movement offers a significant advantage over other factories, including Clean.",
+      "The case of the",
+      "is made with 904L stainless steel, coated with a layer of rose gold. The thickness of the gold is unknown, but it is unlikely to be very thick. The case measures 40mm in diameter and about 12.5mm in thickness. The bi-directional rotating bezel features a black ceramic insert and 120 clicks. Rotating the bezel is smooth, similar to the experience with the genuine watch. Each lug has a small engraved icon on the back.",
+      "Inside the replica watch is a",
+      ". The old 116655 from VS uses this clone 3135 movement, while the new 126655 from Clean has a clone 3235 movement. There is no significant difference in quality among the clone 3135 movements from major factories like Clean, VS, VR, and GM. Due to improved watch-making technology, the stability and accuracy of the clone 3135 movements from each factory are comparable, putting them in the same class."
+    ]
+  },
+  {
+    "about": [
+      "F r diejenigen, die auf der Suche nach erschwinglichen und hochwertigen replizierten Uhren sind, wird",
+      "als bevorzugtes Ziel pr sentiert und bietet eine vielf ltige Auswahl von Rolex bis Omega."
+    ]
+  },
+  {
+    "about": [
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate.",
+      "IGNITE is a two-year technical outreach program initiated and organized by the IEEE Student Branch, College of Engineering, Chengannur (CEC) as an extension of the WIE STAR Program for the students of secondary schools.",
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms.",
+      "SUMMIT 19, the biennial techno-cultural fest of College of Engineering Chengannur.",
+      "The annual sports meet of the College of Engineering Chengannur.",
+      "Amalu Susan Santhosh of College of Engineering Chengannur has won the Google s 2018 APAC Women Techmakers Scholarship and Grace Hopper Celebration India Scholarship.",
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award.",
+      "The upcoming budget for the Chicago Public Schools will rely on $500 million in yet-to-be-enacted pension savings",
+      "Sneha Anna Thomas of College of Engineering Chengannur has won 1st for long jump & 2nd for 100m in KTU intercollegiate athletic meet 2018."
+    ]
+  },
+  {
+    "title": "Sherin Joseph",
+    "about": [
+      "1.11 years experience in teaching under IHRD group of institutions",
+      "2. 2 years in industry- Worked as an Engineer in TELK Angamaly from 2009 to March 2011",
+      "3. Worked as a Lecturer in Electrical and Engineering at Rajagiri School of Engineering from 2008 to 2009"
+    ],
+    "contact_details": {
+      "phone": "+91 9496349048",
+      "email": "josephksherin@gmail.com; sherinjoseph@ceconline.edu"
+    }
+  },
+  {
+    "about": [
+      "Perfect fake rolex. All our Rolex Swiss Replica Watches in UK are having 1:1 Swiss Movements.",
+      "F r diejenigen, die auf der Suche nach erschwinglichen und hochwertigen replizierten Uhren sind, wird bestuhren.de als bevorzugtes Ziel pr sentiert und bietet eine vielf ltige Auswahl von Rolex bis Omega.",
+      "It appears that VS factory has concentrated on producing Rolex Replicas at superrolex.io. In the past two years, they have released replicas of the Submariner and Datejust. Now, VS has expanded to create replicas of other Rolex models, including a new Yacht-Master replica in rose gold. Although their Omega Seamaster and Panerai replicas were previously star [ ]",
+      "In today s comparison, I find myself in a bit of a dilemma. I don t dislike the Seamaster, and there s not much bad to say about it. In fact, I quite like the fake watch. However, my preference leans towards the titanium replica Rolex Yacht-Master 42. To keep things concise, I ll touch on a few critical weaknesses [ ]",
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college.",
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college.",
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college.",
+      "APJAKTU NSS CELL Units 184, 338, 559 & 628 of College of Engineering Chengannur successfully conducted SPANDANAM   a blood donation camp. Over 60 volunteers participated in this noble cause.",
+      "The annual sports meet of the College of Engineering Chengannur.",
+      "SIGHT Gramina Digital Hub is an IEEE SIGHT/HAC Funded Project with a project funding of $4000 in which a digital hub was successfully set up in Kulanada Grama Panchyat. After the successful completion of the project, the IEEE SIGHT Chengannur College of Engineering has established a village-level digital hub in Kulanada Punnakunnu Scheduled Caste (SC) [ ]"
+    ]
+  },
+  {
+    "title": "Dr.Raju M",
+    "about": ["", " .", ""],
+    "contact_details": { "email": "rajumanuel@ceconline.edu" }
+  },
+  {
+    "title": "Dr. Rajeevan A K",
+    "about": ["", "", ""],
+    "contact_details": {
+      "phone": "94962 27443",
+      "email": "rajeevan@ceconline.edu"
+    }
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "about": [
+      "It appears that VS factory has concentrated on producing Rolex Replicas at superrolex.io. In the past two years, they have released replicas of the Submariner and Datejust. Now, VS has expanded to create replicas of other Rolex models, including a new Yacht-Master replica in rose gold. Although their Omega Seamaster and Panerai replicas were previously star [ ]",
+      "In today s comparison, I find myself in a bit of a dilemma. I don t dislike the Seamaster, and there s not much bad to say about it. In fact, I quite like the fake watch. However, my preference leans towards the titanium replica Rolex Yacht-Master 42. To keep things concise, I ll touch on a few critical weaknesses [ ]"
+    ]
+  },
+  {
+    "about": [
+      "  FORCEGO   is developed using the powerful Python language, incorporates advanced features such as Text-to-Speech (TTS), Google Text-to-Speech (gTTS), and Text Recognition features. These groundbreaking technologies work harmoniously to provide a seamless and inclusive experience, enabling the app to read out texts from various sources, including PDFs and images, in the user s native language.",
+      "Also   ForceGo   becomes the first-ever application to offer real-time translation into Malayalam language. With its user friendly graphical user interface , FORCEGO analyze and extract text from images, enabling visually impaired individuals to access content that was previously inaccessible."
+    ]
+  },
+  {
+    "title": "Recent News",
+    "about": [
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets [ ]",
+      "Anil",
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a [ ]",
+      "Anil",
+      "New arrival IWC Ingenieur replica watches from V7 factory Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality IWC replica watches in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, [ ]",
+      "Anil"
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "about": [
+      "Perfect",
+      ". All our Rolex Swiss Replica Watches in UK are having 1:1 Swiss Movements."
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "title": "Prasobh P",
+    "about": [""],
+    "contact_details": {
+      "address": "PRASOBH P,Assistant Professor,Electrical & Electronics Engineering",
+      "phone": "96334 39553",
+      "email": "prasobhcec@ceconline.edu, prasobhpta@gmail.com"
+    }
+  },
+  {},
+  {
+    "about": [
+      "Dr. C R Ajith Sen is such an astounding and vibrant person, as well as an integral pillar of support for CEC with a work experience of decades. His performance and sincerity have contributed immensely towards the betterment of the college and for the students as well. He was awarded the Best Coordinator NSS Kerala award, in 2018, for his dynamic work as NSS IHRD Cell Coordinator, Kerala."
+    ]
+  },
+  {
+    "about": [
+      "At uk best Replica Watches which were sold online.",
+      "You are worth the best quality cheape",
+      "online with low price!"
+    ]
+  },
+  {
+    "title": "FAB Lab",
+    "about": [
+      "College of Engineering, Chengannur is one of the 18 engineering colleges equipped with Mini Fablab.CEC Mini Fablab is funded by a joint venture of Kerala Technical University and Startup Mission under the government of Kerala. The Fablab concepts originally conceived at MIT by Neil Gershenfeld and partially financed by the NSF.",
+      "Mini Fablab is a platform offering digital fabrication technology solutions as a bridge between idea and industry, creativity and production. Mini Fablab provides an opportunity for making rapid prototypes of digitally controlled hardware.",
+      "Students of any discipline who wish to move more quickly from an idea or concept to a physical object or prototype can avail Fablab. Mini Fablab is a part of a worldwide network of 100, stretching from Costa Rica to the Netherlands.CEC Mini Fablab is equipped with numerically controlled modern operating by CAD/CAM tools.",
+      "For more visit:"
+    ]
+  },
+  { "title": "IOT Lab" },
+  {
+    "about": [
+      "Best place to buy cheap",
+      ". And the best aaa+ swiss made grade 1 replica watches on our website with fast shipping."
+    ]
+  },
+  {
+    "about": [
+      "In today s comparison, I find myself in a bit of a dilemma. I don t dislike the Seamaster, and there s not much bad to say about it. In fact, I quite like the fake watch. However, my preference leans towards the titanium",
+      ". To keep things concise, I ll touch on a few critical weaknesses of the Seamaster, which is known to have one or two, and minimize any attacks based on personal taste. There s only one for me to highlight. But before diving into that, let s explore why I adore the perfect replica Rolex Yacht-Master (words I never thought I d write).",
+      "Swiss made",
+      "hasn t done much that truly appeals to me since the end of the five-digit-reference era. The glossy, luxurious nature of the newer Rolexes doesn t resonate with me. While this sentiment isn t widely shared, it spares me the heartache of waiting lists and the financial burden of the secondary market. I ve mentioned before that the one luxury super clone Rolex I aspire to own is the Explorer II ref. 16570. Some call it  the least Rolex of all Rolexes,  but I disagree. It s distinct from the modern Rolexes, even those with the same name.",
+      "This sentiment also applies to the",
+      "Yacht-Master 42 in titanium. It s an unusual departure from the norm. It contrasts with the luxurious roots of the Yacht-Master, which was originally an opulent alternative to the more utilitarian Submariner. This deviation from the established brand norms is a key part of the appeal of the titanium cheap copy Rolex Yacht-Master 42. It uses no precious metals and isn t shiny at all. Instead, its brushed surfaces, darker titanium tone, and matte black bezel and dial make it more akin to the familiar and highly capable Tudor Pelagos than any other watch in Swiss super clone Rolex s current lineup.",
+      "I first noticed the titanium",
+      "in the window of Rolex s booth at Watches and Wonders. Amid the rush, I found it odd but intriguing. Later, in a quieter setting within the Rolex booth, I realized why. It was the black sheep among a flock of gilded, colorful, and shiny timepieces. This outlier immediately captured my attention. Once on my wrist, none of the other best quality",
+      "could compare. This watch felt like a significant deviation from the otherwise steady path that Rolex replica for sale usually follows. Its sharp lines, matte surfaces, lightweight titanium, and undeniable charisma made it both exciting and charming as a Rolex diver.",
+      "I was stunned. It seemed like an impossibility in the current state of the high quality fake Rolex universe something I didn t know I wanted or thought could happen, yet it was real and brilliant. Before going further, I ll address its Achilles  heel. The Yacht-Master looks like a dive watch and has a dive watch bezel, but it s only water resistant to 100 meters. However, Rolex lists this number conservatively. The watch has a screw-down crown, and tests are always carried out with at least a 30% margin over the stated water resistance. Coupled with top super clone Rolex s quality standards, this should be more than sufficient for most users.",
+      "I promised to give some fair criticism to the Omega, and I will. But first, I want to highlight my final pro-Rolex argument: the incredibly high level of quality you can expect from a modern fake Rolex watch. Whether you love or hate the brand (and its infamous waitlisting practices), it s hard to deny the consistency with which it produces watches to the highest standards. Holding one in your hand, you can feel the sturdiness and expert craftsmanship from the watch head to the bracelet. There s an inexplicable quality to",
+      "online uk, and the titanium Rolex Yacht-Master 42 fake for sale is no exception. On the other hand, I recall the Seamaster s mesh bracelet having significant issues. I ve also heard that its overlapping bracelet is as uncomfortable as it is difficult to fit perfectly."
+    ]
+  },
+  {
+    "about": [
+      "We offer high-end replica watches in a wide range of styles. You can",
+      "of high quality at a discount.",
+      "Mens Fashion Business Quartz",
+      "Fashion Fake Three Eye Six Pin Calendar Men Watch Stainless Steel Belt Men Watches."
+    ]
+  },
+  {
+    "about": [
+      "The annual sports meet of the College of Engineering Chengannur.",
+      "The upcoming budget for the Chicago Public Schools will rely on $500 million in yet-to-be-enacted pension savings",
+      "Sneha Anna Thomas of College of Engineering Chengannur has won 1st for long jump & 2nd for 100m in KTU intercollegiate athletic meet 2018."
+    ]
+  },
+  {
+    "about": [
+      "SIGHT Gramina Digital Hub is an IEEE SIGHT/HAC Funded Project with a project funding of $4000 in which a digital hub was successfully set up in Kulanada Grama Panchyat. After the successful completion of the project, the IEEE SIGHT Chengannur College of Engineering has established a village-level digital hub in Kulanada Punnakunnu Scheduled Caste (SC) [ ]"
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "about": [
+      "SIGHT Gramina Digital Hub is an IEEE SIGHT/HAC Funded Project with a project funding of $4000 in which a digital hub was successfully set up in Kulanada Grama Panchyat.",
+      "After the successful completion of the project, the IEEE SIGHT Chengannur College of Engineering has established a village-level digital hub in Kulanada Punnakunnu Scheduled Caste (SC) Colony. The hub now serves as a centralized location providing appropriate solutions for the socially relevant issues identified in the area. With the support of the local community and the Pandalam block Panchayat, a previously non-functional building has been transformed into a fully functional hub.",
+      "The digital hub is equipped with a solar electrification system, ensuring uninterrupted power supply to meet the needs of the community. A state-of-the-art smart classroom has been installed, allowing students to access online education resources and keep up with their studies. Additionally, a well-stocked library has been established, providing residents with a wide range of books and educational materials.",
+      "The hub also features emergency health and sanitation facilities, ensuring the well-being of the community members. Proper waste management systems have been implemented, promoting cleanliness and hygiene within the area.",
+      "The completion of the project has led to an increase in standards of living within the marginalized community of Kulanada Grama Panchayat, ward number 8. The residents now have access to digital literacy programs, empowering them with the necessary skills to navigate the digital world. Skill development programs and counseling sessions are regularly conducted, enhancing the employability and well-being of the community members.",
+      "Overall, the project has successfully mitigated poverty and paved the way for a sustainable future for the marginalized community. The digital hub serves as a catalyst for positive change, uplifting the residents of Kulanada Punnakunnu Scheduled Caste Colony and creating opportunities for a better life."
+    ]
+  },
+  {
+    "about": [
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "about": [
+      "The Maker Station, an innovative and exciting program organized by Tinkerhub Foundation in partnership with Amazon India, which is an iteration of our popular program, Learning Stations.",
+      "We are excited to share that the College of Engineering, Chengannur has been selected as one of the venue.Tinkerhub CE Chengannur in collaboration with the Training and Placement Cell of the College of Engineering Chengannur has acted as the venue organisers.",
+      "This was an opportunity to be a part of one of the largest learning programs in the state which brings together students and makers from various backgrounds to showcase their creativity, skills, and passion for technology."
+    ]
+  },
+  {
+    "about": [
+      "APJAKTU NSS CELL Units 184, 338, 559 & 628 of College of Engineering Chengannur successfully conducted SPANDANAM   a blood donation camp. Over 60 volunteers participated in this noble cause.",
+      ""
+    ]
+  },
+  {
+    "about": [
+      "IHRD Tharang 23, the first National Level Techno-Cultural-Entrepreneurial event organized by the Institute of Human Resources Development (IHRD). Adhering to the theme YOUTH, SCIENCE and LEADERSHIP, IHRD Tharang 23 aims at providing a holistic experience to the students and empower them in building ideas to design models and finished products in technology, cultural and entrepreneurship domains. The tech fest will be held in College of Engineering, Chengannur on February 3rd , 4th , 5th 2023 and job fair on 6th of February. Over the span of 6 days, i.e. from 2nd February, 2023 with inauguration, three days of tech fest from 3rd February to 5th February and job fair on 6th February there will be an overall participation of about 60,000 people for IHRD Tharang 23. IHRD Tharang 23 will have compulsory participation from all 87 institutions of IHRD across the 14 districts of Kerala, which comprises of 9 engineering colleges, 8 polytechnic colleges, 45 applied science colleges, 15 technical higher secondary schools, 2 model finishing schools and 8 Regional/Extension/Study Centres. Participants of IHRD Thrang 23 will have the opportunity to choose from about 25+ workshops, 30+ competitions designed for various students  levels and aptitude along with about 85 stalls to visit for. The stalls are separated out to different purpose stalls such as for school and college project expos, 10+ government institution stalls such as that of K-DISC, Kerala Excise Department, Fire force, VSSC, Naval NCC etc. Artistic gallery stalls, AR/VR zones would also be a part of event attraction for IHRD Tharang 23. Along with the participation from the institutions, with our cultural programs being open to all, we also expect a participation of around 3000 people from public who would attend the cultural programs arranged on 2nd , 3rd , 4th and 5th of February by celebrities like Jassie Gift, Navya Nair, Sithara Krishnakumar, Pradeep Somasundaran and Rasmi Satheesh. Cumulating a variety of events to cater the taste of a wide community, IHRD Tharang 23 is a one-stop destination for knowledge, fun and entertainment."
+    ]
+  },
+  {
+    "about": [
+      "SIGHT Gramina Digital Hub is an IEEE SIGHT/HAC Funded Project with a project funding of $4000 in which a digital hub was successfully set up in Kulanada Grama Panchyat. After the successful completion of the project, the IEEE SIGHT Chengannur College of Engineering has established a village-level digital hub in Kulanada Punnakunnu Scheduled Caste (SC) [ ]"
+    ]
+  },
+  {
+    "about": [
+      "Amalu Susan Santhosh of College of Engineering Chengannur has won the Google s 2018 APAC Women Techmakers Scholarship and Grace Hopper Celebration India Scholarship."
+    ]
+  },
+  {
+    "about": [
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award."
+    ]
+  },
+  {
+    "about": [
+      "The upcoming budget for the Chicago Public Schools will rely on $500 million in yet-to-be-enacted pension savings",
+      "Sneha Anna Thomas of College of Engineering Chengannur has won 1st for long jump & 2nd for 100m in KTU intercollegiate athletic meet 2018."
+    ]
+  },
+  {
+    "about": [
+      "SUMMIT 19, the biennial techno-cultural fest of College of Engineering Chengannur.",
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {
+    "about": [
+      "IGNITE is a two-year technical outreach program initiated and organized by the IEEE Student Branch, College of Engineering, Chengannur (CEC) as an extension of the WIE STAR Program for the students of secondary schools.",
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms."
+    ]
+  },
+  {
+    "about": [
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate.",
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms.",
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award."
+    ]
+  },
+  {
+    "about": [
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate."
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {
+    "about": [
+      "The 5-day internship program at the College of Engineering Chengannur! This program is designed to inspire and motivate higher secondary students to pursue novel ideas and explore technological possibilities outside the scope of their usual academic curriculum through project-based learning. Our goal is to provide students with hands-on experience with real projects that will help them prepare for college and develop valuable technical skills.",
+      "Through this program, students will have the opportunity to expand their technical expertise and delve into the endless possibilities of science, technology, and social development. Our one-of-a-kind internship will allow students to earn while they learn and develop practical skills that can benefit them in the future. By participating in this program, students will be aligning themselves with the  Digital India, the power to empower  philosophy of using digital technology to empower individuals. Our challenging and informative internship provides a rewarding experience that fosters learning and personal growth. If you have a passion for technology, this is the perfect opportunity to explore your interests and expand your horizons.",
+      "Program Objectives:",
+      "Motivate youth to discover and nurture the creative side hidden in them.",
+      "Help youth in choosing their careers.",
+      "To inspire students with hands-on experience in emerging technologies.",
+      "Encourage youth to be more productive.",
+      "Enable students to earn income and gain practical work experience during their learning"
+    ]
+  },
+  {
+    "about": [
+      "APJAKTU NSS CELL Units 184, 338, 559 & 628 of College of Engineering Chengannur successfully conducted SPANDANAM   a blood donation camp. Over 60 volunteers participated in this noble cause."
+    ]
+  },
+  {
+    "about": [
+      "The NSS units of the College of Engineering Chengannur conducted an orientation programme for the interested first years students of the college."
+    ]
+  },
+  {},
+  {},
+  {
+    "about": [
+      "Amalu Susan Santhosh, student of S6 CSE and Secretary of IEEE Student Branch College of Engineering Chenganur, has been a source of strength and empowerment and an exemplary personality serving tremendously for the progress of Student Branch and for upholding the reputed name of the college. She is also a good mentor and an amazing speaker. Her extremely dedicated passion for experiencing new ventures and attaining higher skies has been inspiration to many. She has been awarded the much-deserved Google s APAC Women Techmakers Scholarship and Grace Hopper Celebrations India Scholarship in 2018.",
+      "Congratulations Amalu!",
+      "Comments are closed."
+    ]
+  },
+  {
+    "about": [
+      "Ashwa is the college s biggest and the most vibrant Sports Meet, providing a great opportunity for students to unite, rejoice and represent themselves. It provides one of the finest chances to inculcate oneself with oodles of power, self-confidence and winning spirit. The two-day extravagant affair held at Municipal Stadium Thiruvalla on 21st and 22nd of February constituted more than 50 events, some being March Past, Track, and Field, Tug of War, etc. The enthusiasm of the participants was infectious, encouraging and proof of the institution s dedication to the all-round development of its students."
+    ]
+  },
+  {
+    "about": [
+      "Amalu Susan Santhosh of College of Engineering Chengannur has won the Google s 2018 APAC Women Techmakers Scholarship and Grace Hopper Celebration India Scholarship."
+    ]
+  },
+  {
+    "about": [
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {},
+  {
+    "about": [
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {
+    "about": [
+      "APJAKTU NSS CELL Units 184, 338, 559 & 628 of College of Engineering Chengannur successfully conducted SPANDANAM   a blood donation camp. Over 60 volunteers participated in this noble cause."
+    ]
+  },
+  {
+    "about": [
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {
+    "about": [
+      "SIGHT Gramina Digital Hub is an IEEE SIGHT/HAC Funded Project with a project funding of $4000 in which a digital hub was successfully set up in Kulanada Grama Panchyat. After the successful completion of the project, the IEEE SIGHT Chengannur College of Engineering has established a village-level digital hub in Kulanada Punnakunnu Scheduled Caste (SC) [ ]"
+    ]
+  },
+  {
+    "about": [
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate.",
+      "IGNITE is a two-year technical outreach program initiated and organized by the IEEE Student Branch, College of Engineering, Chengannur (CEC) as an extension of the WIE STAR Program for the students of secondary schools.",
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms."
+    ]
+  },
+  {
+    "about": [
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms.",
+      "SUMMIT 19, the biennial techno-cultural fest of College of Engineering Chengannur.",
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award."
+    ]
+  },
+  {
+    "about": [
+      "IGNITE is a two-year technical outreach program initiated and organized by the IEEE Student Branch, College of Engineering, Chengannur (CEC) as an extension of the WIE STAR Program for the students of secondary schools."
+    ]
+  },
+  {
+    "about": [
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award.",
+      "The upcoming budget for the Chicago Public Schools will rely on $500 million in yet-to-be-enacted pension savings",
+      "Sneha Anna Thomas of College of Engineering Chengannur has won 1st for long jump & 2nd for 100m in KTU intercollegiate athletic meet 2018."
+    ]
+  },
+  {
+    "title": "Recent News",
+    "about": [
+      "The most remarkable event in the history of CEC is none other than the arrival of Dr. APJ Abdul Kalam. Whenever we hear that name, an indomitable spirit will burn within us to catch the dreams breaking the shackles of obstacles. CECians were in enthusiasm to welcome the one who has the calibre to ignite our minds and faculty to enrich our soul.",
+      "It was on November 26, 2012 that the Missile Man of India, Dr. APJ Abdul Kalam visited College of Engineering Chengannur for the IGNITE Annual Meet hosted by IEEE Student Branch College of Engineering Chengannur. IGNITE covered around 13 districts of Kerala, travelling the length and breadth of Kerala. Integrated Guidance Network of IEEE of Technical Education (IGNITE)   a wakening journey full of life, ideas and innovations to identify young talents across Kerala, constitute these students into a network and reinforce the research backbone of the society with these little masterminds. About hundreds gathered at CEC s auditorium to celebrate the event. The presence of other dignitaries such as Dr. Jyothiraj V.P (Former Principal of CEC), Mr. Sayeed Rasheed (Director, IHRD), V.P Devassia (Additional Director and formal Principal ,CEC), P.C Vishnunath (MLA Chengannur), Mr. Sathish Babu and Smt. Suja John (Chairperson, Chengannur Municipality) added elegance to the dias. The events started with a prayer and a moment of silence in memory of 26/11 victims. The ceremony was presided by our former President Kalam who himself addressed the gathering and won the hearts of many with his eloquent delivery   an amalgam of experiences and his vision for India. After an hour long speech, he closed with his message that we must be remembered for creating our own page in the book of history. He persuaded students to think out of box and to follow their dreams. He added the significance of engineering and technology in this contemporary era and asked the students to take an oath.",
+      "He made the gathering repeat after him as he recited the poem:",
+      " I am born with potential",
+      "I am born with goodness and trust",
+      "I am born with ideas and dreams",
+      "I am born with greatness",
+      "I am born with confidence",
+      "I am born with wings",
+      "So, I am not meant for crawling,",
+      "I have wings, I will fly",
+      "I will fly and fly. ",
+      "GF Factory Replica Breitling Chronomat B01 with Asia Valjoux 7750 Movement Breitling boasts several best-selling models, with the Avenger and the Chronomat B01 standing out prominently. Initially, I had mistaken the Chronomat B01 for a diver s watch, only to discover that it is, in fact, a pilot s watch. Regardless, its robust and masculine case sets [ ]",
+      "Anil",
+      "Welcome to the ultimate guide to buying a replica Rolex! Whether you re a watch enthusiast looking to add a stylish timepiece to your collection or someone who simply appreciates the elegance and craftsmanship of a Rolex, this guide will provide you with everything you need to know before making your purchase. We understand that finding a [ ]",
+      "Anil",
+      "New arrival IWC Ingenieur replica watches from V7 factory Today, let us take a look at the three new models just published by V7 factory. V7 is a watch maker that produces top quality IWC replica watches in our market, they have the biggest market share of IWC replicas and no competitors threatens them. Currently, [ ]",
+      "Anil"
+    ]
+  },
+  {
+    "about": [
+      "SUMMIT 19, the biennial techno-cultural fest of College of Engineering Chengannur.",
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {
+    "about": [
+      "APJAKTU NSS CELL Units 184, 338, 559 & 628 of College of Engineering Chengannur successfully conducted SPANDANAM   a blood donation camp. Over 60 volunteers participated in this noble cause.",
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate.",
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award."
+    ]
+  },
+  {
+    "about": [
+      "Find the",
+      "to discover the best value replica watches at our website"
+    ]
+  },
+  {
+    "about": [
+      "Amalu Susan Santhosh of College of Engineering Chengannur has won the Google s 2018 APAC Women Techmakers Scholarship and Grace Hopper Celebration India Scholarship."
+    ]
+  },
+  {
+    "about": [
+      "I searched in Google for the",
+      "dealers and I finally found high quality replica watches at nursewatches.co.uk.",
+      "Greatest",
+      ". replica collection that features the best watch available on the market available online at low prices."
+    ]
+  },
+  {
+    "title": "NSS",
+    "about": [
+      "The vision of the NSS Technical Cell, Kerala is to mould its volunteers as  Social Engineers , who know the pulse of the community and would be able to act accordingly. The mission of the NSS Technical Cell is to make the campuses community-related and to reduce the distance between the social and technical communities. NSS volunteers always cater to the marginalized population, and it is by catering to these needs that the volunteers initiate the entry to the community, and this results in a drastic change in the attitude of the members of the community towards students as well as an open acknowledgement in their activities with gratitude.",
+      "The NSS unit of CEC banded together to build a home in a swift manner for their homeless classmate.",
+      "Anil",
+      "Aswin Mohan of College of Engineering, Chengannur developed an app to coordinate the services provided to people who are under observation at homes with COVID-19 symptoms.",
+      "Anil",
+      "Dr. C R Ajith Sen of College of Engineering Chengannur won The Best coordinator NSS Kerala Award.",
+      "Anil"
+    ]
+  },
+  {
+    "title": "ARANYAM-The Nature Club",
+    "about": [
+      "The Aranyam forestry club began in our college in December 2001. This club was organized to impart environmental understanding to the students and the community. The mission of this club is to organize students for environmental work. So the forestry club was started in partnership with the Forestry Department of the Government of Kerala. The club has over 450 members. It is the first club of its kind, to operate in an engineering college.",
+      "Two study tours, to Silent Valley and Thekkady, were organized under the guidance of the Forest Department of Kerala. This is part of a larger scheme to bring the students closer to nature and introduce to them the wonders of the forests."
+    ]
+  },
+  {},
+  {},
+  { "about": ["", ""] },
+  {
+    "about": [
+      "The annual sports meet of the College of Engineering Chengannur."
+    ]
+  },
+  {
+    "about": [
+      "The Innovation and Entrepreneurship Development Centre (IEDC) is an initiative of the National Science and Technology Entrepreneurship Development Board (NSTEDB), Department of Science and Technology (DST), New Delhi. The aim was to develop an institutional mechanism to create an entrepreneurial culture in academic institutions to harbor the growth of innovation and entrepreneurship amongst the faculty and students.",
+      "The Innovation and Entrepreneurship Development Cell [ IEDC] Bootcamp College of Engineering Chengannur came into existence in June 2015 with the vision of molding youngsters into technological entrepreneurs and innovative leaders. The cell act as a catalyst in fostering entrepreneurship and to develop and cherish a spirit of innovation and a prompt to follow their passion amongst the student community of CEC in association with KSUM.",
+      "The prime motive of the Cell is to promote entrepreneurial spirit among students by the means of its various activities which aims to motivate young, budding technology graduates to take up Entrepreneurship as a career and become job providers rather than job seekers. IEDC seeks to inculcate the entrepreneurial culture among the students which would, in turn, inspire them to go a step further and take up the challenge of entrepreneurship."
+    ]
+  },
+  {
+    "title": "Electronics Students Society (ExESS)",
+    "about": [
+      "Electronics Students Society (ExESS) is a technical forum for students in the electronics department of College of Engineering Chengannur.The primary goal of ExESS is to explore and strengthen the technical knowledge and practical skills of our students and make them industry-ready . We also intend to highlight what s new and coming in the realm of electronics to help students comprehend technology and push it beyond what the world has seen.",
+      "ExESS arranges a variety of activities for students throughout the year. Its Workshops to gain hand on experience, Hackathon for practical problem solving, and Quiz programmes were marked by active participation of our students.Webinar series on some of the most relevant topics by eminent personnels were also conducted.",
+      "ExESS constantly encourages and motivates students to take on challenging tasks and engage in practical problem solving."
+    ]
+  },
+  {
+    "title": "Naval NCC Unit",
+    "about": [
+      "has initiated its NCC unit under the NAVAL wing of the Armed Forces. The unit is commissioned on 16th October 2014 with a total strength of 50 cadets. There will be 33% seats reserved for lady cadets. Our NAVY NCC unit functions under 3(K) Navy Unit Kollam, of the Kollam group NCC headquarters. The students are actively participating in all the regular activities of NCC and also got opportunities for attending national level camps all over the country. The total tenure of a cadet is 3 years. During this period he/she has to attend two Annual Training Camps for being eligible to appear for the NCC-",
+      "examinations.",
+      "Apart from the regular training activities, interested cadets will get opportunities to attend Ship attachment camps, trekking camps, Sea-sortie programs, Mountaineering camps, Paragliding&Scuba Diving events, Advance Leadership Camps (ALC) etc. Selected cadets, if interested, may get chance to attend Republic Day Camp(RDC) and even attend Youth Exchange Program(YEP) with friendly countries of our nation.",
+      "We are extremely proud in announcing that 2 of our cadets got Gold medals and 2 other cadets got silver medals in the Nau-Sainik-Camp-2016(NSC-2016) held at Karwar, Karnataka, and our team has got overall second position in the national level.",
+      "NCC is a voluntary organization which is administered through the Ministry of Defence. The aims of NCC are mainly threefold:",
+      ""
+    ]
+  },
+  {
+    "title": "Placement",
+    "about": [
+      "The Training and Placement Cell, (TPC) of the College of Engineering, Chengannur is a body of active students, guided by Staff-in-Charge. Student members are specially selected to carry out the responsible working of the cell. The TPC dedicates itself to help students develop their personalities and establish their careers.",
+      "The activities of TPC are:",
+      "Fee Payment Link :"
+    ],
+    "contact_details": {
+      "address": "The Placement Officer,",
+      "phone": "(0479) 2450435, 2451424, 2456046",
+      "email": "tpc@ceconline.edu"
+    }
+  },
+  {
+    "about": [
+      "IEEE Student Branch of College of Engineering Chengannur formed on 16th of September, 1996 with the goal of keeping the students in touch with technological advances. What started as a small initiative for technical advancement of the students, is now one of the most vibrant Student Branches of the Asia Pacific Region (Region 10) and Kerala Section. The Student Branch has always taken pride in raising the caliber, nurturing technical interests, exploring managerial skills, enculturating fidelity, accelerating career goals, strengthening ambition and brightening future of its members thereby contributing productive and socially committed engineers to the society. Through Seminars, Workshops, Technical Festivals and Competitions, the Student Branch is fervent in helping its members to update their knowledge and skills with technology which is advancing by leaps and bounds.",
+      "IEEE SB CEC has an IEEE library which was inaugurated in December 1999. The library houses journals and magazines of IEEE. The Student Branch is known for its consistent achievements since its inception in 1996. Currently, the Student Branch has 6 active Societies, 1 Affinity Group and a Special Interest Group.",
+      "For more information visit"
+    ]
+  },
+  {
+    "title": "Surge",
+    "about": [
+      "Surge is a forum associated with the Electrical Department of College of Engineering Chengannur registered under Travancore-Cochin ACT, aimed at uplifting the students technically in every way. Surge incorporates its members with all the new innovative technologies, promote and implement their ideas and for bringing out the best in the electrical engineering field. As a part of its technical activities, many sessions such as workshops, seminar, orientation class, etc were held to nurture the budding engineers.",
+      "Kerala recently faced its worst flooding in nearly a century and Chengannur was one of the most affected areas with a large number of refugees. In collaboration with KSEB, the monumental task of restoring basic lighting and power supply to all homes was completed by the project named  Mission Reconnect  in which Surge members got an opportunity to become part of the state-wide rehabilitation. Surge provides a perfect platform for those who inclined to achieve a deeper understanding of engineering processes and to become a good quality Engineer."
+    ]
+  },
+  {
+    "about": [
+      "IGNITE is a two-year technical outreach program initiated and organized by the IEEE Student Branch, College of Engineering, Chengannur (CEC) as an extension of the WIE STAR Program for the students of secondary schools."
+    ]
+  },
+  {
+    "title": "MCA-Admissions",
+    "about": [
+      "We offer best quality rolex swiss",
+      "above 10 years, and 3 years warranty for every watches free shipping and no reason returns.",
+      "The easiest way to acquire the finest",
+      "is through online ordering, available through Breitling Replica.",
+      ":"
+    ]
+  },
+  {
+    "title": "Product Design and Development Center (PRODDEC)",
+    "about": [
+      "PRODDEC is a common platform for the Electronics and Computer students. It was formed in 1995 with the vision of integrating technical ideas from both the fields and to develop products of an engineering outlook. Understanding the industry needs, PRODDEC has contributed greatly to the overall development of the students as competent engineers.",
+      "The main objectives of PRODDEC, have remained the same as those outlined by its founders   the all round development of the students as engineers. The executive council of PRODDEC is always in search of new avenues to help and encourage the students, to put their theoretical knowledge to practical use. In its endeavor, the organization is always open to suggestions, constructive criticism, and moral support.",
+      "PRODDEC, as an organization which supports aspirants of the highest standards in technical activity, is committed to fulfilling it s an obligation to the student community. It has therefore framed a set of ethics which are as follows:"
+    ]
+  },
+  {
+    "title": "Department of Electrical Engineering",
+    "hod": {
+      "name": "Dr. Raju M",
+      "title": "Head of the Department",
+      "address": "Department of Electrical Engineering College of Engineering, Chengannur Alappuzha (Dist.)   689121"
+    },
+    "about": [
+      "Facilitates experiments on various analog electronic circuits containing transistors, opamps etc. using CRO, DSO, power supplies, Function generator and other components.",
+      "Equipped with DSO, Various Power supplies, Function generators, PWM trainer kit, Rectifier trainer kits, Triac and Diac trainer kits for the conduct of experiments on power electronics circuits.",
+      "Equipped with 8085 and 8051 kits with keyboard interface and built-in assembler.",
+      "Electrical machines lab is equipped with different types of DC motors, DC generators, Three phase Induction motors, Single phase induction motor, Induction generator, Synchronous motors, Alternators, Double cage induction motor, three phase and single phase transformers, Scott connected transformers, various types of loads and meters for conducting all types of performance tests.",
+      "The electrical fundamental laws like KVL, KCL, Thevenin s, Norton s theorems, series & parallel RLC circuits etc. are verified & demonstrated on experimental platform. This lab is equipped with measuring instruments, rheostats, AC & DC bridges, capacitive, inductive & resistive loadings, earth resistance tester, energy meters, BH loop tracer etc.",
+      "Facilitates the conduct of experiments using Relay trainer kits, Synchro transmitter  receiver, PID trainer kit, AC & DC Servomotors, Strain Gauge Training Module, Stepper motor trainer kit, inductive & capacitive pickups etc. Also there are computer systems with Soft ware- ETAP installed.",
+      "The department has a well adequate project lab facility with all equipment needed to meet the curriculum requirements and to enhance overall learning experience. It is also equipped with computers and internet facility which makes it a self learning centre. Students can use the lab any time for their research and simulation purpose and Mini & Major project works. The lab also has the seating capacity of 50 with enough requirements to conduct seminars, smart classes and workshops. It has LAN connected 30 nodes of computers. Also there is LCD projector facility to engage simulation classes in this lab.",
+      "",
+      "Department of Electrical Engineering",
+      "College of Engineering, Chengannur",
+      "Alappuzha (Dist.)   689121",
+      "Foreman",
+      "Demonstrator",
+      "Demonstrator",
+      "Tradesman",
+      "Tradesman",
+      "Tradesman",
+      "Tradesman",
+      "",
+      "At the end of their course, Electrical Engineering Graduates will have achieved the following values and capabilities :",
+      "Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.",
+      "Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+      "Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.",
+      "Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.",
+      "Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.",
+      "The Engineer and Society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+      "Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+      "Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+      "Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.",
+      "Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+      "Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.",
+      "Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.",
+      "PEO1: Technical Knowhow: Meet the requirements of industry and academia through their acquired technical knowledge and research skills.",
+      "PEO2: Innovation: Apply engineering skills to bring out innovative electrical/electronics products to enhance the quality of life. PEO3: Professional excellence: Exhibit professional excellence in diversified career paths to perform well in the competitive world. PEO4: Leadership Skills: Exhibit leadership qualities and ethical values to contribute for society and environment.",
+      "1.Design and Analysis of electrical systems: Design and implement indigenous electrical and electronic systems through modeling and simulation.",
+      "2. Implementation of Power systems: Implement reliable and smart power and energy systems with appropriate optimization techniques.",
+      "3. Adherence to Standards: Students will design, estimate, implement and test electrical installations conforming to prevailing standards.",
+      "4.Adaptability: Adapt to technological changes and different working environments and cultures",
+      " ",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "contact_details": {
+      "phone": "0479- 2456046",
+      "email": "rajumanuel@ceconline.edu"
+    }
+  },
+  { "title": "Organizations" },
+  {
+    "about": [
+      "FOCES is an organization of CSE students of the college. The forum aims at improving the technical and industrial knowledge of the students and strives to keep them abreast the with latest softwares and technologies evolving in the information technology field. It welcomes the freshers into the world of computer engineering by conducting essential orientation classes.",
+      "It organizes talks by eminent personalities in the industry on evolving technologies in computing, workshops on latest developing platforms, languages and software packages in the IT industry and helps coordinate and implement software projects for the students in the Computer Science & Engineering Dept.",
+      "Official Website:"
+    ]
+  },
+  {},
+  {},
+  {}
+]
