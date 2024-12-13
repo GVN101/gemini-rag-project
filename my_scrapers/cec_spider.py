@@ -89,7 +89,6 @@ class CeconlineSpider(CrawlSpider):
             }
         else:
             hod = None
-        
 
         # Skip the header row and parse each faculty row
         rows = faculty_table.xpath('.//tr[position()>1]')

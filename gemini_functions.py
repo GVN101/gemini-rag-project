@@ -76,6 +76,7 @@ def create_vector_store(texts: List[str]):
 
 def get_conversational_chain():
     """Create a conversational chain for question answering."""
+    
     prompt_template = """
     Answer the question as detailed as possible from the provided context.
     If the answer is not in the provided context, just say, "answer is not available in the context".
@@ -93,7 +94,7 @@ def get_conversational_chain():
     prompt = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
-def process_query(user_question: str, json_path: str = "data.json") -> Dict[str, Any]:
+def process_query(user_question: str, json_path: str = "clean.json") -> Dict[str, Any]:
     """Process user input using RAG and generate a response."""
     # Parse JSON data
     texts = parse_json_data(json_path)
@@ -120,7 +121,3 @@ def process_query(user_question: str, json_path: str = "data.json") -> Dict[str,
         "output_text": response.get('output_text', 'No response generated'),
         "status": "success"
         }
-    
-if __name__ == "__main__":
-    result = process_query("who is the principal?")
-    print(result)
