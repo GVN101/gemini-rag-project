@@ -1,8 +1,11 @@
 # import os
 from flask import Flask, jsonify, request
 from gemini_functions import process_query
+from flask_cors import CORS
 
 app = Flask(__name__)
+
+CORS(app)
 
 @app.route("/get_data", methods=["POST"])
 def get_response():

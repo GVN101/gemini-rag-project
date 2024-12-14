@@ -2,6 +2,7 @@
 this scraping code gets the principal name and IHRD director name from the
 ceconline.edu website and update the "clean.json" file we can do this method
 for important data in the json file.
+
 """
 
 from scrapy.crawler import CrawlerProcess
