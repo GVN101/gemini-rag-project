@@ -94,7 +94,7 @@ def get_conversational_chain():
     prompt = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
-def process_query(user_question: str, json_path: str = "clean.json") -> Dict[str, Any]:
+def process_query(user_question: str, json_path: str = "output.json") -> Dict[str, Any]:
     """Process user input using RAG and generate a response."""
     # Parse JSON data
     texts = parse_json_data(json_path)
