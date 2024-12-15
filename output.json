@@ -1,234 +1,247 @@
-{
-    "about_departments": [
-        {
-            "department_title": "Department of Computer Engineering",
-            "about_the_department": "The core courses offered by the Department of Computer Engineering are\u00a0 and\u00a0 from Kerala Technological University, Kerala. These courses are aimed at providing theoretical and practical knowledge of Computer Science. The subjects in Bachelor\u2019s level programme include Computer Architecture and Organization, Automata Languages and Computation, Data Structures and Algorithms, Database Management Systems, Language Processor, Computer Networks, Advanced Architecture and Parallel Processing, Software Engineering, Digital Signal Processing, Analysis and Design of Algorithms etc. The curriculum also includes management papers like Industrial Organization and Management. In order to bridge the gap between knowledge and its true application, students are required to undertake seminars, mini-project and the main project that put them through an industry-like situation. The course produces an ideal computer engineer, well-equipped to meet the challenges of the rapidly growing IT industry.",
-            "About the HOD": {
-                "HOD image url": "https://ceconline.edu/wp-content/uploads/2024/11/gopan-scaled.jpg",
-                "HOD Name": "Sri. Gopakumar G",
-                "HOD Designation": "Associate Professor & Head Of the Department",
-                "HOD Email": "hod.cse@ceconline.edu"
-            },
-            "Department Faculty Data": [
-                {
-                    "1": {
-                        "faculty Name": "Dr. Shyama Das",
-                        "faculty Designation": "Professor"
-                    }
-                },
-                {
-                    "2": {
-                        "faculty Name": "Dr. Manju S Nair",
-                        "faculty Designation": "Associate Professor"
-                    }
-                },
-                {
-                    "3": {
-                        "faculty Name": "Sri. Gopakumar G",
-                        "faculty Designation": "Associate Professor"
-                    }
-                },
-                {
-                    "4": {
-                        "faculty Name": "Smt. Jyothirmayi Devi C",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "5": {
-                        "faculty Name": "Smt. Manjusha Nair S",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "6": {
-                        "faculty Name": "Smt. Princy Sugathan",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "7": {
-                        "faculty Name": "Smt. Geetha S",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "8": {
-                        "faculty Name": "Smt. Shiny B",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "9": {
-                        "faculty Name": "Dr.Sabeena K",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "10": {
-                        "faculty Name": "Smt. Betty James",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "11": {
-                        "faculty Name": "Smt. Nasseena N",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "12": {
-                        "faculty Name": "Smt. Sreelekshmi K R",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "13": {
-                        "faculty Name": "Smt. Aarathy U P",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "14": {
-                        "faculty Name": "Smt. Angel Thankam Thomas",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "15": {
-                        "faculty Name": "Smt. Shereena Thampi",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "16": {
-                        "faculty Name": "Smt. Ameena A",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "17": {
-                        "faculty Name": "Smt. Rosy K Philip",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "18": {
-                        "faculty Name": "Smt. Neethu Treesa Jacob",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "19": {
-                        "faculty Name": "Sri. Vishnu S Kumar",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "20": {
-                        "faculty Name": "Smt. Jithy John",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "21": {
-                        "faculty Name": "Smt. Syeatha Merlin Thampy",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "22": {
-                        "faculty Name": "Smt. Alka Vijay",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "23": {
-                        "faculty Name": "Smt. Leya G",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "24": {
-                        "faculty Name": "Smt. Chinchu M Pillai",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "25": {
-                        "faculty Name": "Smt. Shabana Mol S",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "26": {
-                        "faculty Name": "Smt. Sulaja Sanal",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "27": {
-                        "faculty Name": "Smt. Reshma Raj K S",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "28": {
-                        "faculty Name": "Smt. Reshma Ann Mathews",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                },
-                {
-                    "29": {
-                        "faculty Name": "Smt. Premy P Jacob",
-                        "faculty Designation": "Assistant Professor"
-                    }
-                }
-            ]
-        },
-        {
-            "department_title": "Department of Electronics Engineering",
-            "about_the_department": "The Electronics Engineering Department was established at CEC Campus in the academic year 1993-1994. The department actively engages in research activities, with several research scholars pursuing their PhD under the guidance of esteemed faculty members. Alumni from the department have made significant contributions in various tech giants such as Samsung, Intel, Texas Instruments and DRDO. Additionally, numerous students have successfully secured admissions into prestigious Universities. Many startups have emerged from the Electronics Engineering Department, showcasing the entrepreneurial spirit and innovative mindset fostered within the academic environment. Evolve into a centre of learning in Electronics Engineering that transforms students into competent professionals with knowledge, skill and ethical values for the development of society.",
-            "About the HOD": {
-                "HOD image url": null,
-                "HOD Name": "Dr. Shanavaz K T",
-                "HOD Designation": "Associate Professor & Head Of the Department",
-                "HOD Email": "hod.ece@ceconline.edu"
-            },
-            "Department Faculty Data": []
-        },
-        {
-            "department_title": "Department of General Engineering",
-            "about_the_department": "General Engineering is a diverse field applying scientific principles and mathematical methodologies to design, develop, and maintain various structures, machinery, and systems. The curriculum offered by the department encapsulates a wide array of subjects, such as Engineering Graphics, Engineering Mechanics, Basic Mechanical Engineering, Basic Civil Engineering, Management for Engineers, and Sustainable Engineering. These courses are meticulously designed to lay a solid foundation, equipping students with the necessary theoretical knowledge and analytical skills. Hands-on workshops and CAD courses complement theoretical learning, fostering practical skills essential for addressing real-world challenges across industries.",
-            "About the HOD": {
-                "HOD image url": "https://ceconline.edu/wp-content/uploads/2024/10/Ashok-Kumar-T-V.jpg",
-                "HOD Name": "Dr. Ashok Kumar T V",
-                "HOD Designation": "Head Of the Department",
-                "HOD Email": "hod.ge@ceconline.edu"
-            },
-            "Department Faculty Data": []
-        },
-        {
-            "department_title": "Department of Electrical Engineering",
-            "about_the_department": "Foreman Demonstrator Demonstrator Tradesman Tradesman Tradesman Tradesman \u00a0 \u2018",
-            "About the HOD": {
-                "HOD image url": null,
-                "HOD Name": "Dr. Raju M",
-                "HOD Designation": "Head of the Department",
-                "HOD Email": "rajumanuel@ceconline.edu"
-            },
-            "Department Faculty Data": []
-        },
-        {
-            "department_title": "Department of Basic Science & Language",
-            "about_the_department": "The department of Basic Science and Language is pivotal to the college\u2019s academic framework, furnishing students with vital knowledge and skills necessary for excelling in various engineering disciplines. Offering a diverse array of subjects, the department forms the foundational core of engineering education. The department covers areas such as: Engineering Physics, Engineering Chemistry, Linear Algebra and Calculus, Graph Theory,\u00a0 Life Skills, Professional Communication, Industrial Economics and Foreign Trade. Together these subjects provide a comprehensive education that prepares students for the challenges of the engineering world, fostering analytical thinking,\u00a0\u00a0 problem-solving skills and a global perspective. The Department of Basic Science and Language is dedicated to offering a rigorous and relevant curriculum, ensuring students are well- prepared to contribute to the advancement of technology and society.",
-            "About the HOD": {
-                "HOD image url": "https://ceconline.edu/wp-content/uploads/2024/10/moni.jpg",
-                "HOD Name": "Smt. Moni P John",
-                "HOD Designation": "Head Of the Department",
-                "HOD Email": "monipjohn@ceconline.edu"
-            },
-            "Department Faculty Data": []
+[
+    {
+        "All about admission data": {
+            "admission_related_data": {
+                "page_header": "B.Tech-Admissions",
+                "admission_description": "Admission to UG programmes except in NRI seats is on the basis of the All Kerala Common Entrance Examination, conducted by the Commissioner for Entrance Examinations (CEE), Govt. of Kerala. The criteria for B.Tech degree admission is prescribed by the CEE, Govt. of Kerala and concerned University, and is issued every year by Govt. of Kerala through common prospectus for admission to professional degree courses. The entrance examinations are conducted usually in the month of April.",
+                "department_wise_seat_capacity": "{'department_wise_seat_capacity': {'B.Tech Degree in Computer Science and Engineering': '180 Seats', 'B.Tech Degree in Electrical & Electronics Engineering': '60 Seats', 'B.Tech Degree in Electronics and Communication Engineering': '120 Seats', 'B.Tech Degree in\\xa0 Computer Science and Engineering(Artificial Intelligence & Machine Learning)': '60 Seats'}}",
+                "btech_eligibility_criteria": ": Managed by Commissioner of Entrance Examinations, Govt. of Kerala, according to KEAM rank list.Rs. 40,000/- per annum), CSE & ECE Rs. 45,000/- per annum):EEE (Rs. 70,000/- per annum), CSE & ECE Rs. 75,000/- per annum): Candidates who have passed Higher Secondary Examination, Kerala, or Examinations recognized as equivalent thereto, with Physics and Mathematics as compulsory subjects and Chemistry as one of the optional subjects with at least 45% marks put together in the above subjects are eligible for admission. In case, the candidate has not studied Chemistry, the marks obtained in Computer Science shall be considered. In case, the candidate has not studied Chemistry and Computer Science the marks obtained in Biotechnology shall be considered. In case, the candidate has not studied Chemistry, Computer Science and Biotechnology the marks obtained in Biology shall be considered. The marks as shown in the mark list of the Board of Examination obtained from the respective Higher Secondary Board shall be considered for academic eligibility.    : Managed by Institute of Human Resources Development (IHRD): CSE (9), EEE (3), ECE (6): Rs. 125,000/- (One-time refundable deposit) & Rs. 110,000/- per annum: Candidates who have passed Higher Secondary Examination, Kerala or Examinations recognized as equivalent thereto, with 45% marks in Mathematics, Physics & Chemistry put together (or equivalent subjects specified in prospectus of KEAM-2021) are eligible for admission under NRI seats in Engineering Colleges under IHRD.The candidates seeking admission to B. Tech NRI seats should be a child/ ward/ dependent of an NRI and should enclose a declaration from the NRI {form enclosed as VIII(7)} along with the application",
+                "documents_to_be_submitted_during_admission_link": "https://ceconline.edu/wpdata/admission/Admission%202024-25/Documents%20to%20be%20submitted.pdf"
+            }
         }
-    ]
-}
+    },
+    {
+        "about_departments": [
+            {
+                "department_title": "Department of Electronics Engineering",
+                "about_the_department": "The Electronics Engineering Department was established at CEC Campus in the academic year 1993-1994. The department actively engages in research activities, with several research scholars pursuing their PhD under the guidance of esteemed faculty members. Alumni from the department have made significant contributions in various tech giants such as Samsung, Intel, Texas Instruments and DRDO. Additionally, numerous students have successfully secured admissions into prestigious Universities. Many startups have emerged from the Electronics Engineering Department, showcasing the entrepreneurial spirit and innovative mindset fostered within the academic environment. Evolve into a centre of learning in Electronics Engineering that transforms students into competent professionals with knowledge, skill and ethical values for the development of society.",
+                "About the HOD": {
+                    "HOD image url": null,
+                    "HOD Name": "Dr. Shanavaz K T",
+                    "HOD Designation": "Associate Professor & Head Of the Department",
+                    "HOD Email": "hod.ece@ceconline.edu"
+                },
+                "Department Faculty Data": []
+            },
+            {
+                "department_title": "Department of Electrical Engineering",
+                "about_the_department": "Foreman Demonstrator Demonstrator Tradesman Tradesman Tradesman Tradesman \u00a0 \u2018",
+                "About the HOD": {
+                    "HOD image url": null,
+                    "HOD Name": "Dr. Raju M",
+                    "HOD Designation": "Head of the Department",
+                    "HOD Email": "rajumanuel@ceconline.edu"
+                },
+                "Department Faculty Data": []
+            },
+            {
+                "department_title": "Department of Computer Engineering",
+                "about_the_department": "The core courses offered by the Department of Computer Engineering are\u00a0 and\u00a0 from Kerala Technological University, Kerala. These courses are aimed at providing theoretical and practical knowledge of Computer Science. The subjects in Bachelor\u2019s level programme include Computer Architecture and Organization, Automata Languages and Computation, Data Structures and Algorithms, Database Management Systems, Language Processor, Computer Networks, Advanced Architecture and Parallel Processing, Software Engineering, Digital Signal Processing, Analysis and Design of Algorithms etc. The curriculum also includes management papers like Industrial Organization and Management. In order to bridge the gap between knowledge and its true application, students are required to undertake seminars, mini-project and the main project that put them through an industry-like situation. The course produces an ideal computer engineer, well-equipped to meet the challenges of the rapidly growing IT industry.",
+                "About the HOD": {
+                    "HOD image url": "https://ceconline.edu/wp-content/uploads/2024/11/gopan-scaled.jpg",
+                    "HOD Name": "Sri. Gopakumar G",
+                    "HOD Designation": "Associate Professor & Head Of the Department",
+                    "HOD Email": "hod.cse@ceconline.edu"
+                },
+                "Department Faculty Data": [
+                    {
+                        "1": {
+                            "faculty Name": "Dr. Shyama Das",
+                            "faculty Designation": "Professor"
+                        }
+                    },
+                    {
+                        "2": {
+                            "faculty Name": "Dr. Manju S Nair",
+                            "faculty Designation": "Associate Professor"
+                        }
+                    },
+                    {
+                        "3": {
+                            "faculty Name": "Sri. Gopakumar G",
+                            "faculty Designation": "Associate Professor"
+                        }
+                    },
+                    {
+                        "4": {
+                            "faculty Name": "Smt. Jyothirmayi Devi C",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "5": {
+                            "faculty Name": "Smt. Manjusha Nair S",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "6": {
+                            "faculty Name": "Smt. Princy Sugathan",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "7": {
+                            "faculty Name": "Smt. Geetha S",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "8": {
+                            "faculty Name": "Smt. Shiny B",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "9": {
+                            "faculty Name": "Dr.Sabeena K",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "10": {
+                            "faculty Name": "Smt. Betty James",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "11": {
+                            "faculty Name": "Smt. Nasseena N",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "12": {
+                            "faculty Name": "Smt. Sreelekshmi K R",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "13": {
+                            "faculty Name": "Smt. Aarathy U P",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "14": {
+                            "faculty Name": "Smt. Angel Thankam Thomas",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "15": {
+                            "faculty Name": "Smt. Shereena Thampi",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "16": {
+                            "faculty Name": "Smt. Ameena A",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "17": {
+                            "faculty Name": "Smt. Rosy K Philip",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "18": {
+                            "faculty Name": "Smt. Neethu Treesa Jacob",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "19": {
+                            "faculty Name": "Sri. Vishnu S Kumar",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "20": {
+                            "faculty Name": "Smt. Jithy John",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "21": {
+                            "faculty Name": "Smt. Syeatha Merlin Thampy",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "22": {
+                            "faculty Name": "Smt. Alka Vijay",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "23": {
+                            "faculty Name": "Smt. Leya G",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "24": {
+                            "faculty Name": "Smt. Chinchu M Pillai",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "25": {
+                            "faculty Name": "Smt. Shabana Mol S",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "26": {
+                            "faculty Name": "Smt. Sulaja Sanal",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "27": {
+                            "faculty Name": "Smt. Reshma Raj K S",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "28": {
+                            "faculty Name": "Smt. Reshma Ann Mathews",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    },
+                    {
+                        "29": {
+                            "faculty Name": "Smt. Premy P Jacob",
+                            "faculty Designation": "Assistant Professor"
+                        }
+                    }
+                ]
+            },
+            {
+                "department_title": "Department of General Engineering",
+                "about_the_department": "General Engineering is a diverse field applying scientific principles and mathematical methodologies to design, develop, and maintain various structures, machinery, and systems. The curriculum offered by the department encapsulates a wide array of subjects, such as Engineering Graphics, Engineering Mechanics, Basic Mechanical Engineering, Basic Civil Engineering, Management for Engineers, and Sustainable Engineering. These courses are meticulously designed to lay a solid foundation, equipping students with the necessary theoretical knowledge and analytical skills. Hands-on workshops and CAD courses complement theoretical learning, fostering practical skills essential for addressing real-world challenges across industries.",
+                "About the HOD": {
+                    "HOD image url": "https://ceconline.edu/wp-content/uploads/2024/10/Ashok-Kumar-T-V.jpg",
+                    "HOD Name": "Dr. Ashok Kumar T V",
+                    "HOD Designation": "Head Of the Department",
+                    "HOD Email": "hod.ge@ceconline.edu"
+                },
+                "Department Faculty Data": []
+            },
+            {
+                "department_title": "Department of Basic Science & Language",
+                "about_the_department": "The department of Basic Science and Language is pivotal to the college\u2019s academic framework, furnishing students with vital knowledge and skills necessary for excelling in various engineering disciplines. Offering a diverse array of subjects, the department forms the foundational core of engineering education. The department covers areas such as: Engineering Physics, Engineering Chemistry, Linear Algebra and Calculus, Graph Theory,\u00a0 Life Skills, Professional Communication, Industrial Economics and Foreign Trade. Together these subjects provide a comprehensive education that prepares students for the challenges of the engineering world, fostering analytical thinking,\u00a0\u00a0 problem-solving skills and a global perspective. The Department of Basic Science and Language is dedicated to offering a rigorous and relevant curriculum, ensuring students are well- prepared to contribute to the advancement of technology and society.",
+                "About the HOD": {
+                    "HOD image url": "https://ceconline.edu/wp-content/uploads/2024/10/moni.jpg",
+                    "HOD Name": "Smt. Moni P John",
+                    "HOD Designation": "Head Of the Department",
+                    "HOD Email": "monipjohn@ceconline.edu"
+                },
+                "Department Faculty Data": []
+            }
+        ]
+    }
+]
