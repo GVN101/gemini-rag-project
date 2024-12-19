@@ -122,6 +122,15 @@
 #         "status": "success"
 #         }
 
+        # else:
+        #     model = genai.GenerativeModel("gemini-pro")
+        #     response = model.generate_content(user_question)
+        #     return {
+        #         "output_text": response.text,
+        #         "source": "Gemini General Capabilities",
+        #         "status": "success"
+        #     }
+
 
 import os
 import json
@@ -211,7 +220,7 @@ def get_conversational_chain():
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
 def process_query(user_question: str, json_path: str = "output.json") -> Dict[str, Any]:
-    """Process user input using hybrid RAG and general Gemini capabilities."""
+    """Process user input using RAG method and fallback to Gemini API if needed."""
     try:
         # Parse JSON data
         texts = parse_json_data(json_path)
@@ -221,17 +230,15 @@ def process_query(user_question: str, json_path: str = "output.json") -> Dict[st
 
         # Perform similarity search
         docs = vector_store.similarity_search(user_question)
+        
+        # Create RAG chain and get response
+        chain = get_conversational_chain()
+        response = chain({"input_documents": docs, "question": user_question}, return_only_outputs=True)
 
-        if docs == "answer is not available in the context":
-            # If relevant context is found, use RAG
-            chain = get_conversational_chain()
-            response = chain({"input_documents": docs, "question": user_question}, return_only_outputs=True)
-            return {
-                "output_text": response.get('output_text', 'No response generated'),
-                "source": "JSON-based RAG",
-                "status": "success"
-            }
-        else:
+        rag_output = response.get('output_text', "answer is not available in the context")
+        
+        if "answer is not available in the context" in rag_output.lower():
+            # Fallback to Gemini API for general questions
             model = genai.GenerativeModel("gemini-pro")
             response = model.generate_content(user_question)
             return {
@@ -239,6 +246,12 @@ def process_query(user_question: str, json_path: str = "output.json") -> Dict[st
                 "source": "Gemini General Capabilities",
                 "status": "success"
             }
+        
+        return {
+            "output_text": rag_output,
+            "source": "JSON-based RAG",
+            "status": "success"
+        }
     except Exception as e:
         return {
             "output_text": str(e),
