@@ -136,6 +136,7 @@ import os
 import json
 from typing import List, Dict, Any
 import streamlit as st
+import re
 from dotenv import load_dotenv
 import google.generativeai as genai
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -203,7 +204,7 @@ def get_conversational_chain():
     """Create a conversational chain for question answering."""
     
     prompt_template = """
-    Answer the question as detailed as possible from the provided context.
+    Answer the question as detailed as possible from the provided context and try to answer it with related Image urls.
     If the answer is not in the provided context, just say, "answer is not available in the context".
     
     Context:
@@ -246,9 +247,11 @@ def process_query(user_question: str, json_path: str = "output.json") -> Dict[st
                 "source": "Gemini General Capabilities",
                 "status": "success"
             }
-        
+        print("rag_output: ", rag_output)
+        image_urls = re.findall(r'(https?://[^\s]+)', rag_output)
         return {
             "output_text": rag_output,
+            "image_urls":image_urls,
             "source": "JSON-based RAG",
             "status": "success"
         }

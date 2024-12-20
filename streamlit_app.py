@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import re
 
 def main():
     st.set_page_config("Chat Data Source")
@@ -18,7 +19,8 @@ def main():
     # User input
     user_question = st.text_input("Have a query on IHRD? ask")
     
-    st.info("Fetching your answers...")
+    if user_question.strip():
+        st.spinner("Fetching your answers...")
     # Only make API call when user has entered a question
     if user_question:
         try:
@@ -31,8 +33,15 @@ def main():
             # Check response from the api
             if response.status_code == 200:
                 data = response.json()
+                print(data, "data")
                 if data.get('status') == 'success':
-                    st.write("Reply: ", data.get('output', 'No response'))
+                    st.markdown(data['output'], unsafe_allow_html=True)
+                    image_urls = data['image_urls']
+                    print("\n\n\n\n")
+                    print(image_urls)
+                    print("\n\n\n\n")
+                    for url in image_urls:
+                        st.image(url[:-1], caption="Image", use_column_width=True)
                 else:
                     st.error(f"Error: {data.get('error', 'Unknown error')}")
             else:

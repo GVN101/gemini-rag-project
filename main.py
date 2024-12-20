@@ -20,6 +20,7 @@ def get_response():
         
         return jsonify({
             "output": response.get('output_text', 'No response generated'),
+            "image_urls": response.get('image_urls', "No Images"),
             "status": "success"
         }), 200
     
