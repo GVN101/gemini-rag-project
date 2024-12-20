@@ -239,5 +239,4 @@ if __name__ == "__main__":
     process.crawl(placementSpider)
     process.crawl(AdmissionsSpider)
     process.crawl(organisationSpider)
-
     process.start()
