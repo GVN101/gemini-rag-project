@@ -239,6 +239,7 @@ def process_query(user_question: str, json_path: str = "output.json") -> Dict[st
         rag_output = response.get('output_text', "answer is not available in the context")
         
         if "answer is not available in the context" in rag_output.lower():
+
             # Fallback to Gemini API for general questions
             model = genai.GenerativeModel("gemini-pro")
             response = model.generate_content(user_question)
@@ -262,17 +263,3 @@ def process_query(user_question: str, json_path: str = "output.json") -> Dict[st
             "status": "failed"
         }
 
-# Example usage
-if __name__ == "__main__":
-    st.title("Hybrid RAG and Gemini API Query Handler")
-
-    user_question = st.text_input("Enter your question:")
-    json_path = st.text_input("Enter the JSON file path:", value="output.json")
-
-    if st.button("Submit"):
-        if not user_question:
-            st.error("Please enter a question.")
-        else:
-            result = process_query(user_question, json_path)
-            st.write(f"**Source:** {result['source']}")
-            st.write(f"**Answer:** {result['output_text']}")
