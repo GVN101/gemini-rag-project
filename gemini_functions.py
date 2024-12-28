@@ -204,7 +204,7 @@ def get_conversational_chain():
     """Create a conversational chain for question answering."""
     
     prompt_template = """
-    Answer the question as detailed as possible from the provided context and try to answer it with related Image urls.
+    Answer the question as detailed as possible from the provided context
     If the answer is not in the provided context, just say, "answer is not available in the context".
     
     Context:
@@ -238,23 +238,25 @@ def process_query(user_question: str, json_path: str = "output.json") -> Dict[st
 
         rag_output = response.get('output_text', "answer is not available in the context")
         
-        if "answer is not available in the context" in rag_output.lower():
+        # if "answer is not available in the context" in rag_output.lower():
 
-            # Fallback to Gemini API for general questions
-            model = genai.GenerativeModel("gemini-pro")
-            response = model.generate_content(user_question)
-            return {
-                "output_text": response.text,
-                "source": "Gemini General Capabilities",
-                "status": "success"
-            }
+        #     # Fallback to Gemini API for general questions
+        #     model = genai.GenerativeModel("gemini-pro")
+        #     response = model.generate_content(user_question)
+        #     return {
+        #         "output_text": response.text,
+        #         "source": "Gemini General Capabilities",
+        #         "status": "success",
+        #         "context": "not found"
+        #     }
         print("rag_output: ", rag_output)
         image_urls = re.findall(r'(https?://[^\s]+)', rag_output)
         return {
             "output_text": rag_output,
             "image_urls":image_urls,
             "source": "JSON-based RAG",
-            "status": "success"
+            "status": "success",
+            "context": "found"
         }
     except Exception as e:
         return {

@@ -229,14 +229,3 @@ class organisationSpider(scrapy.Spider):
             existing_data.append(self.total_organisation_data)
         with open('output.json','w') as f:
             json.dump(existing_data, f, indent=4)
-
-if __name__ == "__main__":
-    from scrapy.crawler import CrawlerProcess
-    from scrapy.utils.project import get_project_settings
-
-    process = CrawlerProcess(get_project_settings())
-    process.crawl(DepartmentSpider) 
-    process.crawl(placementSpider)
-    process.crawl(AdmissionsSpider)
-    process.crawl(organisationSpider)
-    process.start()
