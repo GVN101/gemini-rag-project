@@ -12,13 +12,13 @@ def main():
     process = CrawlerProcess(get_project_settings())
     # process.crawl(principal_spider)
     # process.crawl(PTASpider)
-    process.crawl(NoticeSpider)
+    # process.crawl(NoticeSpider)
 
-    # process.crawl(DepartmentSpider) 
-    # process.crawl(placementSpider)
-    # process.crawl(AdmissionsSpider)
-    # process.crawl(organisationSpider)
-    # process.crawl(AECDepartmentSpider)
+    process.crawl(DepartmentSpider) 
+    process.crawl(placementSpider)
+    process.crawl(AdmissionsSpider)
+    process.crawl(organisationSpider)
+    process.crawl(AECDepartmentSpider)
     process.start()
 
 if __name__ == "__main__":

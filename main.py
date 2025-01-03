@@ -7,6 +7,13 @@ app = Flask(__name__)
 
 CORS(app)
 
+# List college JSON data paths 
+colleges = [
+    'college_json_data/cec.json', 
+    'college_json_data/aec.json', 
+    'college_json_data/mec.json',
+    ]
+
 @app.route("/get_data", methods=["POST"])
 def get_response():
     try:
@@ -15,6 +22,7 @@ def get_response():
         print(data) # for debugging purpose only
         
         user_question = data['question']
+        # college = data.get('college',None)  To get the college from the frontend 
         response = process_query(user_question)
         print(response)
         

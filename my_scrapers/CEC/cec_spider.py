@@ -44,11 +44,11 @@ class AdmissionsSpider(scrapy.Spider):
 
     def closed(self, response):
 
-        with open('output.json','r') as f:
+        with open('college_json_data/cec.json','r') as f:
             existing_data = json.load(f)
         existing_data.append(self.total_admission_data)
 
-        with open('output.json','w') as f:
+        with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data,f,indent=4)
         
 
@@ -134,10 +134,10 @@ class DepartmentSpider(scrapy.Spider):
 
     def closed(self, reason):
         # This method is called when the spider is closed
-        with open('output.json', 'r') as f:
+        with open('college_json_data/cec.json', 'r') as f:
             existing_data  = json.load(f)
             existing_data.append(self.total_department_data)
-        with open('output.json','w') as f:
+        with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)  # Write the collected data to a JSON file
 
 
@@ -165,10 +165,10 @@ class placementSpider(scrapy.Spider):
 
     def closed(self, reason):
         # This method is called when the spider is closed
-        with open('output.json', 'r') as f:
+        with open('college_json_data/cec.json', 'r') as f:
             existing_data  = json.load(f)
             existing_data.append(self.total_placement_data)
-        with open('output.json','w') as f:
+        with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)  # Write the collected data to a JSON file
 
 class organisationSpider(scrapy.Spider):
@@ -224,8 +224,8 @@ class organisationSpider(scrapy.Spider):
 
     def closed(self, reason):
         # This method is called when the spider is closed
-        with open('output.json', 'r') as f:
+        with open('college_json_data/cec.json', 'r') as f:
             existing_data  = json.load(f)
             existing_data.append(self.total_organisation_data)
-        with open('output.json','w') as f:
+        with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
