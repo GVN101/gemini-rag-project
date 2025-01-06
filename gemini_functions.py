@@ -1,7 +1,6 @@
 import os
 import json
 from typing import List, Dict, Any
-import streamlit as st
 import re
 from dotenv import load_dotenv
 import google.generativeai as genai
@@ -115,6 +114,7 @@ def process_query(user_question: str, json_path: str = "college_json_data/cec.js
         #         "status": "success",
         #         "context": "not found"
         #     }
+
         print("rag_output: ", rag_output)
         image_urls = re.findall(r'(https?://[^\s]+)', rag_output)
         return {

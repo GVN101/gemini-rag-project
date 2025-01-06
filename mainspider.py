@@ -15,26 +15,29 @@ def main():
 
     #COLLEGE OF ENGINEERING CHENGANNUR
     process = CrawlerProcess(get_project_settings())
-    process.crawl(principal_spider)
-    process.crawl(PTASpider)
-    process.crawl(NoticeSpider)
+    # process.crawl(principal_spider)
+    # process.crawl(PTASpider)
+    # process.crawl(NoticeSpider)
 
-    process.crawl(DepartmentSpider) 
-    process.crawl(placementSpider)
-    process.crawl(AdmissionsSpider)
-    process.crawl(organisationSpider)
-    process.crawl(AECDepartmentSpider)
+    # process.crawl(DepartmentSpider) 
+    # process.crawl(placementSpider)
+    # process.crawl(AdmissionsSpider)
+    # process.crawl(organisationSpider)
 
-    process.crawl(InternalQualityAssuranceSpider)
-    process.crawl(FacilitiesSpider)
-    process.crawl(CollegeInfoSpider)
-    process.crawl(CommitteeSpider)
-    process.crawl(BoardOfGovernorsSpider)
-    process.crawl(AntiRaggingSpider)
-    process.crawl(AnnounceSpider)
-    process.crawl(AICTEFeedbackSpider)
-    process.crawl(AdminStaffSpider)
-    process.crawl(AdmissionSpider)
+    # process.crawl(InternalQualityAssuranceSpider)
+    # process.crawl(FacilitiesSpider)
+    # process.crawl(CollegeInfoSpider)
+    # process.crawl(CommitteeSpider)
+    # process.crawl(BoardOfGovernorsSpider)
+    # process.crawl(AntiRaggingSpider)
+    # process.crawl(AnnounceSpider)
+    # process.crawl(AICTEFeedbackSpider)
+    # process.crawl(AdminStaffSpider)
+    # process.crawl(AdmissionSpider)
+
+    # COLLEGE OF ENGINEERING ADOOR
+    # process.crawl(AEC_DepartmentSpider)
+    process.crawl(AEC_AlumniSpider)
     process.start()
 
 if __name__ == "__main__":

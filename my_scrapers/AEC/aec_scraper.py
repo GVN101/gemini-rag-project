@@ -2,7 +2,7 @@
 import scrapy
 import json
 
-class AECDepartmentSpider(scrapy.Spider):
+class AEC_DepartmentSpider(scrapy.Spider):
     name = 'department'
     # allowed_domains = ['cea.ac.in']
     start_urls = ['https://cea.ac.in/']
@@ -32,6 +32,10 @@ class AECDepartmentSpider(scrapy.Spider):
         about_content = response.css('div.elementor-container.elementor-column-gap-default p::text, div.elementor-container.elementor-column-gap-default p span::text').get()
         department_data[department_title]["About the department"] = about_content
         self.total_department_data.append(department_data)
+
+        # hod_data = response.css('div.elementor-element.elementor-element-58814aec.elementor-widget__width-inherit.elementor-widget.elementor-widget-text-editor div.elementor-widget-container p strong').getall()
+        # department_data["Data about the head of Department (HOD)"] = hod_data
+        # hod data retrieval not working
     
     def closed(self,response):
         with open('college_json_data/aec.json', 'r') as f:
@@ -39,5 +43,16 @@ class AECDepartmentSpider(scrapy.Spider):
             data.append({"About the Department of Adoor Engineering College":self.total_department_data})
         with open('college_json_data/aec.json','w') as f:
             json.dump(data,f,indent=4)
+
+class AEC_AlumniSpider(scrapy.Spider):
+    name = 'department'
+    # allowed_domains = ['cea.ac.in']
+    start_urls = ['https://cea.ac.in/alumni/']
+
+    total_alumni_data = []
+
+    def parse(self, response):
+        alumni_data = response.css('td.ninja_column_0::text').getall()
+        print(alumni_data)
 
         
