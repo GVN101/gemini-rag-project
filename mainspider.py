@@ -11,6 +11,9 @@ from my_scrapers.AEC.aec_scraper import *
 # MODEL ENGINEERING COLLEGE
 from my_scrapers.MEC.mec_scraper import *
 
+# COLLEGE OF ENGINERRING KARUNGAPPALLY
+from my_scrapers.CEK.cek_scraper import *
+
 def main():
 
     #COLLEGE OF ENGINEERING CHENGANNUR
@@ -37,7 +40,10 @@ def main():
 
     # COLLEGE OF ENGINEERING ADOOR
     # process.crawl(AEC_DepartmentSpider)
-    process.crawl(AEC_AlumniSpider)
+    # process.crawl(AEC_AlumniSpider)
+
+    # COLLEGE OF ENGINEERING KARUNAGAPPALLY
+    process.crawl(CEK_principal)
     process.start()
 
 if __name__ == "__main__":
