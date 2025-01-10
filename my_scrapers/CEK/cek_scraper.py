@@ -1,10 +1,5 @@
-#menu-item-3305
 import scrapy
 import json
-
-def clear_file():
-    with open('college_json_data/cek.json','w') as f:
-        f.write('[]')
 
 class CEK_principal(scrapy.Spider):
     name = 'principal'
@@ -32,16 +27,6 @@ class CEK_principal(scrapy.Spider):
             data.append(self.total_principal_data)
         with open('college_json_data/cek.json', 'w') as f:
             json.dump(data,f,indent=4)
-
-class CEK_board_members(scrapy.Spider):
-    name = 'board_members'
-    start_urls = ['']
-
-    total_board_members_data = {}
-
-    def parse(self, response):
-        member_data = response.css('div.elementor-shortcode ')
-        print(member_data)
 
 class CEK_management(scrapy.Spider):
     name = 'board_members'
@@ -107,7 +92,8 @@ class CEK_overview(scrapy.Spider):
     def parse(self, response):
         data = {}
         overview_data = response.css('div.sec-title div.desc p::text, div.sec-title div::text').getall()
-        print(overview_data)
+        for i in overview_data:
+            i.replace('\r\n','')
         data["Overview of the college (CEK)"] = overview_data[1] + ' ' + overview_data[2]
         data["Vision of CEK"] = overview_data[3]
         data["Mission"] = overview_data[4]
@@ -116,7 +102,7 @@ class CEK_overview(scrapy.Spider):
             "Btech": [overview_data[5], overview_data[6], overview_data[7], overview_data[8]],
             "Mtech": overview_data[10]
         }
-        data["Memorandum of Understanding"] = overview_data[11]
+        data["Memorandum of Understanding"] = overview_data[11].replace('\r','')
         data["Student Professional Bodies"] = overview_data[12]
         data["Data about College Library"] = overview_data[13]
         data["Training and Placement Cell of CEK"] = overview_data[14]
@@ -134,3 +120,89 @@ class CEK_overview(scrapy.Spider):
             data.append(self.total_overview_data)
         with open('college_json_data/cek.json', 'w') as f:
             json.dump(data,f,indent=4)
+
+class CEK_infrastructure(scrapy.Spider):
+    name = 'infrastructure'
+    start_urls = ['https://www.ceknpy.ac.in/infrastructure']
+
+    total_infrastructure_data = {}
+
+    def parse(self, response):
+        data = {}
+        infra_data = response.css('div.sec-title div.desc p::text').getall()
+        for i in infra_data:
+            i.replace('\r\n','')
+
+        data["Data about building and Labs"] = infra_data[0]
+        data["Information about the roads to the college (CEK)"] = infra_data[1]
+        data["About the placement activities"] = infra_data[2]
+        data["PTA (parent teacher association) at CEK"] = infra_data[3]
+        data["Transportation details at CEK"] = infra_data[4]
+        data["Water supply at CEK"] = infra_data[5]
+        self.total_infrastructure_data["About the Infrastructure at CEK"] = data
+
+    def closed(self, response):
+        with open('college_json_data/cek.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_infrastructure_data)
+        with open('college_json_data/cek.json', 'w') as f:
+            json.dump(data,f,indent=4)
+        
+class CEK_anti_ragging_squad(scrapy.Spider):
+    name = 'Anti_Ragging_squad'
+    # allowed_domains = ['cea.ac.in']
+    start_urls = ['https://www.ceknpy.ac.in/antiragging']
+
+    total_Anti_Ragging_Squad = {}
+
+    def parse(self, response):
+        data = []
+        ars_data = response.css('table tr td p span::text').getall()
+        print(ars_data[13:])
+        squad_list = ars_data[13:]
+        print(squad_list)
+        i = 0
+        while i<len(squad_list):
+            print(ars_data[i])
+            data.append(
+                {
+                    "Name": squad_list[i],
+                    "Phone Number": squad_list[i+1]
+                }
+            )
+            i+=2
+        self.total_Anti_Ragging_Squad["Data about the Anti Ragging Squad"] = data
+    
+    def closed(self, response):
+        with open('college_json_data/cek.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_Anti_Ragging_Squad)
+        with open('college_json_data/cek.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
+class CEK_Departmentdata(scrapy.Spider):
+    name = 'department'
+    start_urls = ['https://www.ceknpy.ac.in/departments/'] 
+
+    total_department_data = {"about_departments": []}  # Change to a list to hold multiple department data
+
+    def parse(self, response):
+        department_links = response.css('div.content-part span a::attr(href)').getall()
+        print(department_links)
+        for department_link in department_links:
+            yield response.follow(department_link, self.parse_department)  
+
+    def parse_department(self, response):
+        hod_data = {}
+        hod_data["Name"] = response.css("div.names::text").get()
+        if not hod_data["Name"]:
+            hod_data["Name"] = "None specified"
+        hod_other_data = response.css('div.box div.left_con::text,div.box div.right_con::text').getall()
+        # print(hod_data)
+        print(hod_other_data)
+
+
+
+
+
+# 

@@ -6,9 +6,13 @@ import scrapy.spiderloader
 def clear_file():
     with open('college_json_data/cec.json','w') as f:
         f.write('[]')
+    with open('college_json_data/cek.json','w') as f:
+        f.write('[]')
+    with open('college_json_data/aec.json','w') as f:
+        f.write('[]')
 
 # spider to get the details from the admission section
-class AdmissionsSpider(scrapy.Spider):
+class CEC_AdmissionsSpider(scrapy.Spider):
     name = 'admissions'
     allowed_domains = ['ceconline.edu']
     start_urls = ['https://ceconline.edu/admission/btech_admissions/']
@@ -50,10 +54,9 @@ class AdmissionsSpider(scrapy.Spider):
         existing_data.append(self.total_admission_data)
 
         with open('college_json_data/cec.json','w') as f:
-            json.dump(existing_data,f,indent=4)
-        
+            json.dump(existing_data,f,indent=4)     
 
-class DepartmentSpider(scrapy.Spider):
+class CEC_DepartmentSpider(scrapy.Spider):
     name = 'admissions'
     allowed_domains = ['ceconline.edu']
     start_urls = ['https://ceconline.edu/departments'] 
@@ -89,7 +92,6 @@ class DepartmentSpider(scrapy.Spider):
 
         if faculty_list:
             i = 2
-            print(faculty_list[i])
             while(int(faculty_list[i])<30):
                 faculty_individual_data = {}
                 faculty_individual_data[faculty_list[i]] = {"faculty Name":faculty_list[i+1].replace('\u00a0',''), "faculty Designation": faculty_list[i+2]}
@@ -118,7 +120,6 @@ class DepartmentSpider(scrapy.Spider):
         faculty_list = response.css('table.alt td a::text, table.alt td::text').getall()
         # print(faculty_list)
         faculty_list = faculty_list[1:40]
-        print(faculty_list)
 
         if faculty_list and faculty_list[0][0] not in "4D":
             i=0
@@ -141,8 +142,7 @@ class DepartmentSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)  # Write the collected data to a JSON file
 
-
-class placementSpider(scrapy.Spider):
+class CEC_placementSpider(scrapy.Spider):
     name= "placementSpider"
     allowed_domains = ['ceconline.edu']
     start_urls = ['https://ceconline.edu/placement']
@@ -172,7 +172,7 @@ class placementSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)  # Write the collected data to a JSON file
 
-class organisationSpider(scrapy.Spider):
+class CEC_organisationSpider(scrapy.Spider):
     name= "organisationSpider"
     allowed_domains = ['ceconline.edu']
     start_urls = ['https://ceconline.edu/organizations']
@@ -231,7 +231,7 @@ class organisationSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class principal_spider(scrapy.Spider):
+class CEC_principal_spider(scrapy.Spider):
     name = 'principal_spider'
     allowed_domains = ['ceconline.edu']
     start_urls = ['https://ceconline.edu/administrators/hari/']
@@ -277,7 +277,7 @@ class principal_spider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class PTASpider(scrapy.Spider):
+class CEC_PTASpider(scrapy.Spider):
     name = "pta_spider"
     start_urls = ["https://ceconline.edu/about/committees/pta/"]
 
@@ -332,7 +332,7 @@ class PTASpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class NoticeSpider(scrapy.Spider):
+class CEC_NoticeSpider(scrapy.Spider):
     name = 'notice_spider'
     start_urls = ['https://ceconline.edu/notifications-2/']
 
@@ -405,7 +405,7 @@ class NoticeSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class InternalQualityAssuranceSpider(scrapy.Spider):
+class CEC_InternalQualityAssuranceSpider(scrapy.Spider):
     name = "iqac_spider"
     start_urls = ["https://ceconline.edu/about/committees/internal-quality-assurance-cell-or-internal-audit-cell-iqac-iac/#1608789190414-66d69914-5d08"]
 
@@ -436,7 +436,7 @@ class InternalQualityAssuranceSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class FacilitiesSpider(scrapy.Spider):
+class CEC_FacilitiesSpider(scrapy.Spider):
     name = "facilities_spider"
     start_urls = ["https://ceconline.edu/about/facilities/"]
 
@@ -458,7 +458,7 @@ class FacilitiesSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class CollegeInfoSpider(scrapy.Spider):
+class CEC_CollegeInfoSpider(scrapy.Spider):
     name = "college_info_spider"
     start_urls = ["https://ceconline.edu/contact-us/"]
 
@@ -517,7 +517,7 @@ class CollegeInfoSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class CommitteeSpider(scrapy.Spider):
+class CEC_CommitteeSpider(scrapy.Spider):
     name = "committee_spider"
     start_urls = ["https://ceconline.edu/about/committees/rti/"]
 
@@ -565,7 +565,7 @@ class CommitteeSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
         
-class BoardOfGovernorsSpider(scrapy.Spider):
+class CEC_BoardOfGovernorsSpider(scrapy.Spider):
     name = "bog"
     start_urls = ['https://ceconline.edu/board-of-governors/']
 
@@ -596,7 +596,7 @@ class BoardOfGovernorsSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class AntiRaggingSpider(scrapy.Spider):
+class CEC_AntiRaggingSpider(scrapy.Spider):
     name = "antiragging_spider"
     start_urls = ["https://ceconline.edu/about/committees/anti_ragging/"]
 
@@ -631,7 +631,7 @@ class AntiRaggingSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
     
-class AnnounceSpider(scrapy.Spider):
+class CEC_AnnounceSpider(scrapy.Spider):
     name = 'announce_spider'
     start_urls = ['https://ceconline.edu/announcements/']
 
@@ -722,7 +722,7 @@ class AnnounceSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class AICTEFeedbackSpider(scrapy.Spider):
+class CEC_AICTEFeedbackSpider(scrapy.Spider):
     name = "aicte_feedback_spider"
     start_urls = ["https://ceconline.edu/aicte-feedback/"]
 
@@ -760,7 +760,7 @@ class AICTEFeedbackSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
     
-class AdminStaffSpider(scrapy.Spider):
+class CEC_AdminStaffSpider(scrapy.Spider):
     name = "admin_staff"
     start_urls = ["https://ceconline.edu/about/administration/administrative-staff/"]
 
@@ -797,7 +797,7 @@ class AdminStaffSpider(scrapy.Spider):
         with open('college_json_data/cec.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class AdmissionSpider(scrapy.Spider):
+class CEC_nri_AdmissionSpider(scrapy.Spider):
     name = 'nri_admission_spider'
     start_urls = [
         'https://ceconline.edu/b-tech-nri-admission-2024-25/'  # Replace with the actual URL

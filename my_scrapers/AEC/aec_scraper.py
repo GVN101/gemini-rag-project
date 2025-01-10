@@ -2,10 +2,6 @@
 import scrapy
 import json
 
-def clear_file():
-    with open('college_json_data/aec.json','w') as f:
-        f.write('[]')
-
 class AEC_DepartmentSpider(scrapy.Spider):
     name = 'department'
     # allowed_domains = ['cea.ac.in']
