@@ -17,7 +17,8 @@ from my_scrapers.CEK.cek_scraper import *
 def main():
 
     #COLLEGE OF ENGINEERING CHENGANNUR
-    process = CrawlerProcess(get_project_settings())
+    process = CrawlerProcess(get_project_settings()) 
+    clear_file()
     # process.crawl(principal_spider)
     # process.crawl(PTASpider)
     # process.crawl(NoticeSpider)
@@ -43,7 +44,11 @@ def main():
     # process.crawl(AEC_AlumniSpider)
 
     # COLLEGE OF ENGINEERING KARUNAGAPPALLY
-    process.crawl(CEK_principal)
+    # process.crawl(CEK_principal)
+    # process.crawl(CEK_board_members)
+    # process.crawl(CEK_management)
+    # process.crawl(CEK_admin_staff)
+    process.crawl(CEK_overview)
     process.start()
 
 if __name__ == "__main__":

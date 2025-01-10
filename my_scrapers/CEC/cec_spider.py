@@ -3,6 +3,9 @@ import json
 from urllib.parse import urljoin
 import scrapy.spiderloader
 
+def clear_file():
+    with open('college_json_data/cec.json','w') as f:
+        f.write('[]')
 
 # spider to get the details from the admission section
 class AdmissionsSpider(scrapy.Spider):
@@ -42,7 +45,6 @@ class AdmissionsSpider(scrapy.Spider):
         self.total_admission_data["All about admission data"] = admission_data
 
     def closed(self, response):
-
         with open('college_json_data/cec.json','r') as f:
             existing_data = json.load(f)
         existing_data.append(self.total_admission_data)
