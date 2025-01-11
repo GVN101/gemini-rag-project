@@ -1,5 +1,13 @@
 import scrapy
 import json
+import re
+
+def clean_text(item):
+    item = re.sub(r'\\u[0-9a-fA-F]{4}', '', item)
+    item = re.sub(r'[\u2013\u2019\u2022\u201a\u201c\u201d\u00b1\xa0]', '-', item)
+    item = re.sub(r'\s+', ' ', item).strip()
+    item = re.sub(r'<br>','',item)
+    return item
 
 class CEK_principal(scrapy.Spider):
     name = 'principal'
@@ -184,7 +192,7 @@ class CEK_Departmentdata(scrapy.Spider):
     name = 'department'
     start_urls = ['https://www.ceknpy.ac.in/departments/'] 
 
-    total_department_data = {"about_departments": []}  # Change to a list to hold multiple department data
+    total_department_data = []  # Change to a list to hold multiple department data
 
     def parse(self, response):
         department_links = response.css('div.content-part span a::attr(href)').getall()
@@ -193,16 +201,79 @@ class CEK_Departmentdata(scrapy.Spider):
             yield response.follow(department_link, self.parse_department)  
 
     def parse_department(self, response):
-        hod_data = {}
-        hod_data["Name"] = response.css("div.names::text").get()
-        if not hod_data["Name"]:
-            hod_data["Name"] = "None specified"
-        hod_other_data = response.css('div.box div.left_con::text,div.box div.right_con::text').getall()
-        # print(hod_data)
-        print(hod_other_data)
+        data = {}
+        course_overview_data = response.css('div.course-overview div p::text').getall()
+        department_title = response.css('div.breadcrumbs-text ul li::text').getall()
+        department_title = department_title[-1]
+        
+        course_overview_data_cleaned = [clean_text(i) for i in course_overview_data if clean_text(i)]
 
+        # for CS department 
+        if(department_title == 'Department of Computer Science and Engineering'):
+            cs_dep_data = {}
+            temp = [course_overview_data_cleaned[i] for i in range(5)]
+            cs_dep_data["About the Computer Science Department"] = ' '.join(temp)
 
+            seat_table_data = {
+                "BTech Computer Science": "120 Seats",
+                "BTech Artificial Intelligence and Data Science": "60 Seats"
+            }
+            cs_dep_data["Information about the seats in CS departments"] = seat_table_data
 
+            programme_outcomes = [course_overview_data_cleaned[i] for i in range(5,35)]
+            cs_dep_data["Programme Outcome information of CS department"] = programme_outcomes
+            hod_data = {}
+            hod_data["Name"] = response.css("div.names::text").get()
 
+            # Getting the data of CS HOD
+            hod_qualifications = response.css('div#prod-curriculum div.right_con::text').getall()
+            hod_qualifications = [clean_text(i) for i in hod_qualifications]
+            hod_data["Qualifications of HOD"] = {
+                "Qualificaion": hod_qualifications[0],
+                "Department": hod_qualifications[1],
+                "Years of Experience": hod_qualifications[2]
+            }
+            hod_data["Contact Information of HOD"] = {
+                "Phone Number": hod_qualifications[3],
+                "Email": hod_qualifications[4]
+            }
+            hod_publications = response.css('div#prod-curriculum div.inner-box div.box p::text').getall()
+            hod_publications = [clean_text(i) for i in hod_publications[13:]]
+            hod_data["Publications of HOD"] = hod_publications
+            cs_dep_data["Information on Head of Department of Computer Science"] = hod_data
 
-# 
+            # Getting the faculty list of CEK Computer Science
+            faculty_cards = response.css('div.card.accordion.block')
+            faculty_info = []
+            for card in faculty_cards:
+                name = card.css("div.names::text").get()
+                phone_number = card.css("div.right_con::text").re_first(r"\d{10}")
+                email = card.css("div.right_con::text").re_first(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}")
+                designation = card.css("div.col-lg-8 div.designation::text").get()
+                if name:
+                    faculty_info.append(
+                        {
+                            "Name": name,
+                            "Designation": clean_text(designation),
+                            "Phone Number": phone_number,
+                            "Email": email
+                        }
+                    )
+            cs_dep_data["Computer Science Faculty Information"] = faculty_info
+            course_overview_data_cleaned = cs_dep_data
+            ...
+        # print(course_overview_data)
+        data[department_title] = {
+            "Department Overview Description": course_overview_data_cleaned
+        }
+
+        self.total_department_data.append(data)
+        
+    
+    def closed(self, response):
+        with open('college_json_data/cek.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_department_data)
+        with open('college_json_data/cek.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
