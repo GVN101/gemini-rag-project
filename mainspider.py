@@ -48,7 +48,10 @@ def main():
     # process.crawl(CEK_overview)
     # process.crawl(CEK_infrastructure)
     # process.crawl(CEK_anti_ragging_squad)
-    process.crawl(CEK_Departmentdata)
+    # process.crawl(CEK_Departmentdata)
+    # process.crawl(CEK_contact)
+    # process.crawl(CEK_placement)
+    process.crawl(CEK_library)
     process.start()
 
 if __name__ == "__main__":

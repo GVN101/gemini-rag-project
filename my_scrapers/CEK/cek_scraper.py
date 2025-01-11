@@ -2,11 +2,14 @@ import scrapy
 import json
 import re
 
+import scrapy.crawler
+
 def clean_text(item):
     item = re.sub(r'\\u[0-9a-fA-F]{4}', '', item)
     item = re.sub(r'[\u2013\u2019\u2022\u201a\u201c\u201d\u00b1\xa0]', '-', item)
     item = re.sub(r'\s+', ' ', item).strip()
     item = re.sub(r'<br>','',item)
+    item = re.sub(r'-','',item).strip()
     return item
 
 class CEK_principal(scrapy.Spider):
@@ -202,7 +205,7 @@ class CEK_Departmentdata(scrapy.Spider):
 
     def parse_department(self, response):
         data = {}
-        course_overview_data = response.css('div.course-overview div p::text').getall()
+        course_overview_data = response.css('div.course-overview div p::text, div.course-overview div h3::text').getall()
         department_title = response.css('div.breadcrumbs-text ul li::text').getall()
         department_title = department_title[-1]
         
@@ -261,7 +264,194 @@ class CEK_Departmentdata(scrapy.Spider):
                     )
             cs_dep_data["Computer Science Faculty Information"] = faculty_info
             course_overview_data_cleaned = cs_dep_data
-            ...
+        
+        # Getting the data of Electronice Department 
+        if(department_title == "Department of Electronics and Communication"):
+            ec_dep_data = {}
+            ec_dep_data["About the Electronics Department of CEK"] = ''.join([course_overview_data_cleaned[i] for i in range(5)])
+
+            hod_data = {}
+            hod_qualifications = response.css('div#prod-curriculum div.right_con::text').getall()
+            hod_qualifications = [clean_text(i) for i in hod_qualifications]
+            print(hod_qualifications)
+            if hod_qualifications[0]:
+                hod_data["Qualifications of HOD"] = {
+                    "Qualificaion": hod_qualifications[0],
+                    "Department": hod_qualifications[1],
+                    "Years of Experience": hod_qualifications[2]
+                }
+                hod_data["Contact Information of HOD"] = {
+                    "Phone Number": hod_qualifications[3],
+                    "Email": hod_qualifications[4]
+                }
+                hod_publications = response.css('div#prod-curriculum div.inner-box div.box p::text').getall()
+                hod_publications = [clean_text(i) for i in hod_publications[13:]]
+                hod_data["Publications of HOD"] = hod_publications
+                ec_dep_data["Information on Head of Department of Electronics Department"] = hod_data
+            else:
+                hod_data = "None Specified"
+                ec_dep_data["Information on Head of Department of Electronics Department"] = hod_data
+
+            # Getting the faculty information of Electronics department of CEK
+            faculty_cards = response.css('div.card.accordion.block')
+            faculty_info = []
+            for card in faculty_cards:
+                name = card.css("div.names::text").get()
+                phone_number = card.css("div.right_con::text").re_first(r"\d{10}")
+                email = card.css("div.right_con::text").re_first(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}")
+                designation = card.css("div.col-lg-8 div.designation::text").get()
+                if name:
+                    faculty_info.append(
+                        {
+                            "Name": name,
+                            "Designation": clean_text(designation),
+                            "Phone Number": phone_number,
+                            "Email": email
+                        }
+                    )
+            ec_dep_data["Electronics Faculty Information"] = faculty_info
+            course_overview_data_cleaned = ec_dep_data
+
+        if(department_title == "Department of Mechanical Engineering"):
+            mech_dep_data = {}
+            mech_dep_data["About the Mechanical Engineering Department of CEK"] = ''.join([course_overview_data_cleaned[i] for i in range(4)])
+
+            # Getting the information of HOD of mechanical Engineering
+            hod_data = {}
+            hod_qualifications = response.css('div#prod-curriculum div.right_con::text').getall()
+            hod_qualifications = [clean_text(i) for i in hod_qualifications]
+            print(hod_qualifications)
+            if hod_qualifications[0]:
+                hod_data["Qualifications of HOD"] = {
+                    "Qualificaion": hod_qualifications[0],
+                    "Department": hod_qualifications[1],
+                    "Years of Experience": hod_qualifications[2]
+                }
+                hod_data["Contact Information of HOD"] = {
+                    "Phone Number": hod_qualifications[3],
+                    "Email": hod_qualifications[4]
+                }
+                hod_publications = response.css('div#prod-curriculum div.inner-box div.box p::text').getall()
+                hod_publications = [clean_text(i) for i in hod_publications[13:]]
+                hod_data["Publications of HOD"] = hod_publications
+                mech_dep_data["Information on Head of Department of Mechanical Engineering Department"] = hod_data
+            else:
+                hod_data = "None Specified"
+                mech_dep_data["Information on Head of Department of Mechanical Engineering Department"] = hod_data
+
+            # Getting the faculty information of Mechanical department of CEK
+            faculty_cards = response.css('div.card.accordion.block')
+            faculty_info = []
+            for card in faculty_cards:
+                name = card.css("div.names::text").get()
+                phone_number = card.css("div.right_con::text").re_first(r"\d{10}")
+                email = card.css("div.right_con::text").re_first(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}")
+                designation = card.css("div.col-lg-8 div.designation::text").get()
+                if name:
+                    faculty_info.append(
+                        {
+                            "Name": name,
+                            "Designation": clean_text(designation),
+                            "Phone Number": phone_number,
+                            "Email": email
+                        }
+                    )
+            mech_dep_data["Mechanical Department Faculty Information"] = faculty_info
+            course_overview_data_cleaned = mech_dep_data
+        
+        # Getting the information of Electrical Department of CEK
+        if(department_title == "Department of Electrical Engineering"):
+            eee_dep_data = {}
+            eee_dep_data["About the Electrical Engineering Department of CEK"] = ''.join([course_overview_data_cleaned[i] for i in range(4)])
+
+            # Getting the information on HOD of Electrical Engineering Department
+            hod_data = {}
+            hod_qualifications = response.css('div#prod-curriculum div.right_con::text').getall()
+            hod_qualifications = [clean_text(i) for i in hod_qualifications]
+            if hod_qualifications[0]:
+                hod_data["Qualifications of HOD"] = {
+                    "Qualificaion": hod_qualifications[0],
+                    "Department": hod_qualifications[1],
+                    "Years of Experience": hod_qualifications[2]
+                }
+                hod_data["Contact Information of HOD"] = {
+                    "Phone Number": hod_qualifications[3],
+                    "Email": hod_qualifications[4]
+                }
+                hod_publications = response.css('div#prod-curriculum div.inner-box div.box p::text').getall()
+                hod_publications = [clean_text(i) for i in hod_publications[13:]]
+                hod_data["Publications of HOD"] = hod_publications
+                eee_dep_data["Information on Head of Department of Electrical Engineering Department"] = hod_data
+            else:
+                hod_data = "None Specified"
+                eee_dep_data["Information on Head of Department of Electrical Engineering Department"] = hod_data
+
+            # Getting the faculty information of Mechanical department of CEK
+            faculty_cards = response.css('div.card.accordion.block')
+            faculty_info = []
+            for card in faculty_cards:
+                name = card.css("div.names::text").get()
+                phone_number = card.css("div.right_con::text").re_first(r"\d{10}")
+                email = card.css("div.right_con::text").re_first(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}")
+                designation = card.css("div.col-lg-8 div.designation::text").get()
+                if name:
+                    faculty_info.append(
+                        {
+                            "Name": name,
+                            "Designation": clean_text(designation),
+                            "Phone Number": phone_number,
+                            "Email": email
+                        }
+                    )
+            eee_dep_data["ELectrical Department Faculty Information"] = faculty_info
+            course_overview_data_cleaned = eee_dep_data
+
+        if(department_title == "Department of Applied Sciences"):
+            as_dep_data = {}
+            as_dep_data["About the Applied Science Department of CEK"] = course_overview_data_cleaned[0]
+
+            # Getting the information on HOD of Applied Science Department
+            hod_data = {}
+            hod_qualifications = response.css('div#prod-curriculum div.right_con::text').getall()
+            hod_qualifications = [clean_text(i) for i in hod_qualifications]
+            if hod_qualifications[0]:
+                hod_data["Qualifications of HOD"] = {
+                    "Qualificaion": hod_qualifications[0],
+                    "Department": hod_qualifications[1],
+                    "Years of Experience": hod_qualifications[2]
+                }
+                hod_data["Contact Information of HOD"] = {
+                    "Phone Number": hod_qualifications[3],
+                    "Email": hod_qualifications[4]
+                }
+                hod_publications = response.css('div#prod-curriculum div.inner-box div.box p::text').getall()
+                hod_publications = [clean_text(i) for i in hod_publications[13:]]
+                hod_data["Publications of HOD"] = hod_publications
+                as_dep_data["Information on Head of Department of Applied Science Department"] = hod_data
+            else:
+                hod_data = "None Specified"
+                as_dep_data["Information on Head of Department of Applied Science Department"] = hod_data
+
+            # Getting the faculty information of Applied Science department of CEK
+            faculty_cards = response.css('div.card.accordion.block')
+            faculty_info = []
+            for card in faculty_cards:
+                name = card.css("div.names::text").get()
+                phone_number = card.css("div.right_con::text").re_first(r"\d{10}")
+                email = card.css("div.right_con::text").re_first(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}")
+                designation = card.css("div.col-lg-8 div.designation::text").get()
+                if name:
+                    faculty_info.append(
+                        {
+                            "Name": name,
+                            "Designation": clean_text(designation),
+                            "Phone Number": phone_number,
+                            "Email": email
+                        }
+                    )
+            as_dep_data["Applied Science Faculty Information"] = faculty_info
+            course_overview_data_cleaned = as_dep_data
+
         # print(course_overview_data)
         data[department_title] = {
             "Department Overview Description": course_overview_data_cleaned
@@ -276,4 +466,106 @@ class CEK_Departmentdata(scrapy.Spider):
             data.append(self.total_department_data)
         with open('college_json_data/cek.json', 'w') as f:
             json.dump(data,f,indent=4)
+
+
+
+class CEK_contact(scrapy.Spider):
+    name = 'contact'
+    # allowed_domains = ['cea.ac.in']
+    start_urls = ['https://www.ceknpy.ac.in/contact-us']
+
+    total_contact_data = {}
+
+    def parse(self, response):
+        data = []
+        contact_ = response.css('div.img-part.js-tilt p::text').getall()
+        # print(contact_)
+        transportation = {
+            "Way to reach College of Engineering Karungappally":{
+                contact_[0]:contact_[1],
+                contact_[2]:contact_[3],
+                contact_[4]:contact_[5]
+            }
+        }
+        data.append(transportation)
+        phone_number = response.css('div.address-text span.des a::text').getall()
+        print(phone_number)
+        data.append({
+            "Contact number of CEK":phone_number
+        })
+        self.total_contact_data["Contact information of CEK"] = data
+    
+    def closed(self, response):
+        with open('college_json_data/cek.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_contact_data)
+        with open('college_json_data/cek.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
+class CEK_placement(scrapy.Spider):
+    name = 'placement_cell'
+    start_urls = ['https://www.ceknpy.ac.in/campus']
+
+    total_placement_data = {}
+
+    def parse(self,response):
+        data = []
+        desc = response.css('div.sec-title div.desc p::text').get()
+        data.append({
+            "About the Training and Placement Cell of CEK": desc
+        })
+        placement_result = response.css("table tbody tr td::text").getall()
+
+        for i in placement_result:
+            print(i)
+        count = 0
+        i = 3
+        placement_ls = []
+        while count < 60:
+            placement_ls.append({
+                "SI":placement_result[i],
+                "Name": placement_result[i+1],
+                "Company Placed": placement_result[i+2]
+            })
+            count += 1
+            i+=3
+        data.append({
+            "List of Student who got placed":placement_ls
+        })
+        self.total_placement_data = data
+    
+    def closed(self, response):
+        with open('college_json_data/cek.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_placement_data)
+        with open('college_json_data/cek.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
+
+class CEK_library(scrapy.Spider):
+    name = 'Library'
+    start_urls = ['https://www.ceknpy.ac.in/library']
+
+    total_library_data = {}
+
+    def parse(self,response):
+        data = []
+        desc = response.css('div.sec-title div.desc h5::text').getall()
+
+        data.append({
+            "About the Library": desc[0],
+            "Library Timing": desc[2],
+            "Library Collection": desc[4],
+            "Journals and Magazines at the Library": desc[6],
+            "Membership of Library": desc[10]
+        })
+        self.total_library_data = data
+
+    def closed(self, response):
+        with open('college_json_data/cek.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_library_data)
+        with open('college_json_data/cek.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
 
