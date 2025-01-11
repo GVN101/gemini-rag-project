@@ -146,7 +146,7 @@ class CEK_infrastructure(scrapy.Spider):
         for i in infra_data:
             i.replace('\r\n','')
 
-        data["Data about building and Labs"] = infra_data[0]
+        data["Data about building and Labs"] = clean_text(infra_data[0])
         data["Information about the roads to the college (CEK)"] = infra_data[1]
         data["About the placement activities"] = infra_data[2]
         data["PTA (parent teacher association) at CEK"] = infra_data[3]
