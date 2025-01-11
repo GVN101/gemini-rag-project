@@ -78,10 +78,10 @@ class CEK_admin_staff(scrapy.Spider):
         i = 0
         while(i<len(cleaned_admin_staff_data)):
             data = {}
-            data["Name"] = cleaned_admin_staff_data[i]
-            data["Designation"] = cleaned_admin_staff_data[i+1]
-            data["E-mail"] = cleaned_admin_staff_data[i+2]
-            data["Phone Number"] = cleaned_admin_staff_data[i+3]
+            data["Name"] = clean_text(cleaned_admin_staff_data[i])
+            data["Designation"] = clean_text(cleaned_admin_staff_data[i+1])
+            data["E-mail"] = clean_text(cleaned_admin_staff_data[i+2])
+            data["Phone Number"] = clean_text(cleaned_admin_staff_data[i+3])
             i+=4
             final_admin_staff_data.append(data)
         self.total_admin_staff["Admnistration staff Data"] = final_admin_staff_data
@@ -105,24 +105,24 @@ class CEK_overview(scrapy.Spider):
         overview_data = response.css('div.sec-title div.desc p::text, div.sec-title div::text').getall()
         for i in overview_data:
             i.replace('\r\n','')
-        data["Overview of the college (CEK)"] = overview_data[1] + ' ' + overview_data[2]
-        data["Vision of CEK"] = overview_data[3]
-        data["Mission"] = overview_data[4]
+        data["Overview of the college (CEK)"] = clean_text(overview_data[1] + ' ' + overview_data[2])
+        data["Vision of CEK"] = clean_text(overview_data[3])
+        data["Mission"] = clean_text(overview_data[4])
 
         data["Programmes Offered"] = {
-            "Btech": [overview_data[5], overview_data[6], overview_data[7], overview_data[8]],
-            "Mtech": overview_data[10]
+            "Btech": [clean_text(overview_data[5]), clean_text(overview_data[6]), clean_text(overview_data[7]), clean_text(overview_data[8])],
+            "Mtech": clean_text(overview_data[10])
         }
-        data["Memorandum of Understanding"] = overview_data[11].replace('\r','')
-        data["Student Professional Bodies"] = overview_data[12]
-        data["Data about College Library"] = overview_data[13]
-        data["Training and Placement Cell of CEK"] = overview_data[14]
-        data["Alumni details about CEK"] = overview_data[15]
-        data["Parent-Teacher Association (PTA) of CEK"] = overview_data[16]
-        data["College Hostel"] = overview_data[17]
-        data["Canteen"] = overview_data[18]
-        data["ATM Counter"] =  overview_data[19]
-        data["Sports and Cultural Festivals"] = overview_data[20]
+        data["Memorandum of Understanding"] = clean_text(overview_data[11].replace('\r',''))
+        data["Student Professional Bodies"] = clean_text(overview_data[12])
+        data["Data about College Library"] = clean_text(overview_data[13])
+        data["Training and Placement Cell of CEK"] = clean_text(overview_data[14])
+        data["Alumni details about CEK"] = clean_text(overview_data[15])
+        data["Parent-Teacher Association (PTA) of CEK"] = clean_text(overview_data[16])
+        data["College Hostel"] = clean_text(overview_data[17])
+        data["Canteen"] = clean_text(overview_data[18])
+        data["ATM Counter"] =  clean_text(overview_data[19])
+        data["Sports and Cultural Festivals"] = clean_text(overview_data[20])
         self.total_overview_data = data
 
     def closed(self, response):
