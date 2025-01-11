@@ -123,7 +123,9 @@ class CEK_overview(scrapy.Spider):
         data["Canteen"] = clean_text(overview_data[18])
         data["ATM Counter"] =  clean_text(overview_data[19])
         data["Sports and Cultural Festivals"] = clean_text(overview_data[20])
-        self.total_overview_data = data
+        self.total_overview_data = {
+            "About the Overview of the college":data
+        }
 
     def closed(self, response):
         with open('college_json_data/cek.json', 'r') as f:
@@ -182,7 +184,9 @@ class CEK_anti_ragging_squad(scrapy.Spider):
                 }
             )
             i+=2
-        self.total_Anti_Ragging_Squad["Data about the Anti Ragging Squad"] = data
+        self.total_Anti_Ragging_Squad["Data about the Anti Ragging Squad"] ={
+            "List of Executive Commitee Members in Anti Ragging Squad": data
+        } 
     
     def closed(self, response):
         with open('college_json_data/cek.json', 'r') as f:
@@ -195,7 +199,9 @@ class CEK_Departmentdata(scrapy.Spider):
     name = 'department'
     start_urls = ['https://www.ceknpy.ac.in/departments/'] 
 
-    total_department_data = []  # Change to a list to hold multiple department data
+    total_department_data = {
+        "About the departments of CEK":[]
+    }  # Change to a list to hold multiple department data
 
     def parse(self, response):
         department_links = response.css('div.content-part span a::attr(href)').getall()
@@ -263,7 +269,10 @@ class CEK_Departmentdata(scrapy.Spider):
                         }
                     )
             cs_dep_data["Computer Science Faculty Information"] = faculty_info
-            course_overview_data_cleaned = cs_dep_data
+            course_overview_data_cleaned ={
+                "Department of Applied Science": cs_dep_data
+            }
+            self.total_department_data["About the departments of CEK"].append(course_overview_data_cleaned)
         
         # Getting the data of Electronice Department 
         if(department_title == "Department of Electronics and Communication"):
@@ -310,7 +319,10 @@ class CEK_Departmentdata(scrapy.Spider):
                         }
                     )
             ec_dep_data["Electronics Faculty Information"] = faculty_info
-            course_overview_data_cleaned = ec_dep_data
+            course_overview_data_cleaned ={
+                "Department of Applied Science": ec_dep_data
+            }
+            self.total_department_data["About the departments of CEK"].append(course_overview_data_cleaned)
 
         if(department_title == "Department of Mechanical Engineering"):
             mech_dep_data = {}
@@ -357,7 +369,10 @@ class CEK_Departmentdata(scrapy.Spider):
                         }
                     )
             mech_dep_data["Mechanical Department Faculty Information"] = faculty_info
-            course_overview_data_cleaned = mech_dep_data
+            course_overview_data_cleaned ={
+                "Department of Applied Science": mech_dep_data
+            }
+            self.total_department_data["About the departments of CEK"].append(course_overview_data_cleaned)
         
         # Getting the information of Electrical Department of CEK
         if(department_title == "Department of Electrical Engineering"):
@@ -404,7 +419,10 @@ class CEK_Departmentdata(scrapy.Spider):
                         }
                     )
             eee_dep_data["ELectrical Department Faculty Information"] = faculty_info
-            course_overview_data_cleaned = eee_dep_data
+            course_overview_data_cleaned ={
+                "Department of Applied Science": eee_dep_data
+            }
+            self.total_department_data["About the departments of CEK"].append(course_overview_data_cleaned)
 
         if(department_title == "Department of Applied Sciences"):
             as_dep_data = {}
@@ -450,14 +468,10 @@ class CEK_Departmentdata(scrapy.Spider):
                         }
                     )
             as_dep_data["Applied Science Faculty Information"] = faculty_info
-            course_overview_data_cleaned = as_dep_data
-
-        # print(course_overview_data)
-        data[department_title] = {
-            "Department Overview Description": course_overview_data_cleaned
-        }
-
-        self.total_department_data.append(data)
+            course_overview_data_cleaned ={
+                "Department of Applied Science": as_dep_data
+            } 
+            self.total_department_data["About the departments of CEK"].append(course_overview_data_cleaned)
         
     
     def closed(self, response):
@@ -466,8 +480,6 @@ class CEK_Departmentdata(scrapy.Spider):
             data.append(self.total_department_data)
         with open('college_json_data/cek.json', 'w') as f:
             json.dump(data,f,indent=4)
-
-
 
 class CEK_contact(scrapy.Spider):
     name = 'contact'
@@ -541,7 +553,6 @@ class CEK_placement(scrapy.Spider):
         with open('college_json_data/cek.json', 'w') as f:
             json.dump(data,f,indent=4)
 
-
 class CEK_library(scrapy.Spider):
     name = 'Library'
     start_urls = ['https://www.ceknpy.ac.in/library']
@@ -559,7 +570,9 @@ class CEK_library(scrapy.Spider):
             "Journals and Magazines at the Library": desc[6],
             "Membership of Library": desc[10]
         })
-        self.total_library_data = data
+        self.total_library_data = {
+            "About the Library of CEK": data
+        }
 
     def closed(self, response):
         with open('college_json_data/cek.json', 'r') as f:
