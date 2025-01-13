@@ -86,40 +86,61 @@ def get_conversational_chain():
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
 def process_query(user_question: str, json_path: str = "college_json_data/cec.json") -> Dict[str, Any]:
-    """Process user input using RAG method and fallback to Gemini API if needed."""
     try:
         # Parse JSON data
-        texts = parse_json_data(json_path)
+        try:
+            texts = parse_json_data(json_path)
+        except json.JSONDecodeError as e:
+            return {
+                "output_text": f"Error parsing JSON: {str(e)}",
+                "source": "Error",
+                "status": "failed"
+            }
+        except Exception as e:
+            return {
+                "output_text": f"Error loading JSON data: {str(e)}",
+                "source": "Error",
+                "status": "failed"
+            }
 
         # Create vector store
-        vector_store = create_vector_store(texts)
+        try:
+            vector_store = create_vector_store(texts)
+        except Exception as e:
+            return {
+                "output_text": f"Error creating vector store: {str(e)}",
+                "source": "Error",
+                "status": "failed"
+            }
 
         # Perform similarity search
-        docs = vector_store.similarity_search(user_question)
-        
+        try:
+            docs = vector_store.similarity_search(user_question)
+        except Exception as e:
+            return {
+                "output_text": f"Error performing similarity search: {str(e)}",
+                "source": "Error",
+                "status": "failed"
+            }
+
         # Create RAG chain and get response
-        chain = get_conversational_chain()
-        response = chain({"input_documents": docs, "question": user_question}, return_only_outputs=True)
+        try:
+            chain = get_conversational_chain()
+            response = chain({"input_documents": docs, "question": user_question}, return_only_outputs=True)
+        except Exception as e:
+            return {
+                "output_text": f"Error creating RAG chain or getting response: {str(e)}",
+                "source": "Error",
+                "status": "failed"
+            }
 
         rag_output = response.get('output_text', "answer is not available in the context")
-        
-        # if "answer is not available in the context" in rag_output.lower():
-
-        #     # Fallback to Gemini API for general questions
-        #     model = genai.GenerativeModel("gemini-pro")
-        #     response = model.generate_content(user_question)
-        #     return {
-        #         "output_text": response.text,
-        #         "source": "Gemini General Capabilities",
-        #         "status": "success",
-        #         "context": "not found"
-        #     }
 
         print("rag_output: ", rag_output)
         image_urls = re.findall(r'(https?://[^\s]+)', rag_output)
         return {
             "output_text": rag_output,
-            "image_urls":image_urls,
+            "image_urls": image_urls,
             "source": "JSON-based RAG",
             "status": "success",
             "context": "found"
@@ -130,4 +151,3 @@ def process_query(user_question: str, json_path: str = "college_json_data/cec.js
             "source": "Error",
             "status": "failed"
         }
-
