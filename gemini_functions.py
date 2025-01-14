@@ -81,15 +81,15 @@ def get_conversational_chain():
     Answer:
     """
     
-    model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3)
+    model = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0.3)
     prompt = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
-def process_query(user_question: str, json_path: str = "college_json_data/cec.json") -> Dict[str, Any]:
+def process_query(process_input) -> Dict[str, Any]:
     try:
         # Parse JSON data
         try:
-            texts = parse_json_data(json_path)
+            texts = parse_json_data(process_input["college_file_path"])
         except json.JSONDecodeError as e:
             return {
                 "output_text": f"Error parsing JSON: {str(e)}",
@@ -115,7 +115,7 @@ def process_query(user_question: str, json_path: str = "college_json_data/cec.js
 
         # Perform similarity search
         try:
-            docs = vector_store.similarity_search(user_question)
+            docs = vector_store.similarity_search(process_input["user_question"])
         except Exception as e:
             return {
                 "output_text": f"Error performing similarity search: {str(e)}",
@@ -126,7 +126,7 @@ def process_query(user_question: str, json_path: str = "college_json_data/cec.js
         # Create RAG chain and get response
         try:
             chain = get_conversational_chain()
-            response = chain({"input_documents": docs, "question": user_question}, return_only_outputs=True)
+            response = chain({"input_documents": docs, "question": process_input["user_question"]}, return_only_outputs=True)
         except Exception as e:
             return {
                 "output_text": f"Error creating RAG chain or getting response: {str(e)}",

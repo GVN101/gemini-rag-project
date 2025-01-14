@@ -11,19 +11,28 @@ CORS(app)
 colleges = [
     'college_json_data/cec.json', 
     'college_json_data/aec.json', 
-    'college_json_data/mec.json',
+    'college_json_data/cek.json',
+    'college_json_data/mec.json'
     ]
+college_dict = {
+    "College of Engineering Chengannur": 0,
+    "College of Engineering adoor":1,
+    "College of Engineering Karungapally":2,
+    "College of Engineering Model Engineering College":3
+}
 
 @app.route("/get_data", methods=["POST"])
 def get_response():
     try:
         # Expect JSON payload with 'question' key
         data = request.get_json()
-        print(data) # for debugging purpose only
+        print(data, "data from the frontend") # for debugging purpose only
         
         user_question = data['question']
-        # college = data.get('college',None)  To get the college from the frontend 
-        response = process_query(user_question)
+        college_list = data.get('colleges',None) #To get the college from the frontend 
+        process_input = { "user_question":user_question, "college_file_path":colleges[college_dict[college_list[0][0]]]} 
+        print(process_input)
+        response = process_query(process_input)
         print(response)
         
         return jsonify({
