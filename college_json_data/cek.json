@@ -1,13 +1,51 @@
 [
     {
-        "About the Infrastructure at CEK": {
-            "Data about building and Labs": "\r\nThe college has well designed buildings and separate labs for each department. There are three academic blocks and six laboratory workshop block.\r\n",
-            "Information about the roads to the college (CEK)": "All building in the campus are well connected by minimized roads with proper sign boards posted at every junction.",
-            "About the placement activities": "The college has an excellent campus placement record. To enhance this, regular courses on Communication English different institutions are take classes on the campus. Personality development program is arranged by Training and Placement Unit (TPC). Institution focuses the next generation technology and help the students to build their carrier that fulfills their destiny. ",
-            "PTA (parent teacher association) at CEK": "The college maintains very close relation with the parents of the students through a Parent-Teacher Association. There is a P.T.A Executive Committee which conducts meetings in every three months and suggests various improvements if any, needed for the smooth functioning of the college. All parents assemble in the college once in a year for the P.T.A general body meeting.\r\n",
-            "Transportation details at CEK": "Though the college is well connected to major towns via public transport system during peak hours and the college has its own transportation facilities. The college provides two bus services that running four trips each to two directions for the facilities of the students in and around Karunagappally.\r\n",
-            "Water supply at CEK": "A more than sufficient water distribution network is installed in the campus. Three major water tanks of about 1000 liter each is installed.."
+        "About the Library of CEK": [
+            {
+                "About the Library": "College has a well furnished library and information center which stacks with a lot of books of interest including technical text books in various subjects, various journals, magazines and news papers of national and international standards. The library has a collection over 17500 volumes of books. The carpet area of the library is 1000 sqm.",
+                "Library Timing": "The library is open from 8.15am to 6pm on all working days.",
+                "Library Collection": "There are Three types of Book Collection in the Library. TEQIP(Purchase under TEQIP Fund) , General Collection (Purchased under IHRD Fund) and Book Bank ( Sponsored by SC/ST Welfare Department.",
+                "Journals and Magazines at the Library": "42 National journals and 5 magazines are being regularly subscribed in print form. 5 Popular News papers are also available in the Library.",
+                "Membership of Library": "Library membership is free to all students, teaching and non-teaching staff."
+            }
+        ]
+    },
+    {
+        "Data about the Anti Ragging Squad": {
+            "List of Executive Commitee Members in Anti Ragging Squad": [
+                {
+                    "Name": "Dr. Gopakumar C",
+                    "Phone Number": "8848785056"
+                },
+                {
+                    "Name": "Dr. Shajy L",
+                    "Phone Number": "9447594171"
+                },
+                {
+                    "Name": "Smt. Haseena P Y",
+                    "Phone Number": "9496292310"
+                },
+                {
+                    "Name": "Sri. Shaisa P",
+                    "Phone Number": "9446069274"
+                },
+                {
+                    "Name": "Sri Radhakrishnapillai",
+                    "Phone Number": "9446021695"
+                },
+                {
+                    "Name": "Sri. Liju P",
+                    "Phone Number": "9846226022"
+                },
+                {
+                    "Name": "Sri. Sunil A N",
+                    "Phone Number": "9447345267"
+                }
+            ]
         }
+    },
+    {
+        "Data about Management of CEK": "Institute of Human Resources Development is an autonomous educational institution established by the Government of Kerala in 1987. The institute is registered under The Travancore \u2013 Cochin Literary, Scientific and Charitable societies registrations Act 12 of 1955. The Institute's Memorandum of Association and its rules and regulations have been judiciously framed with built-in growth provisions. The management of the institute is vested with a Governing Body composed of\u00a0 ex-officio members only with the Hon\u2019ble Minister of\u00a0 Education, Kerala State, as\u00a0 the Chairman and Principal Secretary, Higher Education Department, Government of Kerala as the Vice-Chairman. Institute of Human Resources Development is dedicated to the scientific advancement, technological progress and economic growth of the country through human resources development. Based on the principle, \" Think Globaly and Act Locally\" it endeavours to bring about the welfare of the nation. It endeavours to provide education and training of consistently high stands through innovative and versatile programmes suitable for\u00a0 the current and emerging needs of the community.\u00a0 Institute of Human Resources Development \u00a0"
     },
     {
         "Admnistration staff Data": [
@@ -74,49 +112,14 @@
         ]
     },
     {
-        "Data about the Anti Ragging Squad": {
-            "List of Executive Commitee Members in Anti Ragging Squad": [
-                {
-                    "Name": "Dr. Gopakumar C",
-                    "Phone Number": "8848785056"
-                },
-                {
-                    "Name": "Dr. Shajy L",
-                    "Phone Number": "9447594171"
-                },
-                {
-                    "Name": "Smt. Haseena P Y",
-                    "Phone Number": "9496292310"
-                },
-                {
-                    "Name": "Sri. Shaisa P",
-                    "Phone Number": "9446069274"
-                },
-                {
-                    "Name": "Sri Radhakrishnapillai",
-                    "Phone Number": "9446021695"
-                },
-                {
-                    "Name": "Sri. Liju P",
-                    "Phone Number": "9846226022"
-                },
-                {
-                    "Name": "Sri. Sunil A N",
-                    "Phone Number": "9447345267"
-                }
-            ]
+        "About the Infrastructure at CEK": {
+            "Data about building and Labs": "The college has well designed buildings and separate labs for each department. There are three academic blocks and six laboratory workshop block.",
+            "Information about the roads to the college (CEK)": "All building in the campus are well connected by minimized roads with proper sign boards posted at every junction.",
+            "About the placement activities": "The college has an excellent campus placement record. To enhance this, regular courses on Communication English different institutions are take classes on the campus. Personality development program is arranged by Training and Placement Unit (TPC). Institution focuses the next generation technology and help the students to build their carrier that fulfills their destiny. ",
+            "PTA (parent teacher association) at CEK": "The college maintains very close relation with the parents of the students through a Parent-Teacher Association. There is a P.T.A Executive Committee which conducts meetings in every three months and suggests various improvements if any, needed for the smooth functioning of the college. All parents assemble in the college once in a year for the P.T.A general body meeting.\r\n",
+            "Transportation details at CEK": "Though the college is well connected to major towns via public transport system during peak hours and the college has its own transportation facilities. The college provides two bus services that running four trips each to two directions for the facilities of the students in and around Karunagappally.\r\n",
+            "Water supply at CEK": "A more than sufficient water distribution network is installed in the campus. Three major water tanks of about 1000 liter each is installed.."
         }
-    },
-    {
-        "About the Library of CEK": [
-            {
-                "About the Library": "College has a well furnished library and information center which stacks with a lot of books of interest including technical text books in various subjects, various journals, magazines and news papers of national and international standards. The library has a collection over 17500 volumes of books. The carpet area of the library is 1000 sqm.",
-                "Library Timing": "The library is open from 8.15am to 6pm on all working days.",
-                "Library Collection": "There are Three types of Book Collection in the Library. TEQIP(Purchase under TEQIP Fund) , General Collection (Purchased under IHRD Fund) and Book Bank ( Sponsored by SC/ST Welfare Department.",
-                "Journals and Magazines at the Library": "42 National journals and 5 magazines are being regularly subscribed in print form. 5 Popular News papers are also available in the Library.",
-                "Membership of Library": "Library membership is free to all students, teaching and non-teaching staff."
-            }
-        ]
     },
     {
         "Contact information of CEK": [
@@ -147,9 +150,6 @@
             "Phone Number and Fax Number of the Principal": "Ph:0476-2666160, Fax:0476-2666160",
             "Email ID of the principal": "Email : principal@ceknpy.ac.in"
         }
-    },
-    {
-        "Data about Management of CEK": "Institute of Human Resources Development is an autonomous educational institution established by the Government of Kerala in 1987. The institute is registered under The Travancore \u2013 Cochin Literary, Scientific and Charitable societies registrations Act 12 of 1955. The Institute's Memorandum of Association and its rules and regulations have been judiciously framed with built-in growth provisions. The management of the institute is vested with a Governing Body composed of\u00a0 ex-officio members only with the Hon\u2019ble Minister of\u00a0 Education, Kerala State, as\u00a0 the Chairman and Principal Secretary, Higher Education Department, Government of Kerala as the Vice-Chairman. Institute of Human Resources Development is dedicated to the scientific advancement, technological progress and economic growth of the country through human resources development. Based on the principle, \" Think Globaly and Act Locally\" it endeavours to bring about the welfare of the nation. It endeavours to provide education and training of consistently high stands through innovative and versatile programmes suitable for\u00a0 the current and emerging needs of the community.\u00a0 Institute of Human Resources Development \u00a0"
     },
     {
         "About the Overview of the college": {
@@ -510,6 +510,32 @@
             },
             {
                 "Department of Applied Science": {
+                    "About the Electrical Engineering Department of CEK": "Electrical Engineers are the mainstay of every engineering activity. The Electrical Engineering Department is dedicated to delivering competent electrical engineers to the arena of the real world. They are outfitted with core technical knowledge as well as professional skills necessary to face the challenges of the future. The committed faculty and staff are fully geared up towards this end. Our aim is to mould competent Electrical Engineers capable of providing dynamic leadership in various walks of life and to cater the needs of R&D, industry, business and community.This Department offers Under Graduate programme in.PEO1: Graduates will have skills and knowledge to excel in their professional career.",
+                    "Information on Head of Department of Electrical Engineering Department": "None Specified",
+                    "ELectrical Department Faculty Information": [
+                        {
+                            "Name": "LULU JOSEPH",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9447990501",
+                            "Email": "lulujoseph1008@gmail.com"
+                        },
+                        {
+                            "Name": "PREEMA R. CHANDRAN",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9746169654",
+                            "Email": "prema@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "ANILKUMAR V",
+                            "Designation": "Trade Instructor",
+                            "Phone Number": "9995769670",
+                            "Email": "anilkumarv@ceknpy.ac.in"
+                        }
+                    ]
+                }
+            },
+            {
+                "Department of Applied Science": {
                     "About the Electronics Department of CEK": "The Department of Electronics and Communication was established in the year 2000 and is housed in an independent two storeyed building in the campus. The department aims to inculcate academic knowledge and laboratory exposure to foster proficient electroniccommunication engineers. It offers the best opportunity for budding professionals to learn and come out with all the skills required to perform well in today's competitive world. It offers following programmes under this this department.The department has well experienced faculty members with post graduate and doctoral qualifications from prestigious institutions with many national and international publications. We concentrate on a well organised and updated delivery of the courses to students. The department laboratories have the state of art equipments and highquality lab practices with experienced supporting staff who encourages students to pursue selfdeveloped and innovative project works. Spacious class rooms, seminar hall, waiting rooms for boys & girls, and plenty of other amenities are the main attributes of our department. The department has very efficient advisory system which ensures effective studentteacherparent relationship.Based on the industry/profession requirements, the department regularly organizes workshops and seminars to train faculty and students on emerging areas in the field of Electronics. The Electronics Association is very active in organizing and conducting technical festivals and project exhibitions. Students are encouraged to organize/participate in intercollegiate technical /cultural competitions organized by other institutions also.Apart from faculty development programmes, TEQIP fund of the institution supports Equity Assurance Programme (EAP), which includes remedial classes and scholarships for the students. IndustryInstitute Interaction Cell (IIC) of TEQIP scheme regularly conducts workshops & talks by industry experts.The department is approved as a research centre under KTU. The research activities isin the field of Medical Image processing, Machine Learning and Deep Learning which helps the students to imbibe desire for lifelong learning. Over the years, the department has produced many proficient alumni holding positions of eminence in public and private sector institutions.Able to inculcate appropriate skills and knowledge to meet the demands and challenges of industry and to achieve professional excellence.",
                     "Information on Head of Department of Electronics Department": "None Specified",
                     "Electronics Faculty Information": [
@@ -560,26 +586,62 @@
             },
             {
                 "Department of Applied Science": {
-                    "About the Electrical Engineering Department of CEK": "Electrical Engineers are the mainstay of every engineering activity. The Electrical Engineering Department is dedicated to delivering competent electrical engineers to the arena of the real world. They are outfitted with core technical knowledge as well as professional skills necessary to face the challenges of the future. The committed faculty and staff are fully geared up towards this end. Our aim is to mould competent Electrical Engineers capable of providing dynamic leadership in various walks of life and to cater the needs of R&D, industry, business and community.This Department offers Under Graduate programme in.PEO1: Graduates will have skills and knowledge to excel in their professional career.",
-                    "Information on Head of Department of Electrical Engineering Department": "None Specified",
-                    "ELectrical Department Faculty Information": [
+                    "About the Mechanical Engineering Department of CEK": "The Department of Mechanical Engineering offers four year BTech course in Mechanical Engineering from the academic year 202021 onwards. The annual intake is 60 students. The academic focus of the department is to impart state of the art technical knowledge to the students. The department has well experienced faculty members with post graduate and doctoral qualifications from prestigious institutions with national and international publications. The Department Faculty members intend to actively pursue research through students and undertake projects funded through Govt. agencies. The department aims to become one of the best mechanical engineering departments in the country within the next decade, in preparing engineers capable of working innovatively and creatively towards a better world.The Department indents to strengthen its facilities and expertise in four domain areas: Thermal, Design, Manufacturing, and Industrial engineering. The faculty of the department have got rich experience in Thermal Engineering, Computational Combustion, CFD, Aerospace Engineering,  Cryogenics, Robotics etc. The instructional laboratories with latest computational facilities will be provided for practical exposure and study all the areas of mechanical engineering.The students are exposed to problems faced by our society, will be engaged in outreach programmes and industry institute interactions, will be encouraged to participate in cocurricular activities and professional development activities beyond the regular academic work. As per the new curriculum, students can get Honours degree. They can also get a Minor degree in other most wanted areas such as Machine Learning, Artificial Intelligence, Robotics etc along with the regular BTech degree or Honours degree based on their interest. Department gives individual attention to each student and helps the student to mould himself/herself based on the talent and interest. Remedial measures are also taken for the needy students.AREAS OF INTEREST :",
+                    "Information on Head of Department of Mechanical Engineering Department": {
+                        "Qualifications of HOD": {
+                            "Qualificaion": "PhD",
+                            "Department": "Thermal Science",
+                            "Years of Experience": "24 years"
+                        },
+                        "Contact Information of HOD": {
+                            "Phone Number": "9495630466",
+                            "Email": "ajil@ceknpy.ac.in"
+                        },
+                        "Publications of HOD": [
+                            ", 48, 308321, 2009.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Numerical Simulation of Pressure Effects on the Gasification of Australian and IndianCoals in a Tubular Gasifier,",
+                            "31(6), 495508, 2010.",
+                            "A. Ajilkumar, T. Sundararajan and U.S.P.Shet, Prediction of influences of preheating of air and steam in an entrained flow air blown tubular coal gasifier, 5thInternational Conference on Computational Heat and Mass Transfer, Canmore, Canada, June 1825,2007.",
+                            "A. Ajilkumar, T. Sundararajan and U.S.P.Shet, Gasification of Indian coal in a tubular coal gasifier, Proceedings of the ASME/JSME Thermal Engineering Summer Heat Transfer Conference HT 2007, pp 297306, 2007.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effect of Air Ratio on Gasification of Australian and Indian Coals in A Tubular Coal Gasifier, International Conference on I.C.Engines and Combustion, JNTU Heyderabad, December 69, 2007.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effect of Pressure on Gasification of Coal in a Tubular Gasifier, 19thNational and 8thISHMTASME Heat and Mass Transfer Conference, JNTU Hyderabad, January 35, 2008.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effects of Steam on Gasification of High Ash Content Coal: A Numerical Study, International Conference on Applications and Design in Mechanical Engineering (ICADME2009), Perlis, Malaysia, October 1113, 2009",
+                            "P. Senthil Kumar, U.S.P.Shet, A.Ajil Kumar and T.Sundarajan, A Numerical Study on Performance Characteristics of LPGPilotedPulverisedCoal Tubular Gasifier,",
+                            "37thNational and 4thInternational Conference on Fluid Mechanics and Fluid Power, IIT Madras, December 1618, 2010.",
+                            "T Sundararajan, V Raghavan, A Ajilkumar, K Vijay Kumar, Mathematical Modelling of Coal Gasification Processes, IOP Conf. Series: Earth and Environmental Science 76 (2017) 012006, doi:10.1088/17551315/76/1/012006",
+                            ""
+                        ]
+                    },
+                    "Mechanical Department Faculty Information": [
                         {
-                            "Name": "LULU JOSEPH",
+                            "Name": "PREMNATH G",
                             "Designation": "Assistant Professor",
-                            "Phone Number": "9447990501",
-                            "Email": "lulujoseph1008@gmail.com"
+                            "Phone Number": "9526173397",
+                            "Email": "premnath@ceknpy.ac.in"
                         },
                         {
-                            "Name": "PREEMA R. CHANDRAN",
+                            "Name": "ASWIN R",
                             "Designation": "Assistant Professor",
-                            "Phone Number": "9746169654",
-                            "Email": "prema@ceknpy.ac.in"
+                            "Phone Number": "9539394306",
+                            "Email": "aswin@ceknpy.ac.in"
                         },
                         {
-                            "Name": "ANILKUMAR V",
-                            "Designation": "Trade Instructor",
-                            "Phone Number": "9995769670",
-                            "Email": "anilkumarv@ceknpy.ac.in"
+                            "Name": "GAUTHAM CHAND M",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9497539880",
+                            "Email": "gauthamchandm@gmail.com"
+                        },
+                        {
+                            "Name": "ABHISHEK.H",
+                            "Designation": "Assistant Professor (Adhoc)",
+                            "Phone Number": "9496305705",
+                            "Email": "abhishekhmtl@gmail.com"
+                        },
+                        {
+                            "Name": "AKHIL ANAND",
+                            "Designation": "Assistant Professor (Adhoc)",
+                            "Phone Number": "8129653909",
+                            "Email": "akhilanandcea@gmail.com"
                         }
                     ]
                 }
@@ -802,68 +864,6 @@
                             "Designation": "Demonstrator",
                             "Phone Number": "7994137661",
                             "Email": "rahulraju12062001@gmail.com"
-                        }
-                    ]
-                }
-            },
-            {
-                "Department of Applied Science": {
-                    "About the Mechanical Engineering Department of CEK": "The Department of Mechanical Engineering offers four year BTech course in Mechanical Engineering from the academic year 202021 onwards. The annual intake is 60 students. The academic focus of the department is to impart state of the art technical knowledge to the students. The department has well experienced faculty members with post graduate and doctoral qualifications from prestigious institutions with national and international publications. The Department Faculty members intend to actively pursue research through students and undertake projects funded through Govt. agencies. The department aims to become one of the best mechanical engineering departments in the country within the next decade, in preparing engineers capable of working innovatively and creatively towards a better world.The Department indents to strengthen its facilities and expertise in four domain areas: Thermal, Design, Manufacturing, and Industrial engineering. The faculty of the department have got rich experience in Thermal Engineering, Computational Combustion, CFD, Aerospace Engineering,  Cryogenics, Robotics etc. The instructional laboratories with latest computational facilities will be provided for practical exposure and study all the areas of mechanical engineering.The students are exposed to problems faced by our society, will be engaged in outreach programmes and industry institute interactions, will be encouraged to participate in cocurricular activities and professional development activities beyond the regular academic work. As per the new curriculum, students can get Honours degree. They can also get a Minor degree in other most wanted areas such as Machine Learning, Artificial Intelligence, Robotics etc along with the regular BTech degree or Honours degree based on their interest. Department gives individual attention to each student and helps the student to mould himself/herself based on the talent and interest. Remedial measures are also taken for the needy students.AREAS OF INTEREST :",
-                    "Information on Head of Department of Mechanical Engineering Department": {
-                        "Qualifications of HOD": {
-                            "Qualificaion": "PhD",
-                            "Department": "Thermal Science",
-                            "Years of Experience": "24 years"
-                        },
-                        "Contact Information of HOD": {
-                            "Phone Number": "9495630466",
-                            "Email": "ajil@ceknpy.ac.in"
-                        },
-                        "Publications of HOD": [
-                            ", 48, 308321, 2009.",
-                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Numerical Simulation of Pressure Effects on the Gasification of Australian and IndianCoals in a Tubular Gasifier,",
-                            "31(6), 495508, 2010.",
-                            "A. Ajilkumar, T. Sundararajan and U.S.P.Shet, Prediction of influences of preheating of air and steam in an entrained flow air blown tubular coal gasifier, 5thInternational Conference on Computational Heat and Mass Transfer, Canmore, Canada, June 1825,2007.",
-                            "A. Ajilkumar, T. Sundararajan and U.S.P.Shet, Gasification of Indian coal in a tubular coal gasifier, Proceedings of the ASME/JSME Thermal Engineering Summer Heat Transfer Conference HT 2007, pp 297306, 2007.",
-                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effect of Air Ratio on Gasification of Australian and Indian Coals in A Tubular Coal Gasifier, International Conference on I.C.Engines and Combustion, JNTU Heyderabad, December 69, 2007.",
-                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effect of Pressure on Gasification of Coal in a Tubular Gasifier, 19thNational and 8thISHMTASME Heat and Mass Transfer Conference, JNTU Hyderabad, January 35, 2008.",
-                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effects of Steam on Gasification of High Ash Content Coal: A Numerical Study, International Conference on Applications and Design in Mechanical Engineering (ICADME2009), Perlis, Malaysia, October 1113, 2009",
-                            "P. Senthil Kumar, U.S.P.Shet, A.Ajil Kumar and T.Sundarajan, A Numerical Study on Performance Characteristics of LPGPilotedPulverisedCoal Tubular Gasifier,",
-                            "37thNational and 4thInternational Conference on Fluid Mechanics and Fluid Power, IIT Madras, December 1618, 2010.",
-                            "T Sundararajan, V Raghavan, A Ajilkumar, K Vijay Kumar, Mathematical Modelling of Coal Gasification Processes, IOP Conf. Series: Earth and Environmental Science 76 (2017) 012006, doi:10.1088/17551315/76/1/012006",
-                            ""
-                        ]
-                    },
-                    "Mechanical Department Faculty Information": [
-                        {
-                            "Name": "PREMNATH G",
-                            "Designation": "Assistant Professor",
-                            "Phone Number": "9526173397",
-                            "Email": "premnath@ceknpy.ac.in"
-                        },
-                        {
-                            "Name": "ASWIN R",
-                            "Designation": "Assistant Professor",
-                            "Phone Number": "9539394306",
-                            "Email": "aswin@ceknpy.ac.in"
-                        },
-                        {
-                            "Name": "GAUTHAM CHAND M",
-                            "Designation": "Assistant Professor",
-                            "Phone Number": "9497539880",
-                            "Email": "gauthamchandm@gmail.com"
-                        },
-                        {
-                            "Name": "ABHISHEK.H",
-                            "Designation": "Assistant Professor (Adhoc)",
-                            "Phone Number": "9496305705",
-                            "Email": "abhishekhmtl@gmail.com"
-                        },
-                        {
-                            "Name": "AKHIL ANAND",
-                            "Designation": "Assistant Professor (Adhoc)",
-                            "Phone Number": "8129653909",
-                            "Email": "akhilanandcea@gmail.com"
                         }
                     ]
                 }
