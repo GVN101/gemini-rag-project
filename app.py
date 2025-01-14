@@ -51,3 +51,6 @@ def get_response():
 @app.route("/", methods=["GET"])
 def  home_page():
     return "go to /get_data to get response"
+
+if __name__ == "__main__":
+    app.run(debug=True)
