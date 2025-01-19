@@ -14,6 +14,9 @@ from my_scrapers.CEK.cek_scraper import *
 # MODEL ENGINEERING COLLEGE
 from my_scrapers.MEC.mec_scraper import *
 
+#COLLEGE OF APPLIED SCIENCE ADOOR
+from my_scrapers.CASA.casa_scraper import *
+
 
 def main():
 
@@ -22,7 +25,7 @@ def main():
     clear_file() # defintion is in cec_scraper file
 
     # COLLEGE OF ENGINEERING CHENGANNUR
-    process.crawl(CEC_principal_spider)
+    # process.crawl(CEC_principal_spider)
     # process.crawl(CEC_PTASpider)
     # process.crawl(CEC_NoticeSpider)
     # process.crawl(CEC_DepartmentSpider) 
@@ -132,8 +135,19 @@ def main():
     #     placements_section(playwright, "Contact Details")
 
 
+    # COLLEGE OF APPLIED SCIENCE ADOOR
+    # process.crawl(CASA_principal)
+    # process.crawl(CASA_Committee)
+    # process.crawl(CASA_overview)
+    # process.crawl(CASA_Mission_and_Vision)
+    # process.crawl(CASA_Anti_rag_cell)
+    # process.crawl(CASA_NSS)
+    process.start()
+
 if __name__ == "__main__":
     main()
+
+    
     # schedule.every(1).minutes.do(main)
     # while True:
     # # Checks whether a scheduled task 

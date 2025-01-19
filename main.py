@@ -20,8 +20,6 @@ college_data_paths = [
     'college_json_data/mec.json',
     ]
 
-
-
 @app.route("/get_data", methods=["POST"])
 def get_response():
     try:

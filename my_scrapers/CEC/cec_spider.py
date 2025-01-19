@@ -206,7 +206,7 @@ class CEC_organisationSpider(scrapy.Spider):
             if isinstance(part, str):
                 for char in unwanted_chars:
                     part = part.replace(char, " ")
-                if part.strip() and part.strip() is not '.':
+                if part.strip() and part.strip() != '.':
                     cleaned_organisation_description.append(part.strip())  # Clean up spaces
             else:
                 cleaned_organisation_description.append(part)
@@ -239,6 +239,7 @@ class CEC_principal_spider(scrapy.Spider):
     total_principal_details = ''
 
     def parse(self, response):
+
         principal_name = response.css('.stm-title.stm-title_sep_bottom::text').extract_first().strip()
         qualification_titles = response.css('.wpb_wrapper ul span::text').getall()
         qualification_details = [q.strip() for q in response.css('.wpb_wrapper ul li::text').getall()]
