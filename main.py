@@ -8,18 +8,20 @@ app = Flask(__name__)
 CORS(app)
 
 # List college JSON data paths 
-colleges = [
+"""
+College of Engineering Chengannur ID - 0
+College of Engineering Karunagapally - 1
+Model Engineering College            - 2
+College of Engineering Cherthala     - 3
+"""
+
+college_data_paths = [
     'college_json_data/cec.json', 
-    'college_json_data/aec.json', 
-    'college_json_data/cek.json',
-    'college_json_data/mec.json'
+    'college_json_data/cek.json', 
+    'college_json_data/mec.json',
     ]
-college_dict = {
-    "College of Engineering Chengannur": 0,
-    "College of Engineering adoor":1,
-    "College of Engineering Karungapally":2,
-    "College of Engineering Model Engineering College":3
-}
+
+
 
 @app.route("/get_data", methods=["POST"])
 def get_response():
@@ -28,9 +30,9 @@ def get_response():
         data = request.get_json()
         print(data, "data from the frontend") # for debugging purpose only
         
-        user_question = data['question']
-        college_list = data.get('colleges',None) #To get the college from the frontend 
-        process_input = { "user_question":user_question, "college_file_path":colleges[college_dict[college_list[0][0]]]} 
+        user_question = data['question'] 
+        college_list = data.get('colleges',None) # list from the frontend of colleges selected
+        process_input = { "user_question":user_question, "college_file_path":college_data_paths[college_list[0]]} 
         print(process_input)
         response = process_query(process_input)
         print(response)
@@ -52,4 +54,4 @@ def  home_page():
     return "go to /get_data to get response"
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True)
