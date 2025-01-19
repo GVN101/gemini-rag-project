@@ -1,9 +1,6 @@
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from playwright.sync_api import sync_playwright
-# import schedule
-# import time
-
 
 # COLLEGE OF ENGINEERING CHENGANNUR
 from my_scrapers.CEC.cec_spider import * 
@@ -143,4 +140,3 @@ if __name__ == "__main__":
     # # is pending to run or not
     #     schedule.run_pending()
     #     time.sleep(1)
-    

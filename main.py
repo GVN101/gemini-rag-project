@@ -12,7 +12,6 @@ CORS(app)
 College of Engineering Chengannur ID - 0
 College of Engineering Karunagapally - 1
 Model Engineering College            - 2
-College of Engineering Cherthala     - 3
 """
 
 college_data_paths = [
