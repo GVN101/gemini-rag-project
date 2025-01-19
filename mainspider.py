@@ -1,6 +1,6 @@
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-# from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright
 # import schedule
 # import time
 
@@ -17,8 +17,6 @@ from my_scrapers.CEK.cek_scraper import *
 # MODEL ENGINEERING COLLEGE
 from my_scrapers.MEC.mec_scraper import *
 
-#COLLEGE OF ENGINEERING CHERTHALA
-from my_scrapers.CECH.cech_scraper import *
 
 def main():
 
@@ -135,9 +133,6 @@ def main():
     #     placements_section(playwright,"Brochure")
     #     placements_section(playwright,"Student Verification")
     #     placements_section(playwright, "Contact Details")
-
-    #  COLLEGE OF ENGINEERING CHERTHALA
-    # process.crawl(CECH_principal)
 
 
 if __name__ == "__main__":
