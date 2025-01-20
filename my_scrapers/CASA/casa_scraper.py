@@ -138,14 +138,13 @@ class CASA_NSS(scrapy.Spider):
         nss = response.css('div.col-md-12.col-xs-12 p::text').getall()
         nss_data["About the NSS forum"] =  nss[0] + ' ' + nss[1]
         obj = response.css('ul.programsoffer li::text').getall()
-        print(obj)
-        # nss_data["About objectives the NSS"] = [clean_text(obj[i]) for i in range(4)]
-        # nss_data["Major Activties in NSS"] = [clean_text(obj[i]) for i in range(4,12)]
-        # nss_data["Achievements of NSS"] = [clean_text(obj[i]) for i in range(12,15)]
-        # nss_data["People to be contacted for NSS"] = {
-        #     1:obj[15],
-        #     2:obj[16]
-        # }
+        nss_data["About objectives the NSS"] = [clean_text(obj[i]) for i in range(4)]
+        nss_data["Major Activties in NSS"] = [clean_text(obj[i]) for i in range(4,12)]
+        nss_data["Achievements of NSS"] = [clean_text(obj[i]) for i in range(12,15)]
+        nss_data["People to be contacted for NSS"] = {
+            1:obj[15],
+            2:obj[16]
+        }
         self.total_nss_data["About the NSS"] = nss_data
 
     def closed(self, reason):
@@ -154,3 +153,41 @@ class CASA_NSS(scrapy.Spider):
             existing_data.append(self.total_nss_data)
         with open('college_json_data/casa.json','w') as f:
             json.dump(existing_data, f, indent=4)
+
+class cs_department(scrapy.Spider):
+    name = 'cs_department'
+    start_urls = ['https://casadoor.ihrd.ac.in/departments/computerscience']
+
+    total_cs_dep_data = {}
+
+    def parse(self,response):
+        cs_data = {}
+        cs_desc = response.css('div.col-md-7.col-xs-12 p::text').get()
+        print(cs_desc)
+        programmes = response.css(' div.col-md-7.col-xs-12 ul li::text').getall()
+        print(programmes)
+        pro_data = {
+                "PG Programme": clean_text(programmes[0]),
+                "UG Programmes": [
+                    clean_text(programmes[1]),
+                    clean_text(programmes[2])
+                ],
+                "IHRD Programmes": [
+                    clean_text(programmes[3]),
+                    clean_text(programmes[4])
+                ]
+            }
+        cs_data["Information (description) about CS Department "] = cs_desc
+        cs_data["Information about the various programme offered by Computer Science Department"] = pro_data
+
+        # faculty data to be added
+        
+
+    def closed(self, reason):
+        with open('college_json_data/casa.json', 'r') as f:
+            existing_data  = json.load(f)
+            existing_data.append(self.total_cs_dep_data)
+        with open('college_json_data/casa.json','w') as f:
+            json.dump(existing_data, f, indent=4)
+
+# col-md-7 col-xs-12

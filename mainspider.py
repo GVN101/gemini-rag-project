@@ -98,7 +98,6 @@ def main():
     #     electronics_and_communication_section(playwright,"Associations")
     #     electronics_and_communication_section(playwright,"Achievements")
     #     electronics_and_communication_section(playwright,"Recent Projects")
-    #     electronics_and_communication_section(playwright,"Recent Projects")
     #     electrical_and_electronics_section(playwright,"About")
     #     electrical_and_electronics_section(playwright,"Vision & Mission")
     #     electrical_and_electronics_section(playwright,"Courses Offered")
@@ -133,6 +132,7 @@ def main():
     #     placements_section(playwright,"Brochure")
     #     placements_section(playwright,"Student Verification")
     #     placements_section(playwright, "Contact Details")
+    #     placements_section(playwright,"Training Cell")
 
 
     # COLLEGE OF APPLIED SCIENCE ADOOR
@@ -142,6 +142,7 @@ def main():
     # process.crawl(CASA_Mission_and_Vision)
     # process.crawl(CASA_Anti_rag_cell)
     # process.crawl(CASA_NSS)
+    process.crawl(cs_department)
     process.start()
 
 if __name__ == "__main__":
