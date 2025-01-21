@@ -154,7 +154,7 @@ class CASA_NSS(scrapy.Spider):
         with open('college_json_data/casa.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-class cs_department(scrapy.Spider):
+class CASA_cs_department(scrapy.Spider):
     name = 'cs_department'
     start_urls = ['https://casadoor.ihrd.ac.in/departments/computerscience']
 
@@ -167,20 +167,32 @@ class cs_department(scrapy.Spider):
         programmes = response.css(' div.col-md-7.col-xs-12 ul li::text').getall()
         print(programmes)
         pro_data = {
-                "PG Programme": clean_text(programmes[0]),
-                "UG Programmes": [
+                "PG Programme of CS": clean_text(programmes[0]),
+                "UG Programmes of CS": [
                     clean_text(programmes[1]),
                     clean_text(programmes[2])
                 ],
-                "IHRD Programmes": [
+                "IHRD Programmes of CS": [
                     clean_text(programmes[3]),
                     clean_text(programmes[4])
                 ]
             }
         cs_data["Information (description) about CS Department "] = cs_desc
         cs_data["Information about the various programme offered by Computer Science Department"] = pro_data
-
-        # faculty data to be added
+        faculty_names_and_positions = response.css('div.Name::text,div.Position::text').getall()
+        print(faculty_names_and_positions)
+        faculty_info = []
+        j = 1
+        for i in range(2,len(faculty_names_and_positions),2):
+            faculty_info.append({
+                j:{
+                    "Faculty Name":clean_text(faculty_names_and_positions[i]),
+                    "Faculty Designation": clean_text(faculty_names_and_positions[i+1])
+                }
+            })
+            j+=1
+        cs_data["Information about the faculty of Computer Science Department"] = faculty_info
+        self.total_cs_dep_data = cs_data
         
 
     def closed(self, reason):
@@ -190,4 +202,149 @@ class cs_department(scrapy.Spider):
         with open('college_json_data/casa.json','w') as f:
             json.dump(existing_data, f, indent=4)
 
-# col-md-7 col-xs-12
+class CASA_ec_department(scrapy.Spider):
+    name = 'ec_department'
+    start_urls = ['https://casadoor.ihrd.ac.in/departments/electronics']
+
+    total_ec_dep_data = {}
+
+    def parse(self,response):
+        ec_data = {}
+        ec_desc = response.css('div.col-md-7.col-xs-12 p::text').get()
+        print(ec_desc)
+        programmes = response.css('div.col-md-7.col-xs-12 ul li::text').getall()
+        print(programmes)
+        pro_data = {
+                "PG Programme of EC": clean_text(programmes[0]),
+                "UG Programmes of EC": [
+                    clean_text(programmes[1])
+                ],
+            }
+        ec_data["Information (description) about Electronics Department "] = ec_desc
+        ec_data["Information about the various programme offered by Computer Science Department"] = pro_data
+        faculty_names_and_positions = response.css('div.Name::text,div.Position::text').getall()
+        print(faculty_names_and_positions)
+        faculty_info = []
+        j = 1
+        for i in range(0,len(faculty_names_and_positions),2):
+            if(clean_text(faculty_names_and_positions[i])):
+                faculty_info.append({
+                j:{
+                    "Faculty Name":clean_text(faculty_names_and_positions[i]),
+                    "Faculty Designation": clean_text(faculty_names_and_positions[i+1])
+                }
+            })
+                j+=1
+        ec_data["Information about the faculty of Electronics Department"] = faculty_info
+        self.total_ec_dep_data = ec_data
+
+    def closed(self, reason):
+        with open('college_json_data/casa.json', 'r') as f:
+            existing_data  = json.load(f)
+            existing_data.append(self.total_ec_dep_data)
+        with open('college_json_data/casa.json','w') as f:
+            json.dump(existing_data, f, indent=4)
+
+class CASA_cm_department(scrapy.Spider):
+    name = 'cm_department'
+    start_urls = ['https://casadoor.ihrd.ac.in/departments/commerce-management']
+
+    total_cm_dep_data = {}
+
+    def parse(self, response):
+        cm_data = {}
+        cm_desc = response.css('div.col-md-7.col-xs-12 p::text').get()
+        print(cm_desc)
+        programmes = response.css('div.col-md-7.col-xs-12 ul li::text').getall()
+        print(programmes)
+        pro_data = {
+                "PG Programme of Commerce and Managment": clean_text(programmes[0]),
+                "UG Programmes of Commerce and Managment": [
+                    clean_text(programmes[1]),
+                    clean_text(programmes[2])
+                ],
+            }
+        cm_data["Information (description) about Commerce and Management Department "] = cm_desc
+        cm_data["Information about the various programme offered by Commerce and Management Department"] = pro_data
+        faculty_names_and_positions = response.css('div.Name::text,div.Position::text').getall()
+        print(faculty_names_and_positions)
+        faculty_info = []
+        j = 1
+        for i in range(0,len(faculty_names_and_positions),2):
+            if(clean_text(faculty_names_and_positions[i])):
+                faculty_info.append({
+                j:{
+                    "Faculty Name":clean_text(faculty_names_and_positions[i]),
+                    "Faculty Designation": clean_text(faculty_names_and_positions[i+1])
+                }
+            })
+                j+=1
+        cm_data["Information about the faculty of Commerce and Management Department"] = faculty_info
+        self.total_cm_dep_data = cm_data
+
+    def closed(self, reason):
+        with open('college_json_data/casa.json', 'r') as f:
+            existing_data  = json.load(f)
+            existing_data.append(self.total_cm_dep_data)
+        with open('college_json_data/casa.json','w') as f:
+            json.dump(existing_data, f, indent=4)
+
+class CASA_math_department(scrapy.Spider):
+    name = 'math_department'
+    start_urls = ['https://casadoor.ihrd.ac.in/departments/mathematics']
+
+    total_math_dep_data = {}
+
+    def parse(self, response):
+        math_data = {}
+        math_desc = response.css('div.col-md-7.col-xs-12 p::text').get()
+        print(math_desc)
+        math_data["Information (description) about Mathematics Department "] = math_desc
+        self.total_math_dep_data = math_data
+
+    def closed(self, reason):
+        with open('college_json_data/casa.json', 'r') as f:
+            existing_data  = json.load(f)
+            existing_data.append(self.total_math_dep_data)
+        with open('college_json_data/casa.json','w') as f:
+            json.dump(existing_data, f, indent=4)
+
+class CASA_english_department(scrapy.Spider):
+    name = 'english_department'
+    start_urls = ['https://casadoor.ihrd.ac.in/departments/english']
+
+    total_english_dep_data = {}
+
+    def parse(self, response):
+        english_data = {}
+        english_desc = response.css('div.col-md-7.col-xs-12 p::text').get()
+        print(english_desc)
+        programmes = response.css('div.col-md-7.col-xs-12 ul li::text').getall()
+        print(programmes)
+        pro_data = {
+                "UG Programme of English": clean_text(programmes[0])
+            }
+        english_data["Information (description) about English Department "] = english_desc
+        english_data["Information about the various programme offered by English Department"] = pro_data
+        faculty_names_and_positions = response.css('div.Name::text,div.Position::text').getall()
+        print(faculty_names_and_positions)
+        faculty_info = []
+        j = 1
+        for i in range(0,len(faculty_names_and_positions),2):
+            if(clean_text(faculty_names_and_positions[i])):
+                faculty_info.append({
+                j:{
+                    "Faculty Name":clean_text(faculty_names_and_positions[i]),
+                    "Faculty Designation": clean_text(faculty_names_and_positions[i+1])
+                }
+            })
+                j+=1
+        english_data["Information about the faculty of English Department"] = faculty_info
+        self.total_english_dep_data = english_data
+
+    def closed(self, reason):
+        with open('college_json_data/casa.json', 'r') as f:
+            existing_data  = json.load(f)
+            existing_data.append(self.total_english_dep_data)
+        with open('college_json_data/casa.json','w') as f:
+            json.dump(existing_data, f, indent=4)

@@ -1,10 +1,38 @@
 [
+    {
+        "Information (description) about Mathematics Department ": "Applied science is a bridge that connects pure, basic science like physics or chemistry with engineering practices. Faculty and students in applied science employ fundamental physical and chemical principles to create innovative new technologies. These novel solutions are then handed off to engineering disciplines to be refined, enhanced and used to address important societal problems. This department consists\u00a0 Mathematics, Physics, Chemistry, Humanities"
+    },
     {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+        "Information (description) about English Department ": "The Department of English is a full time regular course for improving existing standards of Communicative English. At under graduate level, our curriculum extends through creative writing, literary and critical studies, business and technical English and soft skills development. The mission of the English Department is to promote language and literature studies with the help of renewed techniques. The Department also takes general class in English for students of various disciplines to enhance their skills in spoken and written English.",
+        "Information about the various programme offered by English Department": {
+            "UG Programme of English": "BA English and Communicative English"
+        },
+        "Information about the faculty of English Department": [
+            {
+                "1": {
+                    "Faculty Name": "Aswathy K S",
+                    "Faculty Designation": "Assistant Professor"
+                }
+            },
+            {
+                "2": {
+                    "Faculty Name": "Julie K John",
+                    "Faculty Designation": "Assistant Professor"
+                }
+            },
+            {
+                "3": {
+                    "Faculty Name": "Aswathy Mohan",
+                    "Faculty Designation": "Assistant Professor"
+                }
+            },
+            {
+                "4": {
+                    "Faculty Name": "Rekshma Krishnan",
+                    "Faculty Designation": "Assistant Professor & HOD"
+                }
+            }
+        ]
+    }
 ]

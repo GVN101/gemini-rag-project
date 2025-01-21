@@ -12,12 +12,14 @@ CORS(app)
 College of Engineering Chengannur ID - 0
 College of Engineering Karunagapally - 1
 Model Engineering College            - 2
+College of Applied Science Adoor     - 3
 """
 
 college_data_paths = [
     'college_json_data/cec.json', 
     'college_json_data/cek.json', 
     'college_json_data/mec.json',
+    'college_json_data/casa.json'
     ]
 
 @app.route("/get_data", methods=["POST"])

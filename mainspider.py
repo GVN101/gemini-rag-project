@@ -142,7 +142,11 @@ def main():
     # process.crawl(CASA_Mission_and_Vision)
     # process.crawl(CASA_Anti_rag_cell)
     # process.crawl(CASA_NSS)
-    process.crawl(cs_department)
+    # process.crawl(CASA_cs_department)
+    # process.crawl(CASA_ec_department)
+    # process.crawl(CASA_cm_department)
+    # process.crawl(CASA_math_department)
+    process.crawl(CASA_english_department)
     process.start()
 
 if __name__ == "__main__":
