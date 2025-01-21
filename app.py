@@ -2,6 +2,7 @@
 from flask import Flask, jsonify, request
 from gemini_functions import process_query
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
 
@@ -53,4 +54,5 @@ def  home_page():
     return "go to /get_data to get response"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port, debug=True)
