@@ -1,1 +1,873 @@
-[]
+[
+    {
+        "Admnistration staff Data": [
+            {
+                "Name": "Danley Mary Johnson",
+                "Designation": "Senior Superintendent",
+                "E-mail": "danleyjohnson@gmail.com",
+                "Phone Number": "9495052463"
+            },
+            {
+                "Name": "Anoop Raj T. V.",
+                "Designation": "Junior Superintendent",
+                "E-mail": "anoopraj@ceknpy.ac.in",
+                "Phone Number": "7561866090"
+            },
+            {
+                "Name": "Anusree S Vijayan",
+                "Designation": "DEO",
+                "E-mail": "8330877578",
+                "Phone Number": "anusreechippy@gmail.com"
+            },
+            {
+                "Name": "Manju. T",
+                "Designation": "DEO",
+                "E-mail": "9539852430",
+                "Phone Number": "Pramodmanju5000@gmail.com"
+            },
+            {
+                "Name": "Hamna. H",
+                "Designation": "Office Assistant",
+                "E-mail": "hamnanizar1981@gmail.com",
+                "Phone Number": "9400862026"
+            },
+            {
+                "Name": "Leena Jijo",
+                "Designation": "Office Assistant",
+                "E-mail": "974458353",
+                "Phone Number": "leenajeejo@gmail.com"
+            },
+            {
+                "Name": "Rajeev R",
+                "Designation": "Office Assistant",
+                "E-mail": "7561875472",
+                "Phone Number": "r.rajeev256@gmail.com"
+            },
+            {
+                "Name": "Ajayakumar V.",
+                "Designation": "LGS",
+                "E-mail": "ajayan@ceknpy.ac.in",
+                "Phone Number": "9496208790"
+            },
+            {
+                "Name": "LGS",
+                "Designation": "lijup@ceknpy.ac.in",
+                "E-mail": "9846226022",
+                "Phone Number": "Gardner"
+            },
+            {
+                "Name": "nufile@ceknpy.ac.in",
+                "Designation": "9995848308",
+                "E-mail": "Shihabudeen A.",
+                "Phone Number": "Sweeper cum Peon"
+            }
+        ]
+    },
+    {
+        "Data about the Anti Ragging Squad": {
+            "List of Executive Commitee Members in Anti Ragging Squad": [
+                {
+                    "Name": "Dr. Gopakumar C",
+                    "Phone Number": "8848785056"
+                },
+                {
+                    "Name": "Dr. Shajy L",
+                    "Phone Number": "9447594171"
+                },
+                {
+                    "Name": "Smt. Haseena P Y",
+                    "Phone Number": "9496292310"
+                },
+                {
+                    "Name": "Sri. Shaisa P",
+                    "Phone Number": "9446069274"
+                },
+                {
+                    "Name": "Sri Radhakrishnapillai",
+                    "Phone Number": "9446021695"
+                },
+                {
+                    "Name": "Sri. Liju P",
+                    "Phone Number": "9846226022"
+                },
+                {
+                    "Name": "Sri. Sunil A N",
+                    "Phone Number": "9447345267"
+                }
+            ]
+        }
+    },
+    {
+        "Contact information of CEK": [
+            {
+                "Way to reach College of Engineering Karungappally": {
+                    "By Bus": "Closest to the college the Karunagappally bus stand where in buses to Engineering college via Veluthamanal and Driver junction are avilable during most of the hours. From Bus stand only 4km to the college.\r\n",
+                    "By Train": "The college is located 1.5 km away from the railway station and can be reached very easily. Most of the major trains stop at karunagappally else where kollam and kayamkulam are the next major stations\r\n",
+                    "By Air": "The nearest airport is the Thiruvananthapuram central airport which is 90 km away from karunagappally.The next nearest airport is the Nedumbassery airport which is 140 km away from the college."
+                }
+            },
+            {
+                "Contact number of CEK": [
+                    "0476- 2666160(P)",
+                    "8547005036",
+                    "0476- 2665935(O)"
+                ]
+            }
+        ]
+    },
+    {
+        "About the Library of CEK": [
+            {
+                "About the Library": "College has a well furnished library and information center which stacks with a lot of books of interest including technical text books in various subjects, various journals, magazines and news papers of national and international standards. The library has a collection over 17500 volumes of books. The carpet area of the library is 1000 sqm.",
+                "Library Timing": "The library is open from 8.15am to 6pm on all working days.",
+                "Library Collection": "There are Three types of Book Collection in the Library. TEQIP(Purchase under TEQIP Fund) , General Collection (Purchased under IHRD Fund) and Book Bank ( Sponsored by SC/ST Welfare Department.",
+                "Journals and Magazines at the Library": "42 National journals and 5 magazines are being regularly subscribed in print form. 5 Popular News papers are also available in the Library.",
+                "Membership of Library": "Library membership is free to all students, teaching and non-teaching staff."
+            }
+        ]
+    },
+    {
+        "About the Overview of the college": {
+            "Overview of the college (CEK)": "College of Engineering Karunagappally is a premier institute of engineering that has carved a niche for itself in the field of technical education in a very short span of time. Since its inception in 2000, under the aegis of IHRD, the college has made its presence felt in the technical horizon of the state. It has been approved by All India Council for Technical Education (AICTE) and recognized by APJ Abdul Kalam Technological University (KTU). Being located in Karunagappally, Kollam district, the college has got access to all means of transport, communication and lodging facilities. The college offers a wide range of activities to stimulate the innovative potential of students. In view of its outstanding performance in education, the college was granted an aid of Rupees 10 Crore by the MHRD under the Technical Education Quality Improvement Programme (TEQIP II). The institute campus is enabled with round the clock WiFi connection and also connected to the National Knowledge Network grid which enables collaborative research, development and innovation amongst NKN connected institutes facilitating advanced distance education in specialized fields of engineering. The college offers transportation facilities to nearby cities (Kollam and Kayamkulam) by institute buses. In addition hostel facilities are arranged for girls and boys.",
+            "Vision of CEK": "Excel in professional education and research to fulfill the technological needs of the society.",
+            "Mission": "Provide education through resourceful programmes that are stimulus to the current and emerging needs of the society . Promote innovative teaching and learning to achieve academic excellence in engineering and technology. Create an environment conducive for innovative research in cutting edge technologies. Equip the students with professionalism, ethical values and social obligations",
+            "Programmes Offered": {
+                "Btech": [
+                    "Computer Science & Engineering  120 seats",
+                    "Electrical & Electronics Engineering  60 seats",
+                    "Electronics & Communication Engineering  30 seats",
+                    "Mechanical Engineering  60 seats"
+                ],
+                "Mtech": "Electronics and Communication Engineering with specialization in Signal processing  18 seats"
+            },
+            "Memorandum of Understanding": "MOUs for academic excellence is to reinforce the Industry Institute interaction. College of Engineering Karunagappally has signed MOUs with leading industries across the state. Students are allowed to do internship in these industries during the course of study. The college has signed MOU's with RCC, SCTIMST in the field of image processing and with ICT academy for providing training for students and teachers and for placement activities. Also with NSE.IT for providing infrastructure and manpower resources to conduct Computer based exams.",
+            "Student Professional Bodies": "With the intention of improving the technical skill and personality, various professional bodies and clubs are formed. Students can attend conferences conducted by these professional bodies at a discounted rate and hear from keynote speakers in the industry. When students go for an interview, they can impress the employer by knowing all the trends in the field that they learned from the conference. Indian Society for Technical Education (ISTE) Institution of Electrical and Electronics Engineers (IEEE) Computer Society of India (CSI) Innovation and Entrepreneurship Development Cell (IEDC)",
+            "Data about College Library": "The library has an excellent collection of books from various branch of engineering science & technology and also from humanities and science, for the benefit of students and faculty members. The library receives regularly journals and newsletters from various organization and professional bodies and provides students and faculty the latest information in technical education, research and developmental activities. The library functions from 8.15 am  6.00 pm on all working days and provides envious number of reference materials Number of Reference Titles  5256 Online journals  IEEE and Springer and National Journals 42 Magazines and Newspapers : 13",
+            "Training and Placement Cell of CEK": "Training and Placement Cell (TPC) is guided by a Placement and Training officer and is enriched by student members. TPC prepares the students to face competitive examinations and interviews through intensive training programmes encompassing aptitude tests, group discussions, mock interviews and the basics of behavioral psychology & body language. It assists students in career planning and also provides information on postgraduate courses. Under Industry Institute interaction various expert lecturers ,industrial tutoring, internship, industrial visits etc have been conducted. Former students of our institution are pursuing Ph.D at premier institutes like IIT's and NIT's. Major companies who have recruited from our college are",
+            "Alumni details about CEK": "The institution has a well established alumni association. All students of the college who have completed the course are de facto members of the association. Alumni are actively participating in all development activities of the institution.",
+            "Parent-Teacher Association (PTA) of CEK": "The college PTA provides support for the improvement in the infrastructure facilities and other activities towards the welfare of the students. The Principal acts as the Patron of PTA. College canteen, hostel for girls and bus services are run by PTA.",
+            "College Hostel": "The institute has hostel for both girls and boys situated near to the college. Hostel is managed by the hostel development committee. The mess is run on dividing system under the supervision of mess committee. Ms. Shiny C. (Asst. Professor) is the girls hostel warden; Reju John (Asst.Professor) boys hostel warden. College bus is operated between college and hostel on all working days.",
+            "Canteen": "College canteen is functioning inside the campus managed by the Canteen Committee and takes ample care in maintaining cleanliness and hygiene.",
+            "ATM Counter": "The institute provides an ATM counter within the campus for the staff and students to handle their financial transactions effortlessly.",
+            "Sports and Cultural Festivals": "The college provides good infrastructure facilities for students to prove their mettle in sports and games. The students of the college has actively participated and succeeded in arts, sports and games at the inter collegiate & university levels. Students were also able to compete in State level competitions."
+        }
+    },
+    {
+        "About the Infrastructure at CEK": {
+            "Data about building and Labs": "The college has well designed buildings and separate labs for each department. There are three academic blocks and six laboratory workshop block.",
+            "Information about the roads to the college (CEK)": "All building in the campus are well connected by minimized roads with proper sign boards posted at every junction.",
+            "About the placement activities": "The college has an excellent campus placement record. To enhance this, regular courses on Communication English different institutions are take classes on the campus. Personality development program is arranged by Training and Placement Unit (TPC). Institution focuses the next generation technology and help the students to build their carrier that fulfills their destiny. ",
+            "PTA (parent teacher association) at CEK": "The college maintains very close relation with the parents of the students through a Parent-Teacher Association. There is a P.T.A Executive Committee which conducts meetings in every three months and suggests various improvements if any, needed for the smooth functioning of the college. All parents assemble in the college once in a year for the P.T.A general body meeting.\r\n",
+            "Transportation details at CEK": "Though the college is well connected to major towns via public transport system during peak hours and the college has its own transportation facilities. The college provides two bus services that running four trips each to two directions for the facilities of the students in and around Karunagappally.\r\n",
+            "Water supply at CEK": "A more than sufficient water distribution network is installed in the campus. Three major water tanks of about 1000 liter each is installed.."
+        }
+    },
+    {
+        "Data about Management of CEK": "Institute of Human Resources Development is an autonomous educational institution established by the Government of Kerala in 1987. The institute is registered under The Travancore \u2013 Cochin Literary, Scientific and Charitable societies registrations Act 12 of 1955. The Institute's Memorandum of Association and its rules and regulations have been judiciously framed with built-in growth provisions. The management of the institute is vested with a Governing Body composed of\u00a0 ex-officio members only with the Hon\u2019ble Minister of\u00a0 Education, Kerala State, as\u00a0 the Chairman and Principal Secretary, Higher Education Department, Government of Kerala as the Vice-Chairman. Institute of Human Resources Development is dedicated to the scientific advancement, technological progress and economic growth of the country through human resources development. Based on the principle, \" Think Globaly and Act Locally\" it endeavours to bring about the welfare of the nation. It endeavours to provide education and training of consistently high stands through innovative and versatile programmes suitable for\u00a0 the current and emerging needs of the community.\u00a0 Institute of Human Resources Development \u00a0"
+    },
+    [
+        {
+            "About the Training and Placement Cell of CEK": "The goal of Training & Placement Cell is to provide employment opportunities & world class training to students .TPC has been striving continiously for the students to excel in the highly competetive and fast growing world.Students are placed in leading organizations matching with their dream jobs.The Training & Placement Cell firmly believes in \u2018Industry-Institute Interaction\u2019. In order to accomplish \u2018Industry-Institute Interaction\u2019, we organizes technical talks and national seminars to provide a platform for the budding engineers to interact with professionals from various industries. We encourage visits to the industries by the college students. This helps industrial problems to be worked on by students as part of their projects. We also take suggestions from members of industry regarding designing/changing of curriculum. The college has signed MOUs with many industrial organizations and industrial chambers."
+        },
+        {
+            "List of Student who got placed": [
+                {
+                    "SI": "1",
+                    "Name": "Abhijith H",
+                    "Company Placed": "UST"
+                },
+                {
+                    "SI": "2",
+                    "Name": "Danu Sabu",
+                    "Company Placed": "MITSOGO"
+                },
+                {
+                    "SI": "3",
+                    "Name": "Joel Mathew V",
+                    "Company Placed": "MITSOGO"
+                },
+                {
+                    "SI": "4",
+                    "Name": "YETHU KRISHNAN",
+                    "Company Placed": "FIA TECHNOLOGY"
+                },
+                {
+                    "SI": "5",
+                    "Name": "Muhammed Naseeb",
+                    "Company Placed": "FIA TECHNOLOGY"
+                },
+                {
+                    "SI": "6",
+                    "Name": "Anagha N",
+                    "Company Placed": "FIA TECHNOLOGY"
+                },
+                {
+                    "SI": "7",
+                    "Name": "Thasni Thaha",
+                    "Company Placed": "FIA TECHNOLOGY"
+                },
+                {
+                    "SI": "8",
+                    "Name": "Gopika S",
+                    "Company Placed": "FIA TECHNOLOGY"
+                },
+                {
+                    "SI": "9",
+                    "Name": "Nishan Saffar",
+                    "Company Placed": "CLOCK HASH TECHNOLOGIES"
+                },
+                {
+                    "SI": "10",
+                    "Name": "Adhityan KP",
+                    "Company Placed": "INNSPARK"
+                },
+                {
+                    "SI": "11",
+                    "Name": "Revathy S",
+                    "Company Placed": "INNSPARK"
+                },
+                {
+                    "SI": "12",
+                    "Name": "Ajas Muhammed N",
+                    "Company Placed": "Kennedys IQ"
+                },
+                {
+                    "SI": "13",
+                    "Name": "Betcy Biju",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "14",
+                    "Name": "Summya Sulaiman",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "15",
+                    "Name": "Sonley S Oomen",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "16",
+                    "Name": "Danu Sabu",
+                    "Company Placed": "Zartek Technologies"
+                },
+                {
+                    "SI": "17",
+                    "Name": "Anagha N",
+                    "Company Placed": "Kompetenzen Technology"
+                },
+                {
+                    "SI": "18",
+                    "Name": "Subham Sudeer Sheti",
+                    "Company Placed": "Adoc INN"
+                },
+                {
+                    "SI": "19",
+                    "Name": "Danu Sabu",
+                    "Company Placed": "ESSI"
+                },
+                {
+                    "SI": "20",
+                    "Name": "Joel Mathew V",
+                    "Company Placed": "ICFOSS"
+                },
+                {
+                    "SI": "21",
+                    "Name": "Meera Shibu",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "22",
+                    "Name": "Ajas Muhammed N",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "23",
+                    "Name": "Sarath K J",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "24",
+                    "Name": "Anagha N",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "25",
+                    "Name": "ASWIN DEV M",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "26",
+                    "Name": "ALSHIFA HUSSAIN",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "27",
+                    "Name": "GOPIKA S",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "28",
+                    "Name": "Aleena Jamal",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "29",
+                    "Name": "Adarsh v",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "30",
+                    "Name": "Abhishek R",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "31",
+                    "Name": "Rehan Rasheed",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "32",
+                    "Name": "P.Parameswaran",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "33",
+                    "Name": "THASNI THAHA",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "34",
+                    "Name": "Joel Mathew V",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "35",
+                    "Name": "Mishal K Nazeem",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "36",
+                    "Name": "Betcy Biju",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "37",
+                    "Name": "Revathy S",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "38",
+                    "Name": "Nibitha Baby",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "39",
+                    "Name": "AKSHAY S",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "40",
+                    "Name": "VAANI G PILLAI",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "41",
+                    "Name": "Ajmiya s",
+                    "Company Placed": "QSPIDERS"
+                },
+                {
+                    "SI": "42",
+                    "Name": "Gopika V",
+                    "Company Placed": "KODNEST Technologies"
+                },
+                {
+                    "SI": "43",
+                    "Name": "Abhirami Kannan",
+                    "Company Placed": "KODNEST Technologies"
+                },
+                {
+                    "SI": "44",
+                    "Name": "Aromal A R",
+                    "Company Placed": "KODNEST Technologies"
+                },
+                {
+                    "SI": "45",
+                    "Name": "Basil J",
+                    "Company Placed": "KODNEST Technologies"
+                },
+                {
+                    "SI": "46",
+                    "Name": "Archa S",
+                    "Company Placed": "Kennedys IQ"
+                },
+                {
+                    "SI": "47",
+                    "Name": "Aiswarya Unni",
+                    "Company Placed": "Hyoseong Electric"
+                },
+                {
+                    "SI": "48",
+                    "Name": "Ameena N ",
+                    "Company Placed": "Hyoseong Electric"
+                },
+                {
+                    "SI": "49",
+                    "Name": "Archa S",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "50",
+                    "Name": "Aiswarya Unni",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "51",
+                    "Name": "SreeLekshmi B",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "52",
+                    "Name": "Sonia Sunil",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "53",
+                    "Name": "Devika R",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "54",
+                    "Name": "Sidhi A",
+                    "Company Placed": "Kennedys IQ"
+                },
+                {
+                    "SI": "55",
+                    "Name": "Shabna S",
+                    "Company Placed": "Hyoseong Electric"
+                },
+                {
+                    "SI": "56",
+                    "Name": "Anjana K",
+                    "Company Placed": "Hyoseong Electric"
+                },
+                {
+                    "SI": "57",
+                    "Name": "Darshana S Sabu",
+                    "Company Placed": "Hyoseong Electric"
+                },
+                {
+                    "SI": "58",
+                    "Name": "Amal Nazer",
+                    "Company Placed": "Hyoseong Electric"
+                },
+                {
+                    "SI": "59",
+                    "Name": "Mohini K M",
+                    "Company Placed": "SREI"
+                },
+                {
+                    "SI": "60",
+                    "Name": "Shabna S",
+                    "Company Placed": "SREI"
+                }
+            ]
+        }
+    ],
+    {
+        "Data about the Principal of CEK": {
+            "Principal Name": "Dr. SMITHA DHARAN",
+            "Department of the principal": "Department of Computer Science & Engineering",
+            "Address of the principal": {
+                "college": "College of Engineering, Karunagappally",
+                "place and PIN Code": "Kollam, Kerala, Thodiyoor P O. Pin 690523."
+            },
+            "Phone Number and Fax Number of the Principal": "Ph:0476-2666160, Fax:0476-2666160",
+            "Email ID of the principal": "Email : principal@ceknpy.ac.in"
+        }
+    },
+    {
+        "About the departments of CEK": [
+            {
+                "Department of Applied Science": {
+                    "About the Applied Science Department of CEK": "Applied science is a bridge that connects pure, basic science like physics or chemistry with engineering practices. Faculty and students in applied science employ fundamental physical and chemical principles to create innovative new technologies. These novel solutions are then handed off to engineering disciplines to be refined, enhanced and used to address important societal problems. This department consists Mathematics, Physics, Chemistry, Humanities",
+                    "Information on Head of Department of Applied Science Department": "None Specified",
+                    "Applied Science Faculty Information": [
+                        {
+                            "Name": "LEKSHMI KRISHNAN",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9544956859",
+                            "Email": "lekshmikrishnan224@gmail.com"
+                        },
+                        {
+                            "Name": "Ajitha kumari. R",
+                            "Designation": "Associate Professor ( Cadre)",
+                            "Phone Number": "8921019156",
+                            "Email": "ajithathampi100@gmail.com"
+                        }
+                    ]
+                }
+            },
+            {
+                "Department of Applied Science": {
+                    "About the Electrical Engineering Department of CEK": "Electrical Engineers are the mainstay of every engineering activity. The Electrical Engineering Department is dedicated to delivering competent electrical engineers to the arena of the real world. They are outfitted with core technical knowledge as well as professional skills necessary to face the challenges of the future. The committed faculty and staff are fully geared up towards this end. Our aim is to mould competent Electrical Engineers capable of providing dynamic leadership in various walks of life and to cater the needs of R&D, industry, business and community.This Department offers Under Graduate programme in.PEO1: Graduates will have skills and knowledge to excel in their professional career.",
+                    "Information on Head of Department of Electrical Engineering Department": "None Specified",
+                    "ELectrical Department Faculty Information": [
+                        {
+                            "Name": "LULU JOSEPH",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9447990501",
+                            "Email": "lulujoseph1008@gmail.com"
+                        },
+                        {
+                            "Name": "PREEMA R. CHANDRAN",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9746169654",
+                            "Email": "prema@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "ANILKUMAR V",
+                            "Designation": "Trade Instructor",
+                            "Phone Number": "9995769670",
+                            "Email": "anilkumarv@ceknpy.ac.in"
+                        }
+                    ]
+                }
+            },
+            {
+                "Department of Applied Science": {
+                    "About the Electronics Department of CEK": "The Department of Electronics and Communication was established in the year 2000 and is housed in an independent two storeyed building in the campus. The department aims to inculcate academic knowledge and laboratory exposure to foster proficient electroniccommunication engineers. It offers the best opportunity for budding professionals to learn and come out with all the skills required to perform well in today's competitive world. It offers following programmes under this this department.The department has well experienced faculty members with post graduate and doctoral qualifications from prestigious institutions with many national and international publications. We concentrate on a well organised and updated delivery of the courses to students. The department laboratories have the state of art equipments and highquality lab practices with experienced supporting staff who encourages students to pursue selfdeveloped and innovative project works. Spacious class rooms, seminar hall, waiting rooms for boys & girls, and plenty of other amenities are the main attributes of our department. The department has very efficient advisory system which ensures effective studentteacherparent relationship.Based on the industry/profession requirements, the department regularly organizes workshops and seminars to train faculty and students on emerging areas in the field of Electronics. The Electronics Association is very active in organizing and conducting technical festivals and project exhibitions. Students are encouraged to organize/participate in intercollegiate technical /cultural competitions organized by other institutions also.Apart from faculty development programmes, TEQIP fund of the institution supports Equity Assurance Programme (EAP), which includes remedial classes and scholarships for the students. IndustryInstitute Interaction Cell (IIC) of TEQIP scheme regularly conducts workshops & talks by industry experts.The department is approved as a research centre under KTU. The research activities isin the field of Medical Image processing, Machine Learning and Deep Learning which helps the students to imbibe desire for lifelong learning. Over the years, the department has produced many proficient alumni holding positions of eminence in public and private sector institutions.Able to inculcate appropriate skills and knowledge to meet the demands and challenges of industry and to achieve professional excellence.",
+                    "Information on Head of Department of Electronics Department": "None Specified",
+                    "Electronics Faculty Information": [
+                        {
+                            "Name": "Dr Sabeena M",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9400945113",
+                            "Email": "sabeenam@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "DEEPA V S",
+                            "Designation": "Associate Professor ( Cadre)",
+                            "Phone Number": "9446975739",
+                            "Email": "vsdeepam@gmail.com"
+                        },
+                        {
+                            "Name": "Sajikumar TV",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9447925002",
+                            "Email": "sajikumartv@gmail.com"
+                        },
+                        {
+                            "Name": "Anupama A",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9633626633",
+                            "Email": "anupamaa@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Mili Rosline Mathews",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9497272553",
+                            "Email": "miliroslin@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "RADHAKRISHNAPILLAI P B",
+                            "Designation": "Trade Instructor",
+                            "Phone Number": "9446021695",
+                            "Email": "rkp@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "DEVIKA R",
+                            "Designation": "Demonstrator",
+                            "Phone Number": "6235685942",
+                            "Email": "devikasanal4@gmail.com"
+                        }
+                    ]
+                }
+            },
+            {
+                "Department of Applied Science": {
+                    "About the Mechanical Engineering Department of CEK": "The Department of Mechanical Engineering offers four year BTech course in Mechanical Engineering from the academic year 202021 onwards. The annual intake is 60 students. The academic focus of the department is to impart state of the art technical knowledge to the students. The department has well experienced faculty members with post graduate and doctoral qualifications from prestigious institutions with national and international publications. The Department Faculty members intend to actively pursue research through students and undertake projects funded through Govt. agencies. The department aims to become one of the best mechanical engineering departments in the country within the next decade, in preparing engineers capable of working innovatively and creatively towards a better world.The Department indents to strengthen its facilities and expertise in four domain areas: Thermal, Design, Manufacturing, and Industrial engineering. The faculty of the department have got rich experience in Thermal Engineering, Computational Combustion, CFD, Aerospace Engineering,  Cryogenics, Robotics etc. The instructional laboratories with latest computational facilities will be provided for practical exposure and study all the areas of mechanical engineering.The students are exposed to problems faced by our society, will be engaged in outreach programmes and industry institute interactions, will be encouraged to participate in cocurricular activities and professional development activities beyond the regular academic work. As per the new curriculum, students can get Honours degree. They can also get a Minor degree in other most wanted areas such as Machine Learning, Artificial Intelligence, Robotics etc along with the regular BTech degree or Honours degree based on their interest. Department gives individual attention to each student and helps the student to mould himself/herself based on the talent and interest. Remedial measures are also taken for the needy students.AREAS OF INTEREST :",
+                    "Information on Head of Department of Mechanical Engineering Department": {
+                        "Qualifications of HOD": {
+                            "Qualificaion": "PhD",
+                            "Department": "Thermal Science",
+                            "Years of Experience": "24 years"
+                        },
+                        "Contact Information of HOD": {
+                            "Phone Number": "9495630466",
+                            "Email": "ajil@ceknpy.ac.in"
+                        },
+                        "Publications of HOD": [
+                            ", 48, 308321, 2009.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Numerical Simulation of Pressure Effects on the Gasification of Australian and IndianCoals in a Tubular Gasifier,",
+                            "31(6), 495508, 2010.",
+                            "A. Ajilkumar, T. Sundararajan and U.S.P.Shet, Prediction of influences of preheating of air and steam in an entrained flow air blown tubular coal gasifier, 5thInternational Conference on Computational Heat and Mass Transfer, Canmore, Canada, June 1825,2007.",
+                            "A. Ajilkumar, T. Sundararajan and U.S.P.Shet, Gasification of Indian coal in a tubular coal gasifier, Proceedings of the ASME/JSME Thermal Engineering Summer Heat Transfer Conference HT 2007, pp 297306, 2007.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effect of Air Ratio on Gasification of Australian and Indian Coals in A Tubular Coal Gasifier, International Conference on I.C.Engines and Combustion, JNTU Heyderabad, December 69, 2007.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effect of Pressure on Gasification of Coal in a Tubular Gasifier, 19thNational and 8thISHMTASME Heat and Mass Transfer Conference, JNTU Hyderabad, January 35, 2008.",
+                            "A. Ajilkumar, U.S.P.Shet and T. Sundararajan, Effects of Steam on Gasification of High Ash Content Coal: A Numerical Study, International Conference on Applications and Design in Mechanical Engineering (ICADME2009), Perlis, Malaysia, October 1113, 2009",
+                            "P. Senthil Kumar, U.S.P.Shet, A.Ajil Kumar and T.Sundarajan, A Numerical Study on Performance Characteristics of LPGPilotedPulverisedCoal Tubular Gasifier,",
+                            "37thNational and 4thInternational Conference on Fluid Mechanics and Fluid Power, IIT Madras, December 1618, 2010.",
+                            "T Sundararajan, V Raghavan, A Ajilkumar, K Vijay Kumar, Mathematical Modelling of Coal Gasification Processes, IOP Conf. Series: Earth and Environmental Science 76 (2017) 012006, doi:10.1088/17551315/76/1/012006",
+                            ""
+                        ]
+                    },
+                    "Mechanical Department Faculty Information": [
+                        {
+                            "Name": "PREMNATH G",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9526173397",
+                            "Email": "premnath@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "ASWIN R",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9539394306",
+                            "Email": "aswin@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "GAUTHAM CHAND M",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9497539880",
+                            "Email": "gauthamchandm@gmail.com"
+                        },
+                        {
+                            "Name": "ABHISHEK.H",
+                            "Designation": "Assistant Professor (Adhoc)",
+                            "Phone Number": "9496305705",
+                            "Email": "abhishekhmtl@gmail.com"
+                        },
+                        {
+                            "Name": "AKHIL ANAND",
+                            "Designation": "Assistant Professor (Adhoc)",
+                            "Phone Number": "8129653909",
+                            "Email": "akhilanandcea@gmail.com"
+                        }
+                    ]
+                }
+            },
+            {
+                "Department of Applied Science": {
+                    "About the Computer Science Department": "Department of Computer Science & Engineering is accredited by National Board Of Accreditation (NBA) from 2018 onward.The aim of the Computer Science & Engineering Department is to generate high caliber computer engineers to meet the global demands. The CSE Department offers premier professional training with an eye on the modern development in Computer Science offering degree course in . The curriculum is harmonically tuned with today's hardware and software industry. The department owns versatile and powerful computing facilities.The department has well experienced faculty members with post graduate and doctoral qualifications from prestigious institutions with many national and international publications. They are regularly updating their skills by attending and organizing seminars, workshops, faculty development programs in their areas of specialization. They are representing different academic bodies. The department has been taking initiatives for the preparation and revision of UG and PG curriculum of APJ Abdul Kalam Technological University. Many students of this department show keen interest in participating inter and intra institute/university technical, non technical and sports events. Our alumni have reached positions of eminence in academic and research institutes, industries and also as entrepreneurs.The department has a very efficient advisory system which helps in maintaining studentteacherparent relationship. Transform individuals into professionally competent and socially committed Computer Engineers.",
+                    "Information about the seats in CS departments": {
+                        "BTech Computer Science": "120 Seats",
+                        "BTech Artificial Intelligence and Data Science": "60 Seats"
+                    },
+                    "Programme Outcome information of CS department": [
+                        "Engineering Graduates will be able to:",
+                        "Apply the knowledge of mathematics, science, engineering fundamentals, and",
+                        "computer science to the solution of complex engineering problems.",
+                        "Identify, formulate, review research literature, and analyze complex engineering",
+                        "problems reaching substantiated conclusions using first principles of mathematics, natural sciences,",
+                        "and engineering sciences.",
+                        "Design solutions for complex engineering problems and design system",
+                        "components or processes that meet the specified needs with appropriate consideration for the",
+                        "public health and safety,and the cultural, societal, and environmental considerations.",
+                        "Use researchbased knowledge and research methods",
+                        "includingdesign of experiments, analysis and interpretation of data, and synthesis of the information",
+                        "to provide valid conclusions.",
+                        "Create, select, and apply appropriate techniques, resources, and modern engineering and",
+                        "IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.",
+                        "Apply reasoning informed by the contextual knowledge to assess societal, health,",
+                        "safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+                        "Understand the impact of the professional engineering solutions in societal and",
+                        "environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+                        "Apply ethical principles and commit to professional ethics and responsibilities and norms of the",
+                        "engineering practice.",
+                        "Function effectively as an individual, and as a member or leader in diverse teams,",
+                        "and in multidisciplinary settings.",
+                        "Communicate effectively on complex engineering activities with the engineering community",
+                        "and with society at large, such as, being able to comprehend and write effective reports and design documentation,",
+                        "make effective presentations, and give and receive clear instructions.",
+                        "Demonstrate knowledge and understanding of the engineering and",
+                        "managementprinciples and apply these to ones own work, as a member and leader in a team, to manage",
+                        "projects and in multidisciplinary environments.",
+                        "Recognize the need for, and have the preparation and ability to engage in independent",
+                        "and lifelong learning in the broadest context of technological change."
+                    ],
+                    "Information on Head of Department of Computer Science": {
+                        "Name": "Dr.SMITHA P.",
+                        "Qualifications of HOD": {
+                            "Qualificaion": "PhD",
+                            "Department": "COMPUTER SCIENCE AND ENGINEERING",
+                            "Years of Experience": "24 years"
+                        },
+                        "Contact Information of HOD": {
+                            "Phone Number": "9446049871",
+                            "Email": "smitha@ceknpy.ac.in"
+                        },
+                        "Publications of HOD": [
+                            "Smitha P, Privya Vijay P, \"Wavelet Based Feature Extractions for Stomach Cancer Diagnosis Using SVM Classification\", International Journal of Applied Engineering Research, ISSN 09734562 Vol. 10 No.59 (2015).",
+                            "Shajy Lekshmanan; Varghese Paul; P. Smitha; K. Sujathan, 'Classification of lung columnar cells using feed forward back propagation neural network', International Journal of Biomedical Engineering and Technology, Vol 20, No. 4, pp 344355 (2016).",
+                            "ImmunoHistoChemical Scoring of ER, PR and HER2 Images Using GLRLM Features, Anila Babu A. , Smitha P. and Sujathan K, International Conference on Computing, Communication and Signal Processing (ICCCSP2016), college of engineering Karunagappally 2016",
+                            "Segmentation of Overlapping Cells In Breast Cytology Images , Fathima Zulfiquar, Smitha P. and Sujathan K, International Conference on Computing, Communication and Signal Processing (ICCCSP2016), college of engineering Karunagappally 2016",
+                            "Manesh M., Smitha P., Prostate Cancer Grading A Review On Histopathology Images, Ist International conference on Recent Scientific Research in Engineering and Technology, March 22, 2019.",
+                            "",
+                            "PG coordinator from 2015 onward",
+                            "IQAC coordinator from 2019 onward",
+                            "R&D coordinator from 2015 onward"
+                        ]
+                    },
+                    "Computer Science Faculty Information": [
+                        {
+                            "Name": "Dr. Leena Silvoster M",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9995104470",
+                            "Email": "leenasilvoster@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Dr. JYOTHI R.L.",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9847874463",
+                            "Email": "jyothianil@gmail.com"
+                        },
+                        {
+                            "Name": "VINOD R.",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9846313444",
+                            "Email": "vinod@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Dr. SHANI RAJ",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9447980088",
+                            "Email": "shani@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "SWATHI S",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "7012529360",
+                            "Email": "swathis@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Sandhya S",
+                            "Designation": "Assistant Professor (Adhoc)",
+                            "Phone Number": "7012540921",
+                            "Email": "sandhyascs@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Ajmi Jaleel",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9495185189",
+                            "Email": "ajmijaleel@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Arathy Das",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9633784166",
+                            "Email": "arathydas@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Rubeena B",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9961177743",
+                            "Email": "rubeenaycet@gmail.com"
+                        },
+                        {
+                            "Name": "RESMI M R",
+                            "Designation": "Assistant Professor (Adhoc)",
+                            "Phone Number": "9207461857",
+                            "Email": null
+                        },
+                        {
+                            "Name": "Anju S",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "8281254684",
+                            "Email": "anjuscs@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "APARNA M",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9645662598",
+                            "Email": "aparnam@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Sajana A",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9809205292",
+                            "Email": "sajnasadik5544@gmail.com"
+                        },
+                        {
+                            "Name": "Geethu Gopakumar",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "7356495099",
+                            "Email": "geethugopakumar@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "SUMI M",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9447609171",
+                            "Email": "sumim93@gmail.com"
+                        },
+                        {
+                            "Name": "Afrah mehar P",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9196330407",
+                            "Email": "rosedowsen@gmail.com"
+                        },
+                        {
+                            "Name": "NIVY G S",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9497359713",
+                            "Email": "nivy@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "SHAMEENA N",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "9809148546",
+                            "Email": "sheminadeer@gmail.com"
+                        },
+                        {
+                            "Name": "Ansiya Mohammed Ali",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "8547036497",
+                            "Email": "ansiyamohammedali@ceknpy.ac.in"
+                        },
+                        {
+                            "Name": "Shanimol Shajan",
+                            "Designation": "Assistant Professor",
+                            "Phone Number": "8157949012",
+                            "Email": "shanimolshajan@gmail.com"
+                        },
+                        {
+                            "Name": "ATHIRA  A",
+                            "Designation": "Computer Programmer",
+                            "Phone Number": "7558940132",
+                            "Email": "athiraasivan1998@gmail.com"
+                        },
+                        {
+                            "Name": "MUHAMMED SADIQ A",
+                            "Designation": "Demonstrator",
+                            "Phone Number": "8606151696",
+                            "Email": "sadiqnowfal6@gmail.com"
+                        },
+                        {
+                            "Name": "SARITHA U",
+                            "Designation": "Computer Programmer",
+                            "Phone Number": "7356759391",
+                            "Email": "sarithausathyan2000@gmail.com"
+                        },
+                        {
+                            "Name": "ARYA V",
+                            "Designation": "Computer Programmer",
+                            "Phone Number": "7025056603",
+                            "Email": "aryavparu123@gmail.com"
+                        },
+                        {
+                            "Name": "SREELATHA S",
+                            "Designation": "Computer Programmer",
+                            "Phone Number": "9496262368",
+                            "Email": "sreelasankara@gmail.com"
+                        },
+                        {
+                            "Name": "RAHUL R",
+                            "Designation": "Demonstrator",
+                            "Phone Number": "7994137661",
+                            "Email": "rahulraju12062001@gmail.com"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

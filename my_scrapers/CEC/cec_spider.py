@@ -8,7 +8,9 @@ def clear_file():
         f.write('[]')
     with open('college_json_data/cek.json','w') as f:
         f.write('[]')
-    with open('college_json_data/aec.json','w') as f:
+    with open('college_json_data/mec.json','w') as f:
+        f.write('[]')
+    with open('college_json_data/casa.json','w') as f:
         f.write('[]')
 
 # spider to get the details from the admission section
