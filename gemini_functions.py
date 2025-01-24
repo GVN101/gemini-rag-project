@@ -69,7 +69,8 @@ def get_conversational_chain():
     """Create a conversational chain for question answering."""
     
     prompt_template = """
-    Answer the question as detailed as possible from the provided context
+    Answer the question as detailed as possible from the provided context and give the reply really good format and in markdown text.
+    If the question is not specific enough ask the user to mention it more specifically.
     If the answer is not in the provided context, just say, "answer is not available in the context".
     
     Context:
@@ -135,6 +136,14 @@ def process_query(process_input) -> Dict[str, Any]:
             }
 
         rag_output = response.get('output_text', "answer is not available in the context")
+        if "answer is not available in the context" in rag_output.lower():
+            model = genai.GenerativeModel("gemini-pro")
+            response = model.generate_content(process_input["user_question"])
+            return{
+                "output_text": response.text,
+                "source":"Gemini General Capabilities",
+                "status": "success"
+            }
 
         print("rag_output: ", rag_output)
         image_urls = re.findall(r'(https?://[^\s]+)', rag_output)

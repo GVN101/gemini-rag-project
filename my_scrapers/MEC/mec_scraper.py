@@ -993,7 +993,11 @@ def comp_sci_section(playwright, section_name, output_file="college_json_data/me
             flat_data[f"Faculty_{i}_Name of Computer science"] = member.locator('.person-name').text_content().strip()
             flat_data[f"Faculty_{i}_Position of Computer science"] = member.locator('.person-position').text_content().strip()
             flat_data[f"Faculty_{i}_Image_URL of Computer science"] = member.locator('img').get_attribute('src')
-
+    elif section_name == "Associations":
+        page.wait_for_selector('.asc')
+        section_data["association_name_of_applied_science"] = page.locator('.asc .custom-h3').text_content().strip()
+        section_data["association_description_of_applied_science"] = page.locator('.asc .custom-p').text_content().strip()
+        
     elif section_name == "Facilities":
         page.wait_for_selector('.page-content')
         main_description = page.locator('.page-content > div > .custom-p').first.text_content().strip()
@@ -1393,6 +1397,10 @@ def electronics_and_communication_section(playwright, section_name, output_file=
         for i, item in enumerate(achievement_items.all(), start=1):
             achievement_text = item.inner_text().strip()
             section_data[f"Achievement of electronics and communication department {i}"] = achievement_text
+    elif section_name == "Associations":
+        page.wait_for_selector('.asc')
+        section_data["association_name_of_applied_science"] = page.locator('.asc .custom-h3').text_content().strip()
+        section_data["association_description_of_applied_science"] = page.locator('.asc .custom-p').text_content().strip()
 
     elif section_name == "Recent Projects":
         page.wait_for_selector('.page-content')
@@ -1771,6 +1779,10 @@ def electrical_and_electronics_section(playwright, section_name, output_file="co
         for idx, item in enumerate(page.locator('.std-achievements ul > li').all(), start=1):
             achievement_text = item.inner_text().strip()
             section_data[f"Achievement {idx} of electrical and electronics department"] = achievement_text
+    elif section_name == "Associations":
+        page.wait_for_selector('.asc')
+        section_data["association_name_of_applied_science"] = page.locator('.asc .custom-h3').text_content().strip()
+        section_data["association_description_of_applied_science"] = page.locator('.asc .custom-p').text_content().strip()
 
     elif section_name == "Recent Projects":
         page.wait_for_selector('.page-content')
@@ -2168,6 +2180,10 @@ def electronics_and_biomedical_section(playwright, section_name, output_file="co
             else:
                 section_data[f"Achievement {achievement_idx} Description of electronics and biomedical department"] = achievement_text
             achievement_idx += 1
+    elif section_name == "Associations":
+        page.wait_for_selector('.asc')
+        section_data["association_name_of_applied_science"] = page.locator('.asc .custom-h3').text_content().strip()
+        section_data["association_description_of_applied_science"] = page.locator('.asc .custom-p').text_content().strip()
 
     elif section_name == "Recent Projects":
         page.wait_for_selector('.page-content')
@@ -2569,6 +2585,10 @@ def mechanical_engineering_section(playwright, section_name, output_file="colleg
             else:
                 section_data[f"Achievement {achievement_idx} Description of mechanical engineering department"] = achievement_text
             achievement_idx += 1
+    elif section_name == "Associations":
+        page.wait_for_selector('.asc')
+        section_data["association_name_of_applied_science"] = page.locator('.asc .custom-h3').text_content().strip()
+        section_data["association_description_of_applied_science"] = page.locator('.asc .custom-p').text_content().strip()
 
     elif section_name == "Recent Projects":
         page.wait_for_selector('.page-content')

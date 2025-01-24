@@ -10,13 +10,14 @@ CORS(app)
 
 # List college JSON data paths 
 """
-College of Engineering Chengannur ID - 0
-College of Engineering Karunagapally - 1
-Model Engineering College            - 2
-College of Applied Science Adoor     - 3
+College of Engineering Chengannur ID - 1
+College of Engineering Karunagapally - 2
+Model Engineering College            - 3
+College of Applied Science Adoor     - 4
 """
 
 college_data_paths = [
+    '',
     'college_json_data/cec.json', 
     'college_json_data/cek.json', 
     'college_json_data/mec.json',
@@ -31,9 +32,10 @@ def get_response():
         print(data, "data from the frontend") # for debugging purpose only
         
         user_question = data['question'] 
-        college_list = data.get('colleges',None) # list from the frontend of colleges selected
-        process_input = { "user_question":user_question, "college_file_path":college_data_paths[college_list[0]]} 
+        college_index = data.get('colleges',None) # list from the frontend of colleges selected
+        process_input = { "user_question":user_question, "college_file_path":college_data_paths[college_index]} 
         print(process_input)
+        print("hello")
         response = process_query(process_input)
         print(response)
         
