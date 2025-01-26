@@ -22,43 +22,45 @@ def main():
 
     process = CrawlerProcess(get_project_settings()) 
 
-    clear_file() # defintion is in cec_scraper file
+    # clear_file() # defintion is in cec_scraper file
 
     # COLLEGE OF ENGINEERING CHENGANNUR
-    process.crawl(CEC_principal_spider)
-    process.crawl(CEC_PTASpider)
-    process.crawl(CEC_NoticeSpider)
-    process.crawl(CEC_DepartmentSpider) 
-    process.crawl(CEC_placementSpider)
-    process.crawl(CEC_AdmissionsSpider)
-    process.crawl(CEC_organisationSpider)
-    process.crawl(CEC_InternalQualityAssuranceSpider)
-    process.crawl(CEC_FacilitiesSpider)
-    process.crawl(CEC_CollegeInfoSpider)
-    process.crawl(CEC_CommitteeSpider)
-    process.crawl(CEC_BoardOfGovernorsSpider)
-    process.crawl(CEC_AntiRaggingSpider)
-    process.crawl(CEC_AnnounceSpider)
-    process.crawl(CEC_AICTEFeedbackSpider)
-    process.crawl(CEC_AdminStaffSpider)
-    process.crawl(CEC_nri_AdmissionSpider)
+    # process.crawl(CEC_principal_spider)
+    # process.crawl(CEC_PTASpider)
+    # process.crawl(CEC_NoticeSpider)
+    # process.crawl(CEC_DepartmentSpider) 
+    # process.crawl(CEC_placementSpider)
+    # process.crawl(CEC_AdmissionsSpider)
+    # process.crawl(CEC_organisationSpider)
+    # process.crawl(CEC_InternalQualityAssuranceSpider)
+    # process.crawl(CEC_FacilitiesSpider)
+    # process.crawl(CEC_CollegeInfoSpider)
+    # process.crawl(CEC_CommitteeSpider)
+    # process.crawl(CEC_BoardOfGovernorsSpider)
+    # process.crawl(CEC_AntiRaggingSpider)
+    # process.crawl(CEC_AnnounceSpider)
+    # process.crawl(CEC_AICTEFeedbackSpider)
+    # process.crawl(CEC_AdminStaffSpider)
+    # process.crawl(CEC_nri_AdmissionSpider)
 
     # COLLEGE OF ENGINEERING POONJAR
-    process.crawl(CEP_facilities)
+    # process.crawl(CEP_facilities)
+    # process.crawl(CEP_Placement)
+    process.crawl(CEP_department)
 
 
 
     # COLLEGE OF ENGINEERING KARUNAGAPPALLY
-    process.crawl(CEK_principal)
-    process.crawl(CEK_management)
-    process.crawl(CEK_admin_staff)
-    process.crawl(CEK_overview)
-    process.crawl(CEK_infrastructure)
-    process.crawl(CEK_anti_ragging_squad)
-    process.crawl(CEK_Departmentdata)
-    process.crawl(CEK_contact)
-    process.crawl(CEK_placement)
-    process.crawl(CEK_library)
+    # process.crawl(CEK_principal)
+    # process.crawl(CEK_management)
+    # process.crawl(CEK_admin_staff)
+    # process.crawl(CEK_overview)
+    # process.crawl(CEK_infrastructure)
+    # process.crawl(CEK_anti_ragging_squad)
+    # process.crawl(CEK_Departmentdata)
+    # process.crawl(CEK_contact)
+    # process.crawl(CEK_placement)
+    # process.crawl(CEK_library)
 
     # MODEL ENGINEERING COLLEGE
     # with sync_playwright() as playwright:
@@ -136,17 +138,17 @@ def main():
 
 
     # COLLEGE OF APPLIED SCIENCE ADOOR
-    process.crawl(CASA_principal)
-    process.crawl(CASA_Committee)
-    process.crawl(CASA_overview)
-    process.crawl(CASA_Mission_and_Vision)
-    process.crawl(CASA_Anti_rag_cell)
-    process.crawl(CASA_NSS)
-    process.crawl(CASA_cs_department)
-    process.crawl(CASA_ec_department)
-    process.crawl(CASA_cm_department)
-    process.crawl(CASA_math_department)
-    process.crawl(CASA_english_department)
+    # process.crawl(CASA_principal)
+    # process.crawl(CASA_Committee)
+    # process.crawl(CASA_overview)
+    # process.crawl(CASA_Mission_and_Vision)
+    # process.crawl(CASA_Anti_rag_cell)
+    # process.crawl(CASA_NSS)
+    # process.crawl(CASA_cs_department)
+    # process.crawl(CASA_ec_department)
+    # process.crawl(CASA_cm_department)
+    # process.crawl(CASA_math_department)
+    # process.crawl(CASA_english_department)
     process.start()
 
 if __name__ == "__main__":

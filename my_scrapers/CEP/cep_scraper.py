@@ -44,3 +44,65 @@ class CEP_facilities(scrapy.Spider):
             data.append(self.total_fac)
         with open('college_json_data/cep.json', 'w') as f:
             json.dump(data,f,indent=4)
+
+class CEP_Placement(scrapy.Spider):
+    name = 'Placement'
+    start_urls = [
+        'https://cep.ac.in/placement',
+    ]
+
+    facilities_data = {}
+    total_placement_data = {}
+
+    def parse(self, response):
+        placement_data = {}
+        desc = response.css('div.flex.flex-col p.px-2.w-full::text').getall()
+        placement_data["Information or description about the Career Guidance and Placement Unit"] = ' '.join(desc)
+        faculty_table = response.css('table tbody tr td::text').getall()
+        print(faculty_table)
+        faculty_data = []
+        no = 1
+        for i in range(0,len(faculty_table),3):
+            faculty_data.append(
+                {
+                    f"Faculty Name ({no})": faculty_table[i],
+                    f"Designation ({no})": faculty_table[i+1],
+                    f"Email({no})": faculty_table[i+2],
+                }
+            )
+            no+=1
+        placement_data["Information about the faculty related with the Career Guidance and Placement Unit"] = faculty_data
+        self.total_placement_data = placement_data
+
+    def closed(self, response):
+        with open('college_json_data/cep.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_placement_data)
+        with open('college_json_data/cep.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
+class CEP_department(scrapy.Spider):
+    name = 'department'
+    start_urls = [
+        'https://cep.ac.in/departments/cs',
+    ]
+
+    total_department_data = {}
+
+    def parse(self, response):
+        department_data = {}
+        department_title = response.css('h1::text').get()
+        print(department_title)
+        department_desc = response.css('div.text-justify::text').get()
+        print(department_desc, department_title)
+
+        faculty_data = []
+        
+        
+    def closed(self, response):
+        with open('college_json_data/cep.json', 'r') as f:
+            data = json.load(f)
+            data.append(self.total_department_data)
+        with open('college_json_data/cep.json', 'w') as f:
+            json.dump(data,f,indent=4)
+
