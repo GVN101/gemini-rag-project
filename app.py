@@ -9,9 +9,9 @@ import os
 app = Flask(__name__)
 limiter = Limiter(
     app,
-    key_func=get_remote_address,
     default_limits=["200 per day", "50 per hour"]
 )
+limiter._key_func = get_remote_address
 
 
 CORS(app)
@@ -22,6 +22,7 @@ College of Engineering Chengannur ID - 1
 College of Engineering Karunagapally - 2
 Model Engineering College            - 3
 College of Applied Science Adoor     - 4
+College of Engineering Poonjar       - 5
 """
 
 college_data_paths = [
@@ -29,7 +30,8 @@ college_data_paths = [
     'college_json_data/cec.json', 
     'college_json_data/cek.json', 
     'college_json_data/mec.json',
-    'college_json_data/casa.json'
+    'college_json_data/casa.json',
+    'college_json_data/cep.json',
     ]
 
 @app.route("/get_data", methods=["POST"])

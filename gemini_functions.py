@@ -82,7 +82,7 @@ def get_conversational_chain():
     Answer:
     """
     
-    model = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0.3)
+    model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3)
     prompt = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
@@ -127,7 +127,7 @@ def process_query(process_input) -> Dict[str, Any]:
         # Create RAG chain and get response
         try:
             chain = get_conversational_chain()
-            response = chain({"input_documents": docs, "question": process_input["user_question"]}, return_only_outputs=True)
+            response = chain.invoke({"input_documents": docs, "question": process_input["user_question"]}, return_only_outputs=True)
         except Exception as e:
             return {
                 "output_text": f"Error creating RAG chain or getting response: {str(e)}",
@@ -142,7 +142,8 @@ def process_query(process_input) -> Dict[str, Any]:
             return{
                 "output_text": response.text,
                 "source":"Gemini General Capabilities",
-                "status": "success"
+                "status": "success",
+                "context": "not found"
             }
 
         print("rag_output: ", rag_output)
