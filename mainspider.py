@@ -46,7 +46,19 @@ def main():
     # COLLEGE OF ENGINEERING POONJAR
     # process.crawl(CEP_facilities)
     # process.crawl(CEP_Placement)
-    process.crawl(CEP_department)
+    # process.crawl(aboutSpider)
+    # process.crawl(PrincipalDetailsSpider)
+    # process.crawl(ContactDetailsSpider)
+    # process.crawl(ComputerScienceDepartmentSpider)
+    # process.crawl(ELectricalElectronicsDepartmentSpider)
+    # process.crawl(Electronics_CommunicationDepartmentSpider)
+    # process.crawl(AppliedScienceDepartmentSpider)
+    # process.crawl(IQACSpider)
+    # process.crawl(AcademicCouncilSpider)
+    # process.crawl(ProgramsOfferedSpider)
+    # process.crawl(AdmissionDetailsSpider)
+    process.crawl(CEP_latest_news)
+
 
 
 

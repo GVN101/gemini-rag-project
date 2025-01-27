@@ -1,10 +1,18 @@
 # import os
 from flask import Flask, jsonify, request
 from gemini_functions import process_query
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 from flask_cors import CORS
 import os
 
 app = Flask(__name__)
+limiter = Limiter(
+    app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"]
+)
+
 
 CORS(app)
 
@@ -25,6 +33,7 @@ college_data_paths = [
     ]
 
 @app.route("/get_data", methods=["POST"])
+@limiter.limit("10 per minute")
 def get_response():
     try:
         # Expect JSON payload with 'question' key
