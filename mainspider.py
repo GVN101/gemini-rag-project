@@ -17,6 +17,9 @@ from my_scrapers.CASA.casa_scraper import *
 # COLLEGE OF ENGINEERING POONJAR
 from my_scrapers.CEP.cep_scraper import *
 
+#COLLEGE OF ENGINEERING KALOOPAARA
+from my_scrapers.CEKP.cekp_scraper import *
+
 
 def main():
 
@@ -57,7 +60,7 @@ def main():
     # process.crawl(AcademicCouncilSpider)
     # process.crawl(ProgramsOfferedSpider)
     # process.crawl(AdmissionDetailsSpider)
-    process.crawl(CEP_latest_news)
+    # process.crawl(CEP_latest_news)
 
 
 
@@ -161,6 +164,14 @@ def main():
     # process.crawl(CASA_cm_department)
     # process.crawl(CASA_math_department)
     # process.crawl(CASA_english_department)
+
+
+    #COLLEGE OF ENGINEERING KALOOPAARA
+    # process.crawl(CEKP_principal)
+    # process.crawl(CEKP_admission_mtech)
+    # process.crawl(CEKP_admission_btech)
+    # process.crawl(CEKP_department_ec)
+    process.crawl(CEKP_department_cs)
     process.start()
 
 if __name__ == "__main__":
