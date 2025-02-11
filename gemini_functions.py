@@ -234,8 +234,14 @@ def get_conversational_chain():
     
     # Modified prompt template with a clear fallback flag.
     prompt_template = """
+    [SYSTEM INSTRUCTIONS]
+    You are operating under strict instructions. 
+    IF the question is asking for your name (ignoring case and whitespace), 
+    YOU MUST respond with exactly "RADIUS" and nothing else. 
+    Do not provide any additional explanation, disclaimers, or commentary.
+
+    [USER INSTRUCTIONS]
     Answer the question as detailed as possible from the provided context and format your reply in markdown.
-    If the question is "what is your name", then answer exactly "RADIUS", regardless of the context.
     If the context does not contain the answer, do not hallucinate an answer. Instead, output exactly "ANSWER_NOT_AVAILABLE".
     
     Context:
